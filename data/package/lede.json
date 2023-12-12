@@ -1,0 +1,134 @@
+{
+  "id": "LEDE",
+  "name": "LEGACY OF DESTRUCTION（レガシー・オブ・デストラクション）』",
+  "number": 80,
+  "desc": "『遊戯王OCG デュエルモンスターズ\nLEGACY OF DESTRUCTION』\n●発売日／2024年1月27日（土）\n●メーカー／KONAMI\n●価格／1パック5枚入り176円（税込）\n1BOX30パック入り",
+  "list": [
+    {
+      "id": "",
+      "name": "破壊竜ガンドラＧ",
+      "type": "monster",
+      "number": "LEDE-JP001",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "サイレント・ソードマン・ゼロ",
+      "type": "monster",
+      "number": "LEDE-JP002",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "サイレント・マジシャン・ゼロ",
+      "type": "monster",
+      "number": "LEDE-JP003",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "トリコロール・ガジェット",
+      "type": "monster",
+      "number": "LEDE-JP004",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "マシマシュマロン",
+      "type": "monster",
+      "number": "LEDE-JP005",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "光の黃金櫃",
+      "type": "spell",
+      "number": "LEDE-JP051",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "時の沈黙－ターン・サイレンス",
+      "type": "spell",
+      "number": "LEDE-JP052",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "仲間の絆",
+      "type": "spell",
+      "number": "LEDE-JP053",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "未来への沈黙",
+      "type": "spell",
+      "number": "LEDE-JP054",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "隠し砦 ストロング・ホールド",
+      "type": "trap",
+      "number": "LEDE-JP071",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "天杯龙 海德拉",
+      "type": "monster",
+      "number": "LEDE-JP016",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1816_20231206011353_img_1_UePjzL7Ck66qqTEUkNxvEUL5Lbyqk8A4aPdObYQ9VKqBdsTC5Gx9b85mYtQ8pR2D.jpg"
+    },
+    {
+      "id": "",
+      "name": "天杯龙 法德拉",
+      "type": "monster",
+      "number": "LEDE-JP017",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1816_20231206011353_img_2_UePjzL7Ck66qqTEUkNxvEUL5Lbyqk8A4aPdObYQ9VKqBdsTC5Gx9b85mYtQ8pR2D.jpg"
+    },
+    {
+      "id": "",
+      "name": "天杯龙 楚德拉",
+      "type": "monster",
+      "number": "LEDE-JP018",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1816_20231206011440_img_1_Hs060icgYrOw6PHRTXkCM17hTWoXnYUsHKo7qEcEtq1p564MRePdUMAngp8HBSzI.jpg"
+    },
+    {
+      "id": "",
+      "name": "灿幻超龙 バイデント·ドラギオン",
+      "type": "synchro",
+      "number": "LEDE-JP039",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1816_20231206011440_img_2_Hs060icgYrOw6PHRTXkCM17hTWoXnYUsHKo7qEcEtq1p564MRePdUMAngp8HBSzI.jpg"
+    },
+    {
+      "id": "",
+      "name": "灿幻超龙 超限龙王",
+      "type": "synchro",
+      "number": "LEDE-JP040",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1816_20231206011548_img_1_2Sk2BOtn8ILDfwNfGI3p7M5ckVHyjmDc4lU5xDhvKswpc9IhG9KDJEdrZjg7LhZE.jpg"
+    },
+    {
+      "id": "",
+      "name": "杯满的灿幻庄",
+      "type": "spell",
+      "number": "LEDE-JP059",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1816_20231206011548_img_2_2Sk2BOtn8ILDfwNfGI3p7M5ckVHyjmDc4lU5xDhvKswpc9IhG9KDJEdrZjg7LhZE.jpg"
+    },
+    {
+      "id": "",
+      "name": "灿幻开门",
+      "type": "spell",
+      "number": "LEDE-JP060",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1816_20231206011634_img_1_TCVFSTuxXawZlX3h6owMBsBPjaGYJ9daBwgRGQFdoz0QKuxGYhRYOSlxrpJypmPo.jpg"
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "id": "QCDB",
+  "name": "『遊戯王OCG デュエルモンスターズ QUARTER CENTURY DUELIST BOX』",
+  "number": 60,
+  "desc": "●発売予定日／2023年12月23日（土）\n●メーカー／KONAMI\n●価格／4,950円（税込）\n ●商品内容／\n①QUARTER CENTURY DUELIST BOX SPECIAL PACK（1パック4枚入り）×9パック（全60種）\n②QUARTER CENTURY DUELIST BOX TOKEN PACK（1パック4枚入り）×1パック（全30種）\n③特製デュエリストマグネットカードホルダー×1個\n④特製ストレージボックス×1個（紙製）\n⑤特製デュエリストカードケース×1個（プラ製）",
+  "list": [
+    {
+      "id": "",
+      "name": "ハネクリボーＬＶ６",
+      "type": "monster",
+      "number": "QCDB-JP002",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "輝ける星の竜",
+      "type": "monster",
+      "number": "QCDB-JP003",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ＦＡ－ホープ・レイ・ランサー",
+      "type": "monster",
+      "number": "QCDB-JP004",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "覇王龍ズァーク－シンクロ・ユニバース",
+      "type": "monster",
+      "number": "QCDB-JP005",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "コード・オブ・ソウル",
+      "type": "monster",
+      "number": "QCDB-JP006",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ブラック・マジシャン",
+      "type": "monster",
+      "number": "QCDB-JP007",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ブラック・マジシャン・ガール",
+      "type": "monster",
+      "number": "QCDB-JP008",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "青眼の白龍",
+      "type": "monster",
+      "number": "QCDB-JP009",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "真紅眼の黒竜",
+      "type": "monster",
+      "number": "QCDB-JP010",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "守護神官マハード",
+      "type": "monster",
+      "number": "QCDB-JP012",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ブラック・マジシャン・ガール",
+      "type": "monster",
+      "number": "QCDB-JP008",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "青眼の亜白龍",
+      "type": "monster",
+      "number": "QCDB-JP014",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "荒魂",
+      "type": "monster",
+      "number": "QCDB-JP016",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "サタンクロース",
+      "type": "monster",
+      "number": "QCDB-JP017",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "幽鬼うさぎ",
+      "type": "monster",
+      "number": "QCDB-JP018",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "妖精伝姫－シラユキ",
+      "type": "monster",
+      "number": "QCDB-JP019",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "アストログラフ・マジシャン",
+      "type": "monster",
+      "number": "QCDB-JP020",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ダイナレスラー・パンクラトプス",
+      "type": "monster",
+      "number": "QCDB-JP021",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "マイクロ・コーダー",
+      "type": "monster",
+      "number": "QCDB-JP022",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ディメンション・アトラクター",
+      "type": "monster",
+      "number": "QCDB-JP024",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "原始生命態ニビル",
+      "type": "monster",
+      "number": "QCDB-JP025",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "暗黒の招来神",
+      "type": "monster",
+      "number": "QCDB-JP026",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "スターダスト・シンクロン",
+      "type": "monster",
+      "number": "QCDB-JP027",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ブルーアイズ・ジェット・ドラゴン",
+      "type": "monster",
+      "number": "QCDB-JP028",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "アサルト・シンクロン",
+      "type": "monster",
+      "number": "QCDB-JP029",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "幸魂",
+      "type": "monster",
+      "number": "QCDB-JP030",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "イリュージョン・オブ・カオス",
+      "type": "ritual",
+      "number": "QCDB-JP031",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "伝説の剣闘士 カオス・ソルジャー",
+      "type": "ritual",
+      "number": "QCDB-JP032",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "超魔導師－ブラック・マジシャンズ",
+      "type": "fusion",
+      "number": "QCDB-JP033",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "Wake Up Your E・HERO",
+      "type": "fusion",
+      "number": "QCDB-JP034",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "アクセルシンクロ・スターダスト・ドラゴン",
+      "type": "synchro",
+      "number": "QCDB-JP035",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ガーデン・ローズ・メイデン",
+      "type": "synchro",
+      "number": "QCDB-JP036",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "カオス・アンヘル－混沌の双翼－",
+      "type": "synchro",
+      "number": "QCDB-JP037",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "励輝士 ヴェルズビュート",
+      "type": "xyz",
+      "number": "QCDB-JP038",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "RR－レヴォリューション・ファルコン－エアレイド",
+      "type": "xyz",
+      "number": "QCDB-JP039",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "No.60 刻不知のデュガレス",
+      "type": "xyz",
+      "number": "QCDB-JP040",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "塊斬機ダランベルシアン",
+      "type": "xyz",
+      "number": "QCDB-JP041",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "FNo.0 未来龍皇ホープ",
+      "type": "xyz",
+      "number": "QCDB-JP041",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "覇王黒竜オッドアイズ・リベリオン・ドラゴン－オーバーロード",
+      "type": "xyz",
+      "number": "QCDB-JP042",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "鎖龍蛇－スカルデット",
+      "type": "link",
+      "number": "QCDB-JP044",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "混沌の戦士 カオス・ソルジャー",
+      "type": "link",
+      "number": "QCDB-JP045",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "警衛バリケイドベルグ",
+      "type": "link",
+      "number": "QCDB-JP046",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "アクセスコード・トーカー",
+      "type": "link",
+      "number": "QCDB-JP048",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "スプラッシュ・メイジ",
+      "type": "link",
+      "number": "QCDB-JP049",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "空牙団の懐剣 ドナ",
+      "type": "link",
+      "number": "QCDB-JP050",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "墓穴の指名者",
+      "type": "spell",
+      "number": "QCDB-JP052",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "抹殺の指名者",
+      "type": "spell",
+      "number": "QCDB-JP053",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "フェイバリット・ヒーロー",
+      "type": "spell",
+      "number": "QCDB-JP054",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "七精の解門",
+      "type": "spell",
+      "number": "QCDB-JP056",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "発禁令",
+      "type": "spell",
+      "number": "QCDB-JP057",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ナンバーズ・エヴァイユ",
+      "type": "spell",
+      "number": "QCDB-JP058",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "無限泡影",
+      "type": "trap",
+      "number": "QCDB-JP059",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "トラップトラック",
+      "type": "trap",
+      "number": "QCDB-JP060",
+      "desc": ""
+    }
+  ]
+}

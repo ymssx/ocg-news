@@ -116,7 +116,7 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
                 </DialogHeader>
                 <div className="flex gap-6">
                   {item?.image ? <a href={item.image} target="_blank"><img className="rounded-md" alt={item?.name} src={item?.image} width={300} height={450} /></a> : null}
-                  <div className="min-w-[300px]">{item?.desc || '-'}</div>
+                  <div className="min-w-[300px]">{(item?.desc || '-')?.split('\n').map(item => <div>{item}</div>)}</div>
                 </div>
               </DialogContent>
             </Dialog>

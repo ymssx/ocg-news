@@ -27,3 +27,7 @@ const generateStaticParams = () => {
   return getPackages().map(id => ({ id }));
 };
 export { generateStaticParams };
+
+export const metadata = {
+  title: 'Package Detail',
+}

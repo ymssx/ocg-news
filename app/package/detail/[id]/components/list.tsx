@@ -6,6 +6,14 @@ import { isMobileDevice, onlyBrowser } from "@/utils/bom";
 import classNames from "classnames";
 import Image from "next/image";
 import Link from "next/link";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 function extractNumbersFromString(str: string) {
   const regex = /\d+(\.\d+)?/g;
@@ -81,11 +89,25 @@ const CardPackage = ({ list, name, number, desc, imagePath }: Props) => {
         {item ? (
           <div className="p-1 px-2">
             {count}
-            {/* <span>{item?.number}</span> */}
-            <span className={classNames({ 'underline decoration-dotted': item?.image })}>
-              {/* {item?.image ? <img alt={item?.name} src={item?.image} width={15} height={30} /> : null} */}
-              {item?.image ? <Link href={item?.image}>{item?.name}</Link> : item?.name}
-            </span>
+            <Dialog>
+              <DialogTrigger>
+                {/* <span>{item?.number}</span> */}
+                <span className={classNames({ 'underline decoration-dotted': item?.image })}>
+                  {/* {item?.image ? <img alt={item?.name} src={item?.image} width={15} height={30} /> : null} */}
+                  {/* {(item?.image) ? <Link href={item?.image}>{item?.name}</Link> : item?.name} */}
+                  {item?.name}
+                </span>
+              </DialogTrigger>
+              <DialogContent className="min-w-[600px] max-w-[720px]">
+                <DialogHeader>
+                  <DialogTitle className="mb-2">{item?.name}</DialogTitle>
+                </DialogHeader>
+                <div className="flex gap-6">
+                  {item?.image ? <a href={item.image} target="_blank"><img className="rounded-md" alt={item?.name} src={item?.image} width={300} height={450} /></a> : null}
+                  <div className="min-w-[300px]">{item?.desc || '-'}</div>
+                </div>
+              </DialogContent>
+            </Dialog>
             {item?.isNew ? <span className="ml-1 text-xs">[new]</span> : null}
           </div>
         ) : <div className="min-h-[32px] w-full px-2 bg-black bg-opacity-10 flex items-center">{count}</div>}
@@ -101,7 +123,7 @@ const CardPackage = ({ list, name, number, desc, imagePath }: Props) => {
   return (
     <div className="flex flex-col p-4">
       <h1 className="text-2xl font-bold mb-4 text-black">{name}</h1>
-      <div className="mb-6 pb-4 flex gap-8 justify-start">
+      <div className="mb-6 pb-4 flex gap-4 justify-start">
         {imagePath ? (
           <Image className="flex-shrink-0 block max-h-[180px] w-auto h-auto" width={150} height={150} src={`/images/package/${imagePath}`} alt={name} />
         ) : null}

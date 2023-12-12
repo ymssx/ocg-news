@@ -1,14 +1,13 @@
 import { PackageData } from "./type";
 import CardPackage from './components/list';
 import Head from "next/head";
-import { getPackageImage, getPackages } from "@/utils/data";
+import { getPackages } from "@/utils/data";
 
 export default async ({ params }: {
   params: { id: string }
 }) => {
   const { id } = params;
   const data: PackageData = (await import(`@/data/package/${id}.json`)).default;
-  const imagePath = getPackageImage(id);
 
   return (
     <>
@@ -17,7 +16,7 @@ export default async ({ params }: {
         <meta name="description" content={data?.desc} />
       </Head>
       <div className="p-2">
-        <CardPackage {...data} imagePath={imagePath} />
+        <CardPackage {...data} />
       </div>
     </>
   );

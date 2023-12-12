@@ -18,15 +18,15 @@ export function getPackages() {
   return res.map(item => item.replace('.json', ''));
 }
 
-export function getPackageImage(id: string) {
-  const packagesPath = path.join(process.cwd(), '/public/images/package');
-  const files = fs.readdirSync(packagesPath);
+// export function getPackageImage(id: string) {
+//   const packagesPath = path.join(process.cwd(), '/public/images/package');
+//   const files = fs.readdirSync(packagesPath);
 
-  for (const file of files) {
-    const filePath = path.join(packagesPath, file);
-    const fileStats = fs.statSync(filePath);
-    if (fileStats.isFile() && file.split('.')[0].toLocaleLowerCase() === id.toLowerCase()) {
-      return file;
-    }
-  }
-}
+//   for (const file of files) {
+//     const filePath = path.join(packagesPath, file);
+//     const fileStats = fs.statSync(filePath);
+//     if (fileStats.isFile() && file.split('.')[0].toLocaleLowerCase() === id.toLowerCase()) {
+//       return file;
+//     }
+//   }
+// }

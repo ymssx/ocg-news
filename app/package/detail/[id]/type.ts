@@ -28,6 +28,7 @@ export interface PackageData {
   id: string;
   name: string;
   desc: string;
+  images?: string[];
   number: number;
   list: CardItem[];
 }

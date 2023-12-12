@@ -27,10 +27,10 @@ interface Props {
   number: number;
   desc?: string;
   list: CardItem[];
-  imagePath?: string;
+  images?: string[];
 }
 
-const CardPackage = ({ list, name, number, desc, imagePath }: Props) => {
+const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
   const unSortCardList = useMemo(() => list.filter(item => !item.number), [list]);
 
   const COL = onlyBrowser(() => isMobileDevice() ? 1 : 3, 3);
@@ -83,7 +83,7 @@ const CardPackage = ({ list, name, number, desc, imagePath }: Props) => {
   }, [cardList]);
 
   const renderItem = (item: CardItem | null, index?: number) => {
-    const count = (index !== undefined) ? <span className="inline-block opacity-60 min-w-[24px] text-sm">{index + 1}</span> : null;
+    const count = (index !== undefined) ? <span className="inline-block opacity-60 min-w-[24px]">{index + 1}</span> : null;
     return (
       <div className="min-h-[32px] h-full flex items-center">
         {item ? (
@@ -123,13 +123,15 @@ const CardPackage = ({ list, name, number, desc, imagePath }: Props) => {
   return (
     <div className="flex flex-col p-4">
       <h1 className="text-2xl font-bold mb-4 text-black">{name}</h1>
-      <div className="mb-6 pb-4 flex gap-4 justify-start">
-        {imagePath ? (
-          <Image className="flex-shrink-0 block max-h-[180px] w-auto h-auto" width={150} height={150} src={`/images/package/${imagePath}`} alt={name} />
-        ) : null}
+      <div className="mb-2 pb-4 flex gap-4 justify-start">
         <div className="h-full">
-          <div className="text-gray-900 text-sm leading-5">{...(desc || '-').split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
+          <div className="text-gray-900">{...(desc || '-').split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
         </div>
+      </div>
+      <div className="mb-8">
+        {images.map(src => (
+          <img key={src} className="max-h-[150px]" src={src} alt={name} />
+        ))}
       </div>
   
       {/* <div className="font-bold mb-2 text-black">卡表</div> */}

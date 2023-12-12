@@ -1,7 +1,9 @@
 {
   "id": "LEDE",
   "name": "LEGACY OF DESTRUCTION（レガシー・オブ・デストラクション）』",
-  "number": 80,
+  "number": 81,
+  "fromZero": true,
+  "hasSecret": true,
   "desc": "『遊戯王OCG デュエルモンスターズ\nLEGACY OF DESTRUCTION』\n●発売日／2024年1月27日（土）\n●メーカー／KONAMI\n●価格／1パック5枚入り176円（税込）\n1BOX30パック入り",
   "images": [
     "https://yu-gi-oh.jp/images/news/1816_20231206125712_MYWhmEZBGZjoRYOQiYqGrTvsgSAejpMuBiRmkrnqEMTTkfkG4QKjj3RELRit4sb3.jpg"

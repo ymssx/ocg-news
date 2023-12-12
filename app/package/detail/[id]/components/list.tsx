@@ -28,9 +28,12 @@ interface Props {
   desc?: string;
   list: CardItem[];
   images?: string[];
+  fromZero?: boolean;
+  hasSecret?: boolean;
 }
 
-const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
+const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero, hasSecret }: Props) => {
+  const number = hasSecret ? _number + 1 : _number;
   const unSortCardList = useMemo(() => list.filter(item => !item.number), [list]);
 
   const COL = onlyBrowser(() => isMobileDevice() ? 1 : 3, 3);
@@ -43,9 +46,15 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
       if (!item.number) {
         return;
       }
-      const index = extractNumbersFromString(item.number);
+      let index: number | null;
+      const numberSplit = item.number?.split('-');
+      if (numberSplit[numberSplit.length - 1]?.toUpperCase() === 'JPS01') {
+        index = number - 1;
+      } else {
+        index = extractNumbersFromString(item.number);
+      }
       if (typeof index === 'number' && index <= number) {
-        newList[index - 1] = item;
+        newList[index - (fromZero ? 0 : 1)] = item;
       }
     })
     return newList;
@@ -71,7 +80,7 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
           lastIndex = index;
           lastType = item?.type;
         }
-      } else if (index === number - 1) {
+      } else if (index === (hasSecret ? (number - 2) : (number - 1))) {
         if ([CardType.trap].includes(lastType || CardType.unknown)) {
           for (let i = lastIndex; i <= index; i += 1) {
             newList[i] = lastType || CardType.unknown;
@@ -95,7 +104,7 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
   }, [list]);
 
   const renderItem = (item: CardItem | null, index?: number) => {
-    const count = (index !== undefined) ? <span className="inline-block opacity-60 min-w-[24px]">{index + 1}</span> : null;
+    const count = (index !== undefined) ? <span className="inline-block opacity-60 min-w-[24px]">{(hasSecret && index === (number - 1)) ? 'S1' : (fromZero ? index : index + 1)}</span> : null;
     return (
       <div className="min-h-[32px] h-full flex items-center">
         {item ? (

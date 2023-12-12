@@ -70,6 +70,9 @@
     color: blue;
     cursor: pointer;
   }
+  a:visited {
+    color: purple;
+  }
 
   h1 {
     font-size: 24px;
@@ -89,6 +92,7 @@
   }
 
   ul li {
+    display: list-item;
     margin-bottom: 4px;
   }
 }

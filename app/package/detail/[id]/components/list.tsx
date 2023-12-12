@@ -115,8 +115,8 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
                   <DialogTitle className="mb-2">{item?.name}</DialogTitle>
                 </DialogHeader>
                 <div className="flex gap-6">
-                  {item?.image ? <a href={item.image} target="_blank"><img className="rounded-md" alt={item?.name} src={item?.image} width={300} height={450} /></a> : null}
-                  <div className="min-w-[300px]">{(item?.desc || '-')?.split('\n').map(item => <div>{item}</div>)}</div>
+                  {item?.image ? <a href={item.image} target="_blank"><Image className="rounded-md" alt={item?.name} src={item?.image} width={300} height={450} /></a> : null}
+                  <div className="min-w-[300px]">{(item?.desc || '-')?.split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
                 </div>
               </DialogContent>
             </Dialog>
@@ -143,7 +143,7 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
       </div>
       <div className="mb-8">
         {images.map(src => (
-          <img key={src} className="max-h-[150px]" src={src} alt={name} />
+          <Image width={150} height={150} key={src} className="max-h-[150px] max-w-[150px] w-auto h-auto" src={src} alt={name} />
         ))}
       </div>
   

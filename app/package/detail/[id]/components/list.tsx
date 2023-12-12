@@ -82,15 +82,27 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
     return newList;
   }, [cardList]);
 
+  const rareMap: Record<string, number> = useMemo(() => {
+    return list.reduce((pre: Record<string, number> , item) => {
+      if (item?.rare) {
+        if (!pre[item?.rare]) {
+          pre[item.rare] = 0;
+        }
+        pre[item.rare] += 1;
+      }
+      return pre;
+    }, {});
+  }, [list]);
+
   const renderItem = (item: CardItem | null, index?: number) => {
     const count = (index !== undefined) ? <span className="inline-block opacity-60 min-w-[24px]">{index + 1}</span> : null;
     return (
       <div className="min-h-[32px] h-full flex items-center">
         {item ? (
           <div className="p-1 px-2">
-            {count}
             <Dialog>
-              <DialogTrigger>
+              <DialogTrigger className="text-left">
+                {count}
                 {/* <span>{item?.number}</span> */}
                 <span className={classNames({ 'underline decoration-dotted': item?.image })}>
                   {/* {item?.image ? <img alt={item?.name} src={item?.image} width={15} height={30} /> : null} */}
@@ -108,9 +120,10 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
                 </div>
               </DialogContent>
             </Dialog>
-            {item?.isNew ? <span className="ml-1 text-xs">[new]</span> : null}
+            {/* {item?.isNew ? <span className="ml-1 text-xs">[new]</span> : null} */}
+            {item?.rare ? <code className="ml-1 underline">[{item?.rare}]</code> : null}
           </div>
-        ) : <div className="min-h-[32px] w-full px-2 bg-black bg-opacity-10 flex items-center">{count}</div>}
+        ) : <div className="min-h-[32px] w-full h-full px-2 bg-black bg-opacity-10 flex items-center">{count}</div>}
       </div>
     );
   }
@@ -122,7 +135,7 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
 
   return (
     <div className="flex flex-col p-4">
-      <h1 className="text-2xl font-bold mb-4 text-black">{name}</h1>
+      <h1 className="">{name}</h1>
       <div className="mb-2 pb-4 flex gap-4 justify-start">
         <div className="h-full">
           <div className="text-gray-900">{...(desc || '-').split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
@@ -142,7 +155,7 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
               {new Array(COL).fill(0).map((_, ceil) => (
                 <td
                   key={ceil}
-                  className={classNames({ 'p-0 border-gray-500 min-h-[32px] w-[25%]': true, border: ceil * ROW + row < number })}
+                  className={classNames({ 'p-0 border-gray-900 min-h-[32px] w-[25%]': true, border: ceil * ROW + row < number })}
                   style={{
                     background: ceil * ROW + row < number ? cardColorMap[colorList[ceil * ROW + row] || CardType.unknown] : 'none',
                     color: cardFontColorMap[colorList[ceil * ROW + row] || CardType.unknown],
@@ -159,7 +172,7 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
 
       {unSortCardList.length ? (
         <div className="mt-6 flex flex-col">
-          <div className="font-bold mb-2 text-black">未知编号</div>
+          <h2 className="">未知编号</h2>
           <table className="border-collapse max-w-[1200px]">
             <tbody className="">
               {new Array(UN_SORT_ROW).fill(0).map((_, row) => (
@@ -183,6 +196,13 @@ const CardPackage = ({ list, name, number, desc, images = [] }: Props) => {
           </table>
         </div>
       ) : null}
+
+      <div className="py-4 flex gap-4">{Object.entries(rareMap || {}).map(([rare, number]) => (
+        <div key={rare} className="flex gap-2">
+          <label>{rare}</label>
+          <div>{number}</div>
+        </div>
+      ))}</div>
     </div>
   );
 }

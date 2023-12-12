@@ -22,6 +22,7 @@ export interface CardItem {
   desc?: string;
   isNew?: boolean;
   image?: string;
+  rare?: string;
 }
 
 export interface PackageData {

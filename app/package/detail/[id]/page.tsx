@@ -18,6 +18,11 @@ export default async ({ params }: {
       <div className="p-2">
         <CardPackage {...data} />
       </div>
+
+      <div className="p-2 px-6 flex gap-4">
+        <a href="/">Home</a>
+        <a href="/package/list">Package List</a>
+      </div>
     </>
   );
 }

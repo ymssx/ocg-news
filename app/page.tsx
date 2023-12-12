@@ -1,7 +1,12 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
+    <main className="p-8">
+      <h1>YuGoOh OCG News</h1>
+      <ul>
+        <li>
+          <a href="/package/list">Package List</a>
+        </li>
+      </ul>
     </main>
   )
 }

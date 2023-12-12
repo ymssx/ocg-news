@@ -6,15 +6,19 @@ const PackageList = async () => {
   const list = getPackages();
   const listInto: PackageData[] = await Promise.all(list.map(async (id) => (await import(`@/data/package/${id}.json`)).default));
   return (
-    <div className="p-4">
-      <h1 className="mb-4 text-xl font-bold text-black">卡包</h1>
-      <ul className="px-8 list-disc">
+    <div className="p-8">
+      <h1>卡包</h1>
+      <ul className="">
         {listInto.map(({ id, name, desc }) => (
-          <li key={id} className="underline text-blue-800">
+          <li key={id}>
             <a title={desc || name} href={`/package/detail/${id.toLocaleLowerCase()}`}>{name}</a>
           </li>
         ))}
       </ul>
+
+      <div className="mt-8">
+        <a href="/">Home</a>
+      </div>
     </div>
   );
 };

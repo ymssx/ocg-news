@@ -35,7 +35,7 @@
     --radius: 0.5rem;
   }
  
-  .dark {
+  /* .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
  
@@ -63,6 +63,33 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
+  } */
+
+  a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  ul {
+    padding-left: 18px;
+    list-style: disc;
+  }
+
+  ul li {
+    margin-bottom: 4px;
   }
 }
  

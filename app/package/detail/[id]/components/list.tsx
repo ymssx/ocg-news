@@ -82,7 +82,7 @@ const CardPackage = ({ list, name, number, desc, imagePath }: Props) => {
           <div className="p-1 px-2">
             {count}
             {/* <span>{item?.number}</span> */}
-            <span className={classNames({ 'underline decoration-dotted': item?.image, 'inline-flex items-center': true })}>
+            <span className={classNames({ 'underline decoration-dotted': item?.image })}>
               {/* {item?.image ? <img alt={item?.name} src={item?.image} width={15} height={30} /> : null} */}
               {item?.image ? <Link href={item?.image}>{item?.name}</Link> : item?.name}
             </span>

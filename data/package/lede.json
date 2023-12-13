@@ -145,6 +145,7 @@
       "type": "monster",
       "number": "LEDE-JP009",
       "desc": "",
+      "rare": "R",
       "image": "https://yu-gi-oh.jp/images/news/1818_20231206014254_img_1_XZA13nbCARlVEE1PcfiyGuL6qdSwLRHjoHahu1hsHIBLN0YpU7caplWVEnFQ2Mzg.jpg"
     },
     {
@@ -161,6 +162,7 @@
       "type": "fusion",
       "number": "LEDE-JP035",
       "desc": "",
+      "rare": "R",
       "image": "https://yu-gi-oh.jp/images/news/1818_20231206014310_img_1_qRS4D2tf4CqVT8TiGXhtlgoWCygOaFWEWo6Yen3Wqjr7g8fmWAT5e8PhuttIzDKJ.jpg"
     },
     {

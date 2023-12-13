@@ -1,7 +1,21 @@
 import { PackageData } from "./type";
 import CardPackage from './components/list';
-import Head from "next/head";
 import { getPackages } from "@/utils/data";
+import { Metadata } from "next/types";
+
+export async function generateMetadata(
+  { params }: {
+    params: { id: string }
+  },
+): Promise<Metadata> {
+  const { id } = params || 'Package Detail';
+  const data: PackageData = (await import(`@/data/package/${id}.json`)).default;
+ 
+  return {
+    title: data?.name,
+    description: data?.desc,
+  }
+}
 
 export default async ({ params }: {
   params: { id: string }
@@ -11,10 +25,6 @@ export default async ({ params }: {
 
   return (
     <>
-      <Head>
-        <title>{data?.name || 'Package Detail'}</title>
-        <meta name="description" content={data?.desc} />
-      </Head>
       <div className="p-2">
         <CardPackage {...data} />
       </div>
@@ -32,6 +42,6 @@ const generateStaticParams = () => {
 };
 export { generateStaticParams };
 
-export const metadata = {
-  title: 'Package Detail',
-}
+// export const metadata = {
+//   title: 'Package Detail',
+// }

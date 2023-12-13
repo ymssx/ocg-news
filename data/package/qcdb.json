@@ -24,14 +24,14 @@
     {
       "id": "",
       "name": "ＦＡ－ホープ・レイ・ランサー",
-      "type": "monster",
+      "type": "xyz",
       "number": "QCDB-JP004",
       "desc": ""
     },
     {
       "id": "",
       "name": "覇王龍ズァーク－シンクロ・ユニバース",
-      "type": "monster",
+      "type": "synchro",
       "number": "QCDB-JP005",
       "desc": ""
     },
@@ -390,6 +390,13 @@
       "name": "トラップトラック",
       "type": "trap",
       "number": "QCDB-JP060",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ブルーアイズ・カオス・MAX・ドラゴン",
+      "type": "ritual",
+      "number": "QCDB-JP013",
       "desc": ""
     }
   ]

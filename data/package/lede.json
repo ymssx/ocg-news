@@ -138,6 +138,46 @@
       "number": "LEDE-JP060",
       "desc": "速攻魔法\n此卡名的卡一回合只能發動一張\n①:此卡在戰鬥階段發動的場合，適用以下效果。此卡在戰鬥階段以外發動的場合，從以下效果選擇一個適用\n●牌組等級4以下龍族˙炎屬性怪獸加入手牌\n●手牌龍族˙炎屬性怪獸1體特殊召喚",
       "image": "https://yu-gi-oh.jp/images/news/1816_20231206011634_img_1_TCVFSTuxXawZlX3h6owMBsBPjaGYJ9daBwgRGQFdoz0QKuxGYhRYOSlxrpJypmPo.jpg"
+    },
+    {
+      "id": "",
+      "name": "幻奏の歌姫ルフラン",
+      "type": "monster",
+      "number": "LEDE-JP009",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1818_20231206014254_img_1_XZA13nbCARlVEE1PcfiyGuL6qdSwLRHjoHahu1hsHIBLN0YpU7caplWVEnFQ2Mzg.jpg"
+    },
+    {
+      "id": "",
+      "name": "幻奏の歌姫クープレ",
+      "type": "monster",
+      "number": "LEDE-JP010",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1818_20231206014254_img_2_XZA13nbCARlVEE1PcfiyGuL6qdSwLRHjoHahu1hsHIBLN0YpU7caplWVEnFQ2Mzg.jpg"
+    },
+    {
+      "id": "",
+      "name": "幻奏の音姫スペクタキュラー·バッハ",
+      "type": "fusion",
+      "number": "LEDE-JP035",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1818_20231206014310_img_1_qRS4D2tf4CqVT8TiGXhtlgoWCygOaFWEWo6Yen3Wqjr7g8fmWAT5e8PhuttIzDKJ.jpg"
+    },
+    {
+      "id": "",
+      "name": "幻奏の華歌神フラワリング·エトワール",
+      "type": "fusion",
+      "number": "LEDE-JP036",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1818_20231206014310_img_2_qRS4D2tf4CqVT8TiGXhtlgoWCygOaFWEWo6Yen3Wqjr7g8fmWAT5e8PhuttIzDKJ.jpg"
+    },
+    {
+      "id": "",
+      "name": "幻奏協奏曲",
+      "type": "spell",
+      "number": "LEDE-JP056",
+      "desc": "",
+      "image": "https://yu-gi-oh.jp/images/news/1818_20231206014402_img_1_8zxqnbKsgSEWJJnsDm7vu2rT7oNFxPnvCZcq0kWU0ZqAiRqj1lVldA5YmGdaVHJY.jpg"
     }
   ]
 }

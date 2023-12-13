@@ -30,9 +30,10 @@ interface Props {
   images?: string[];
   fromZero?: boolean;
   hasSecret?: boolean;
+  links?: { title: string; href: string }[];
 }
 
-const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero, hasSecret }: Props) => {
+const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero, hasSecret, links = [] }: Props) => {
   const number = hasSecret ? _number + 1 : _number;
   const unSortCardList = useMemo(() => list.filter(item => !item.number), [list]);
 
@@ -69,12 +70,16 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
         newList[index] = item?.type;
         if (item?.type === lastType) {
           for (let i = lastIndex; i <= index; i += 1) {
-            newList[i] = item?.type;
+            if (newList[i] === CardType.unknown) {
+              newList[i] = item?.type;
+            }
           }
         } else {
           if ([CardType.monster].includes(item.type)) {
             for (let i = lastIndex; i <= index; i += 1) {
-              newList[i] = item?.type;
+              if (newList[i] === CardType.unknown) {
+                newList[i] = item?.type;
+              }
             }
           }
           lastIndex = index;
@@ -90,6 +95,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
     });
     return newList;
   }, [cardList]);
+  console.log(111, colorList);
 
   const rareMap: Record<string, number> = useMemo(() => {
     return list.reduce((pre: Record<string, number> , item) => {
@@ -212,6 +218,15 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
           <div>{number}</div>
         </div>
       ))}</div>
+
+      {links.length ? (<div>
+        <h2>Links</h2>
+        <ul>
+          {[...links].reverse().map(item => (
+            <li key={item.title}><a href={item.href}>{item.title}</a></li>
+          ))}
+        </ul>
+      </div>) : null}
     </div>
   );
 }

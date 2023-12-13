@@ -8,9 +8,9 @@ export const metadata = {
 export default function Home() {
   return (
     <main className="p-8 text-center">
-      <h1>白銀の城のラビュリンス</h1>
-      <p>{metadata.description}</p>
-      <p>ビッグウェルカム・ラビュリンス</p>
+      <div className="font-bold text-3xl my-2 mb-4 font-serif">白銀の城のラビュリンス</div>
+      <p className="text-gray-700">{metadata.description}</p>
+      <p className="text-gray-700">ビッグウェルカム・ラビュリンス</p>
       <div className="flex justify-center mt-8">
         <Image src="/images/labrynth.jpeg" width={300} height={300} alt="Labrynth" />
       </div>

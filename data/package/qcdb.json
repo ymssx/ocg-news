@@ -93,6 +93,13 @@
     },
     {
       "id": "",
+      "name": "増殖するG",
+      "type": "monster",
+      "number": "QCDB-JP015",
+      "desc": ""
+    },
+    {
+      "id": "",
       "name": "荒魂",
       "type": "monster",
       "number": "QCDB-JP016",
@@ -128,7 +135,7 @@
     },
     {
       "id": "",
-      "name": "ダイナレスラー・パンクラトプス",
+      "name": "灰流うらら",
       "type": "monster",
       "number": "QCDB-JP021",
       "desc": ""
@@ -138,6 +145,13 @@
       "name": "マイクロ・コーダー",
       "type": "monster",
       "number": "QCDB-JP022",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "ダイナレスラー・パンクラトプス",
+      "type": "monster",
+      "number": "QCDB-JP023",
       "desc": ""
     },
     {

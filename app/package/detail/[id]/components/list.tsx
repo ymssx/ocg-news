@@ -109,7 +109,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
   }, [list]);
 
   const renderItem = (item: CardItem | null, index?: number) => {
-    const count = (index !== undefined) ? <span className="inline-block opacity-60 min-w-[24px]">{(hasSecret && index === (number - 1)) ? 'S1' : (fromZero ? index : index + 1)}</span> : null;
+    const count = (index !== undefined) ? <code className="inline-block opacity-60 min-w-[24px]">{(hasSecret && index === (number - 1)) ? 'S1' : (fromZero ? index : index + 1)}</code> : null;
     return (
       <div className="min-h-[32px] h-full flex items-center">
         {item ? (
@@ -152,7 +152,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
       <h1 className="">{name}</h1>
       <div className="mb-2 pb-4 flex gap-4 justify-start">
         <div className="h-full">
-          <div className="text-gray-900">{...(desc || '-').split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
+          <div className="text-gray-900 bg-gray-50 p-4 rounded-md w-full">{...(desc || '-').split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
         </div>
       </div>
       <div className="mb-8">

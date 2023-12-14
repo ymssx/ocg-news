@@ -20,6 +20,10 @@
     {
       "title": "Vジャンプ2月特大号掲載記事：第5回　『LEGACY OF DESTRUCTION（レガシー・オブ・デストラクション）』の収録カードを公開！②",
       "href": "https://yu-gi-oh.jp/news_detail.php?page=details&&id=1818"
+    },
+    {
+      "title": "Vジャンプ2月特大号掲載記事：第6回　『LEGACY OF DESTRUCTION（レガシー・オブ・デストラクション）』の収録カードを公開！③",
+      "href": "https://yu-gi-oh.jp/news_detail.php?page=details&&id=1819"
     }
   ],
   "list": [
@@ -29,6 +33,7 @@
       "type": "monster",
       "number": "LEDE-JP001",
       "rare": "UR",
+      "image": "https://yu-gi-oh.jp/images/news/1801_20231108061533_img_1_V1AqvUhSzmz7Zd5f7FbpTjhWiQz5cmTyeRcNj9fXkSU9vOdqT4Tkd07CFw5hWMVy.jpg",
       "desc": "效果怪獸 8 暗 龍族 0/0\n此卡名的①③效果一回合可以各用一次\n①:我方場上有「光の黃金櫃」存在的場合可以發動。此卡從手牌特殊召喚\n②:此卡攻擊力上升除外狀態卡片數量*300\n③:支付一半生命值可以發動。場上其他卡片全部破壞並除外。之後，可以將牌組記述「光の黃金櫃」的等級7以下怪獸1體特殊召喚。此效果特殊召喚怪獸等級上升此效果破壞卡片數量值"
     },
     {
@@ -36,6 +41,7 @@
       "name": "サイレント・ソードマン・ゼロ",
       "type": "monster",
       "number": "LEDE-JP002",
+      "image": "https://yu-gi-oh.jp/images/news/1801_20231108061533_img_2_V1AqvUhSzmz7Zd5f7FbpTjhWiQz5cmTyeRcNj9fXkSU9vOdqT4Tkd07CFw5hWMVy.jpg",
       "desc": "效果怪獸  4  光  戰士族  1000/1000\n此卡名的③效果一回合只能使用一次\n①:雙方準備階段發動。此卡等級上升1\n②:此卡等級比原等級高的場合，此卡攻擊力上升該差距*500\n③:對手發動以我方場上「光の黃金櫃」或記述該名稱的怪獸為對象的效果時可以發動。該發動無效，此卡等級上升1"
     },
     {
@@ -43,6 +49,7 @@
       "name": "サイレント・マジシャン・ゼロ",
       "type": "monster",
       "number": "LEDE-JP003",
+      "image": "https://yu-gi-oh.jp/images/news/1801_20231108061649_img_1_YcQKZcB3MQDvuFFFheg6tH7teoHmxGsMh8U6YUxkkyVV3Yaa16VkBQTg5YIqdy2A.jpg",
       "desc": "效果怪獸  4  光  魔法使族  1000/1000\n此卡名的③效果一回合只能使用一次\n①:對方抽牌的場合發動。此卡等級上升抽牌量的數值\n②:此卡等級比原等級高的場合，此卡攻擊力上升該差距*500\n③:我方場上有「光の黃金櫃」存在，對方發動魔法卡效果時可以發動。該發動無效，此卡等級上升1"
     },
     {
@@ -51,6 +58,7 @@
       "type": "monster",
       "number": "LEDE-JP004",
       "rare": "R",
+      "image": "https://yu-gi-oh.jp/images/news/1801_20231108061649_img_2_YcQKZcB3MQDvuFFFheg6tH7teoHmxGsMh8U6YUxkkyVV3Yaa16VkBQTg5YIqdy2A.jpg",
       "desc": "效果怪獸  4  地  機械族  1300/1100\n此卡名的①②效果一回合可以各用一次\n①:此卡召喚˙特殊召喚的場合可以發動。「光の黃金櫃」或記述該名稱的魔法˙陷阱卡1張從牌組加入手牌\n②:此卡被戰鬥˙效果破壞的場合可以發動。牌組「隠し砦 ストロング・ホールド」1張加入手牌"
     },
     {
@@ -58,12 +66,15 @@
       "name": "マシマシュマロン",
       "type": "monster",
       "number": "LEDE-JP005",
+      "image": "https://yu-gi-oh.jp/images/news/1801_20231108061719_img_1_5m59Y8qA4ChQquJeePM5wwBv2EABpWWj6QgUOMVGO2V3kcVErfAeR9PHBNIrkfOg.jpg",
       "desc": "效果怪獸  3  光  天使族  300/500\n此卡名的①③效果一回合可以各用一次\n①:對方回合，我方場上有「光の黃金櫃」存在的場合可以發動。此卡從手牌特殊召喚\n②:我方場上有「光の黃金櫃」存在為限，此卡不會被戰鬥破壞，對手不能將其他怪獸選為攻擊對象\n③:此卡被效果破壞的場合可以發動。此卡以外我方手牌˙牌組˙墓地˙除外狀態「マシマシュマロン」1體特殊召喚，給對方1000傷害"
     },
     {
       "id": "",
       "name": "光の黃金櫃",
       "type": "spell",
+      "rare": "UR",
+      "image": "https://yu-gi-oh.jp/images/news/1801_20231108061719_img_2_5m59Y8qA4ChQquJeePM5wwBv2EABpWWj6QgUOMVGO2V3kcVErfAeR9PHBNIrkfOg.jpg",
       "number": "LEDE-JP051",
       "desc": ""
     },
@@ -72,6 +83,7 @@
       "name": "時の沈黙－ターン・サイレンス",
       "type": "spell",
       "number": "LEDE-JP052",
+      "image": "https://yu-gi-oh.jp/images/news/1801_20231108061951_img_1_7Lelb1SjsUQHEVFfskqs5gVC5ePYcrkX2F8S4R1mjHulbxFJXv1QRMQKoghGLHdE.jpg",
       "desc": ""
     },
     {
@@ -79,6 +91,7 @@
       "name": "仲間の絆",
       "type": "spell",
       "number": "LEDE-JP053",
+      "image": "https://yu-gi-oh.jp/images/news/1801_20231108061951_img_2_7Lelb1SjsUQHEVFfskqs5gVC5ePYcrkX2F8S4R1mjHulbxFJXv1QRMQKoghGLHdE.jpg",
       "desc": ""
     },
     {
@@ -86,6 +99,7 @@
       "name": "未来への沈黙",
       "type": "spell",
       "number": "LEDE-JP054",
+      "image": "https://yu-gi-oh.jp/images/news/1801_20231108061815_img_1_hww0T9sHRIAUAWdPSgMxgwXvln1k6YAbJwRcu8hBGgVH0yUIUg3zSQk24ZcyybN5.jpg",
       "desc": ""
     },
     {
@@ -93,6 +107,7 @@
       "name": "隠し砦 ストロング・ホールド",
       "type": "trap",
       "number": "LEDE-JP071",
+      "image": "https://yu-gi-oh.jp/images/news/1801_20231108061815_img_2_hww0T9sHRIAUAWdPSgMxgwXvln1k6YAbJwRcu8hBGgVH0yUIUg3zSQk24ZcyybN5.jpg",
       "desc": ""
     },
     {

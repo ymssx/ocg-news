@@ -95,7 +95,6 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
     });
     return newList;
   }, [cardList]);
-  console.log(111, colorList);
 
   const rareMap: Record<string, number> = useMemo(() => {
     return list.reduce((pre: Record<string, number> , item) => {
@@ -129,8 +128,8 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                 <DialogHeader>
                   <DialogTitle className="mb-2">{item?.name}</DialogTitle>
                 </DialogHeader>
-                <div className="flex gap-6">
-                  {item?.image ? <a href={item.image} target="_blank"><Image className="rounded-md" alt={item?.name} src={item?.image} width={300} height={450} /></a> : null}
+                <div className="flex gap-6 items-start">
+                  {item?.image ? <a href={item.image} target="_blank"><Image className="rounded-md min-w-[300px]" alt={item?.name} src={item?.image} width={300} height={450} /></a> : null}
                   <div className="min-w-[300px]">{(item?.desc || '-')?.split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
                 </div>
               </DialogContent>

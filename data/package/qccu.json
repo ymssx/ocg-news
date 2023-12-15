@@ -14,6 +14,7 @@
     {
       "id": "",
       "number": "QCCU-JP001",
+      "rare": "UR",
       "name": "ブラック·マジシャン",
       "image": "https://yu-gi-oh.jp/images/news/1817_20231206020341_img_1_WLFLjhcU8BiEgMqAOlQikK8gtQNfuJFEVJP2qqMmrvpN5VOJ6cpfloBU4OxmW3qr.jpg",
       "type": "monster"
@@ -377,6 +378,7 @@
     },
     {
       "id": "",
+      "rare": "UR",
       "number": "QCCU-JP053",
       "name": "コズミック·ブレイザー·ドラゴン",
       "image": "https://yu-gi-oh.jp/images/news/1817_20231206020408_img_1_sDASOIg8rqvBdAl6ijXPcQPfYRpdVfPDhPUtX0rCebE5Zn18MMLpabIwsvPDPeFu.jpg",

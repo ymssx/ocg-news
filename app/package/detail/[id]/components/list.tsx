@@ -39,7 +39,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
 
   const COL = onlyBrowser(() => isMobileDevice() ? 1 : 3, 3);
   const ROW = Math.ceil(number / COL);
-  const UN_SORT_ROW = Math.ceil(unSortCardList.length / COL)
+  const UN_SORT_ROW = Math.ceil(unSortCardList.length / COL);
 
   const cardList: (CardItem | null)[] = useMemo(() => {
     const newList = new Array(number).fill(null);

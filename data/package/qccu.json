@@ -556,6 +556,7 @@
       "rare": "UR",
       "name": "オッドアイズ·アークペンデュラム·ドラゴン",
       "image": "https://yu-gi-oh.jp/images/news/1820_20231206025739_img_2_F7DqI412AEpDP98LLn72dRFY834qkyRptST0NKsLPVOcUKmgyjWPyZluQea1Spg9.jpg",
+      "pendulum": true,
       "type": "monster"
     },
     {
@@ -563,6 +564,7 @@
       "number": "QCCU-JP078",
       "name": "EMペンデュラム・マジシャン",
       "image": "",
+      "pendulum": true,
       "type": "monster"
     },
     {
@@ -570,6 +572,7 @@
       "number": "QCCU-JP079",
       "name": "慧眼の魔術師",
       "image": "",
+      "pendulum": true,
       "type": "monster"
     },
     {
@@ -577,6 +580,7 @@
       "number": "QCCU-JP080",
       "name": "賤竜の魔術師",
       "image": "",
+      "pendulum": true,
       "type": "monster"
     },
     {
@@ -584,6 +588,7 @@
       "number": "QCCU-JP081",
       "name": "EMドクロバット・ジョーカー",
       "image": "",
+      "pendulum": true,
       "type": "monster"
     },
     {
@@ -591,6 +596,7 @@
       "number": "QCCU-JP082",
       "name": "EMモンキーボード",
       "image": "",
+      "pendulum": true,
       "type": "monster"
     },
     {
@@ -598,6 +604,7 @@
       "number": "QCCU-JP083",
       "name": "調弦の魔術師",
       "image": "",
+      "pendulum": true,
       "type": "monster"
     },
     {
@@ -605,6 +612,7 @@
       "number": "QCCU-JP084",
       "name": "クロノグラフ・マジシャン",
       "image": "",
+      "pendulum": true,
       "type": "monster"
     },
     {
@@ -612,6 +620,7 @@
       "number": "QCCU-JP085",
       "name": "虹彩の魔術師",
       "image": "",
+      "pendulum": true,
       "type": "monster"
     },
     {
@@ -619,6 +628,7 @@
       "number": "QCCU-JP086",
       "name": "紫毒の魔術師",
       "image": "",
+      "pendulum": true,
       "type": "monster"
     },
     {
@@ -626,27 +636,28 @@
       "number": "QCCU-JP087",
       "name": "オッドアイズ・ボルテックス・ドラゴン",
       "image": "",
-      "type": "monster"
+      "type": "fusion"
     },
     {
       "id": "",
       "number": "QCCU-JP088",
       "name": "オッドアイズ・アブソリュート・ドラゴン",
       "image": "",
-      "type": "monster"
+      "type": "xyz"
     },
     {
       "id": "",
       "number": "QCCU-JP089",
       "name": "星刻の魔術師",
       "image": "",
-      "type": "monster"
+      "type": "xyz"
     },
     {
       "id": "",
       "number": "QCCU-JP090",
       "name": "覇王黒竜オッドアイズ・リベリオン・エクシーズ・ドラゴン",
       "image": "",
+      "pendulum": true,
       "type": "xyz"
     },
     {

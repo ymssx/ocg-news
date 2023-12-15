@@ -172,6 +172,7 @@
       "id": "",
       "name": "幻奏の歌姫ルフラン",
       "type": "monster",
+      "pendulum": true,
       "number": "LEDE-JP009",
       "desc": "",
       "rare": "R",
@@ -181,6 +182,7 @@
       "id": "",
       "name": "幻奏の歌姫クープレ",
       "type": "monster",
+      "pendulum": true,
       "number": "LEDE-JP010",
       "desc": "",
       "image": "https://yu-gi-oh.jp/images/news/1818_20231206014254_img_2_XZA13nbCARlVEE1PcfiyGuL6qdSwLRHjoHahu1hsHIBLN0YpU7caplWVEnFQ2Mzg.jpg"

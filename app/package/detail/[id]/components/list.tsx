@@ -21,6 +21,10 @@ function extractNumbersFromString(str: string) {
   return match ? Number(match[match.length - 1]) : null;
 }
 
+function isTypeNone(type?: CardType) {
+  return !type || type === CardType.unknown;
+}
+
 interface Props {
   id: string;
   name: string;
@@ -62,16 +66,43 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
   }, [list]);
 
   const colorList = useMemo(() => {
-    const newList: CardType[] = new Array(number).fill(CardType.unknown)
+    const newList: CardType[] = new Array(number).fill(CardType.unknown);
+    const newColorList: { bg: string; font: string }[] = new Array(number);
     let lastType: CardType | null;
     let lastIndex: number = 0;
     cardList.forEach((item, index) => {
+      if (
+        index > 1
+        && isTypeNone(newList[index - 1])
+      ) {
+        if (
+          // !isTypeNone(item?.type)
+          !isTypeNone(newList[index - 2])
+        ) {
+          newColorList[index - 1] = {
+            bg: `linear-gradient(to bottom, ${cardColorMap[cardList[index - 2]?.type || CardType.unknown]}, ${cardColorMap[item?.type || CardType.unknown]})`,
+            font: cardFontColorMap[newList[index - 2] || CardType.unknown],
+          };
+        } else if (
+          !isTypeNone(item?.type)
+          // !isTypeNone(newList[index - 2])
+        ) {
+          newColorList[index - 1] = {
+            bg: `linear-gradient(to bottom, ${cardColorMap[cardList[index - 2]?.type || CardType.unknown]}, ${cardColorMap[item?.type || CardType.unknown]})`,
+            font: cardFontColorMap[newList[index - 2] || CardType.unknown],
+          };
+        }
+      }
+
       if (item?.type) {
         newList[index] = item?.type;
         if (item?.type === lastType) {
           for (let i = lastIndex; i <= index; i += 1) {
             if (newList[i] === CardType.unknown) {
               newList[i] = item?.type;
+              if (newColorList[i]) {
+                delete newColorList[i];
+              }
             }
           }
         } else {
@@ -79,6 +110,9 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
             for (let i = lastIndex; i <= index; i += 1) {
               if (newList[i] === CardType.unknown) {
                 newList[i] = item?.type;
+                if (newColorList[i]) {
+                  delete newColorList[i];
+                }
               }
             }
           }
@@ -89,11 +123,22 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
         if ([CardType.trap].includes(lastType || CardType.unknown)) {
           for (let i = lastIndex; i <= index; i += 1) {
             newList[i] = lastType || CardType.unknown;
+            if (newColorList[i]) {
+              delete newColorList[i];
+            }
           }
         }
       }
     });
-    return newList;
+    for (let index = 0; index < number; index += 1) {
+      if (!newColorList[index]) {
+        newColorList[index] = {
+          bg: cardColorMap[newList[index] || CardType.unknown],
+          font: cardFontColorMap[newList[index] || CardType.unknown],
+        };
+      }
+    }
+    return newColorList;
   }, [cardList]);
 
   const rareMap: Record<string, number> = useMemo(() => {
@@ -171,8 +216,12 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                   key={ceil}
                   className={classNames({ 'p-0 border-gray-900 min-h-[32px] w-[25%]': true, border: ceil * ROW + row < number })}
                   style={{
-                    background: ceil * ROW + row < number ? cardColorMap[colorList[ceil * ROW + row] || CardType.unknown] : 'none',
-                    color: cardFontColorMap[colorList[ceil * ROW + row] || CardType.unknown],
+                    background: ceil * ROW + row < number
+                      ? cardList[ceil * ROW + row]?.pendulum
+                        ? `radial-gradient(circle at 150% 150%, #66CDAA, ${colorList[ceil * ROW + row]?.bg})`
+                        : colorList[ceil * ROW + row]?.bg
+                      : 'none',
+                    color: colorList[ceil * ROW + row]?.font,
                     // borderColor: cardFontColorMap[colorList[ceil * ROW + row] || CardType.unknown],
                   }}
                 >
@@ -196,7 +245,11 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                       key={ceil}
                       className={classNames({ 'p-0 border-gray-900 min-h-[32px] w-[25%]': true, border: (ceil * UN_SORT_ROW + row) < unSortCardList.length })}
                       style={{
-                        background: (ceil * UN_SORT_ROW + row) < unSortCardList.length ? cardColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown] : 'none',
+                        background: (ceil * UN_SORT_ROW + row) < unSortCardList.length
+                          ? unSortCardList[ceil * UN_SORT_ROW + row]?.pendulum
+                            ? `radial-gradient(circle at 150% 150%, #66CDAA, ${cardColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown]})`
+                            : cardColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown]
+                          : 'none',
                         color: cardFontColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown],
                         // borderColor: cardFontColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown],
                       }}

@@ -23,6 +23,7 @@ export interface CardItem {
   isNew?: boolean;
   image?: string;
   rare?: string;
+  pendulum?: boolean;
 }
 
 export interface PackageData {

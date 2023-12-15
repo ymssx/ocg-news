@@ -32,6 +32,7 @@
       "id": "",
       "name": "覇王龍ズァーク－シンクロ・ユニバース",
       "type": "synchro",
+      "pendulum": true,
       "number": "QCDB-JP005",
       "desc": ""
     },
@@ -130,6 +131,7 @@
       "id": "",
       "name": "アストログラフ・マジシャン",
       "type": "monster",
+      "pendulum": true,
       "number": "QCDB-JP020",
       "desc": ""
     },
@@ -291,6 +293,7 @@
       "id": "",
       "name": "覇王黒竜オッドアイズ・リベリオン・ドラゴン－オーバーロード",
       "type": "xyz",
+      "pendulum": true,
       "number": "QCDB-JP042",
       "desc": ""
     },

@@ -20,10 +20,360 @@
     },
     {
       "id": "",
+      "number": "QCCU-JP002",
+      "name": "ブラック・マジシャン・ガール",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP003",
+      "name": "マジシャンズ・ロッド",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP004",
+      "name": "マジシャンズ・ソウルズ",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP005",
+      "name": "幻想の見習い魔導師",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP006",
+      "name": "合体竜ティマイオス",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP007",
+      "name": "超魔導戦士－マスター・オブ・カオス",
+      "image": "",
+      "type": "fusion"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP008",
+      "name": "ティマイオスの眼",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP009",
+      "name": "黒の魔導陣",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP010",
+      "name": "魂のしもべ",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP011",
+      "name": "黒魔術の秘儀",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP012",
+      "name": "永遠の魂",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP013",
+      "name": "マジシャンズ・ナビゲート",
+      "image": "",
+      "type": "trap"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP014",
+      "name": "E・HERO ネオス",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP015",
+      "name": "E・HERO エアーマン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP016",
+      "name": "E・HERO シャドー・ミスト",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP017",
+      "name": "E・HERO オネスティ・ネオス",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP018",
+      "name": "E・HERO リキッドマン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
       "number": "QCCU-JP019",
       "name": "E·HEROサンライザー",
       "image": "https://yu-gi-oh.jp/images/news/1817_20231206020341_img_2_WLFLjhcU8BiEgMqAOlQikK8gtQNfuJFEVJP2qqMmrvpN5VOJ6cpfloBU4OxmW3qr.jpg",
       "type": "fusion"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP020",
+      "name": "E・HERO シャイニング・ネオス・ウィングマン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP021",
+      "name": "ミラクル・フュージョン",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP022",
+      "name": "E－エマージェンシーコール",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP023",
+      "name": "ヒーローアライブ",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP024",
+      "name": "フェイバリット・コンタクト",
+      "image": "",
+      "type": "trap"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP025",
+      "name": "E-HERO アダスター・ゴールド",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP026",
+      "name": "E-HERO マリシャス・ベイン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP027",
+      "name": "ダーク・コーリング",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP028",
+      "name": "D-HERO ディアボリックガイ",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP029",
+      "name": "D-HERO Bloo-D",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP030",
+      "name": "D-HERO ダークエンジェル",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP031",
+      "name": "D-HERO ディナイアルガイ",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP032",
+      "name": "D-HERO デッドリーガイ",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP033",
+      "name": "D-HERO デストロイフェニックスガイ",
+      "image": "",
+      "type": "fusion"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP034",
+      "name": "フュージョン・デステニー",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP035",
+      "name": "D－フォース",
+      "image": "",
+      "type": "trap"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP036",
+      "name": "M・HERO アシッド",
+      "image": "",
+      "type": "fusion"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP037",
+      "name": "M・HERO ブラスト",
+      "image": "",
+      "type": "fusion"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP038",
+      "name": "マスク・チェンジ",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP039",
+      "name": "V・HERO インクリース",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP040",
+      "name": "V・HERO ヴァイオン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP041",
+      "name": "V・HERO トリニティー",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP042",
+      "name": "ジャンク・シンクロン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP043",
+      "name": "ドッペル・ウォリアー",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP044",
+      "name": "ジェット・シンクロン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP045",
+      "name": "シンクロン・キャリアー",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP046",
+      "name": "ジャンク・コンバーター",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP047",
+      "name": "スターダスト・トレイル",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP048",
+      "name": "レボリューション・シンクロン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP049",
+      "name": "スターダスト・ドラゴン",
+      "image": "",
+      "type": "synchro"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP050",
+      "name": "フォーミュラ・シンクロン",
+      "image": "",
+      "type": "synchro"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP051",
+      "name": "アクセル・シンクロン",
+      "image": "",
+      "type": "synchro"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP052",
+      "name": "スターダスト・チャージ・ウォリアー",
+      "image": "",
+      "type": "synchro"
     },
     {
       "id": "",
@@ -34,388 +384,38 @@
     },
     {
       "id": "",
-      "number": "",
-      "name": "ブラック・マジシャン・ガール",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "マジシャンズ・ロッド",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "マジシャンズ・ソウルズ",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "幻想の見習い魔導師",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "合体竜ティマイオス",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "超魔導戦士－マスター・オブ・カオス",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "ティマイオスの眼",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "黒の魔導陣",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "魂のしもべ",
-      "image": "",
-      "type": "spell"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "黒魔術の秘儀",
-      "image": "",
-      "type": "spell"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "永遠の魂",
-      "image": "",
-      "type": "spell"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "マジシャンズ・ナビゲート",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "E・HERO ネオス",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "E・HERO エアーマン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "E・HERO シャドー・ミスト",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "E・HERO オネスティ・ネオス",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "E・HERO リキッドマン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "E・HERO シャイニング・ネオス・ウィングマン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "ミラクル・フュージョン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "E－エマージェンシーコール",
-      "image": "",
-      "type": "spell"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "ヒーローアライブ",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "フェイバリット・コンタクト",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "E-HERO アダスター・ゴールド",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "E-HERO マリシャス・ベイン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "ダーク・コーリング",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "D-HERO ディアボリックガイ",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "D-HERO Bloo-D",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "D-HERO ダークエンジェル",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "D-HERO ディナイアルガイ",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "D-HERO デッドリーガイ",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "D-HERO デストロイフェニックスガイ",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "フュージョン・デステニー",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "D－フォース",
-      "image": "",
-      "type": "trap"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "M・HERO アシッド",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "M・HERO ブラスト",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "マスク・チェンジ",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "V・HERO インクリース",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "V・HERO ヴァイオン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "V・HERO トリニティー",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "ジャンク・シンクロン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "ドッペル・ウォリアー",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "ジェット・シンクロン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "シンクロン・キャリアー",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "ジャンク・コンバーター",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "スターダスト・トレイル",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "レボリューション・シンクロン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "スターダスト・ドラゴン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "フォーミュラ・シンクロン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "アクセル・シンクロン",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
-      "name": "スターダスト・チャージ・ウォリアー",
-      "image": "",
-      "type": "monster"
-    },
-    {
-      "id": "",
-      "number": "",
+      "number": "QCCU-JP054",
       "name": "シューティング・ライザー・ドラゴン",
       "image": "",
-      "type": "monster"
+      "type": "synchro"
     },
     {
       "id": "",
-      "number": "",
+      "number": "QCCU-JP055",
       "name": "サテライト・ウォリアー",
       "image": "",
-      "type": "monster"
+      "type": "synchro"
     },
     {
       "id": "",
-      "number": "",
+      "number": "QCCU-JP056",
       "name": "調律",
       "image": "",
       "type": "spell"
     },
     {
       "id": "",
-      "number": "",
+      "number": "QCCU-JP57",
       "name": "スターダスト・イルミネイト",
       "image": "",
-      "type": "monster"
+      "type": "spell"
     },
     {
       "id": "",
-      "number": "",
+      "number": "QCCU-JP058",
       "name": "ライディング・デュエル！アクセラレーション！",
       "image": "",
-      "type": "monster"
+      "type": "spell"
     }
   ]
 }

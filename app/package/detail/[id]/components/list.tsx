@@ -194,7 +194,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                   {new Array(COL).fill(0).map((_, ceil) => (
                     <td
                       key={ceil}
-                      className={classNames({ 'p-0 border-gray-500 min-h-[32px] w-[25%]': true, border: (ceil * UN_SORT_ROW + row) < unSortCardList.length })}
+                      className={classNames({ 'p-0 border-gray-900 min-h-[32px] w-[25%]': true, border: (ceil * UN_SORT_ROW + row) < unSortCardList.length })}
                       style={{
                         background: (ceil * UN_SORT_ROW + row) < unSortCardList.length ? cardColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown] : 'none',
                         color: cardFontColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown],

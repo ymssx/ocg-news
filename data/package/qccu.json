@@ -496,8 +496,9 @@
     {
       "id": "",
       "number": "QCCU-JP069",
+      "rare": "UR",
       "name": "No.99 希望皇ホープドラグナー",
-      "image": "",
+      "image": "https://yu-gi-oh.jp/images/news/1820_20231206025739_img_1_F7DqI412AEpDP98LLn72dRFY834qkyRptST0NKsLPVOcUKmgyjWPyZluQea1Spg9.jpg",
       "type": "xyz"
     },
     {
@@ -552,8 +553,9 @@
     {
       "id": "",
       "number": "QCCU-JP077",
+      "rare": "UR",
       "name": "オッドアイズ·アークペンデュラム·ドラゴン",
-      "image": "",
+      "image": "https://yu-gi-oh.jp/images/news/1820_20231206025739_img_2_F7DqI412AEpDP98LLn72dRFY834qkyRptST0NKsLPVOcUKmgyjWPyZluQea1Spg9.jpg",
       "type": "monster"
     },
     {
@@ -762,8 +764,9 @@
     {
       "id": "",
       "number": "QCCU-JP107",
+      "rare": "UR",
       "name": "ファイアウォール·ドラゴン·シンギュラリティ",
-      "image": "",
+      "image": "https://yu-gi-oh.jp/images/news/1820_20231206025739_img_1_F7DqI412AEpDP98LLn72dRFY834qkyRptST0NKsLPVOcUKmgyjWPyZluQea1Spg9.jpg",
       "type": "link"
     },
     {
@@ -786,6 +789,13 @@
       "name": "サイバネット・コンフリクト",
       "image": "",
       "type": "trap"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP111",
+      "name": "",
+      "image": "",
+      "type": "monster"
     },
     {
       "id": "",

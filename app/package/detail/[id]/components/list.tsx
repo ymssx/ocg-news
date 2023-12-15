@@ -109,7 +109,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
   }, [list]);
 
   const renderItem = (item: CardItem | null, index?: number) => {
-    const count = (index !== undefined) ? <code className="inline-block opacity-60 min-w-[24px]">{(hasSecret && index === (number - 1)) ? 'S1' : (fromZero ? index : index + 1)}</code> : null;
+    const count = (index !== undefined) ? <code className="inline-block opacity-60 min-w-[24px] mr-[2px]">{(hasSecret && index === (number - 1)) ? 'S1' : (fromZero ? index : index + 1)}</code> : null;
     return (
       <div className="min-h-[32px] h-full flex items-center">
         {item ? (

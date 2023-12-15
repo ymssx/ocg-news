@@ -8,6 +8,10 @@
     {
       "title": "Vジャンプ2月特大号掲載記事：第7回　『QUARTER CENTURY CHRONICLE（クォーター・センチュリー・クロニクル） side:UNITY』の収録カードを公開！",
       "href": "https://yu-gi-oh.jp/news_detail.php?page=details&id=1817"
+    },
+    {
+      "title": "Vジャンプ2月特大号掲載記事：第8回　『QUARTER CENTURY CHRONICLE（クォーター・センチュリー・クロニクル） side:UNITY』の収録カードを公開！②",
+      "href": "https://yu-gi-oh.jp/news_detail.php?page=details&&id=1820"
     }
   ],
   "list": [
@@ -418,6 +422,377 @@
       "name": "ライディング・デュエル！アクセラレーション！",
       "image": "",
       "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP059",
+      "name": "希望皇オノマトピア",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP060",
+      "name": "ズバババンチョー－GC",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP061",
+      "name": "ドドドドワーフ－GG",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP062",
+      "name": "ZW－天馬双翼剣",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP063",
+      "name": "ZS－武装賢者",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP064",
+      "name": "ZS－昇華賢者",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP065",
+      "name": "希望皇アストラル・ホープ",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP066",
+      "name": "No.39 希望皇ホープ",
+      "image": "",
+      "type": "xyz"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP067",
+      "name": "No.39 希望皇ホープ・ダブル",
+      "image": "",
+      "type": "xyz"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP068",
+      "name": "獣装合体 ライオ・ホープレイ",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP069",
+      "name": "No.99 希望皇ホープドラグナー",
+      "image": "",
+      "type": "xyz"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP070",
+      "name": "ダブル・アップ・チャンス",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP071",
+      "name": "オノマト連携",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP072",
+      "name": "エクシーズ・チェンジ・タクティクス",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP073",
+      "name": "オノマト選択",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP074",
+      "name": "ゼアル・コンストラクション",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP075",
+      "name": "HRUM－ユートピア・フォース",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP076",
+      "name": "ナンバーズ・プロテクト",
+      "image": "",
+      "type": "trap"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP077",
+      "name": "オッドアイズ·アークペンデュラム·ドラゴン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP078",
+      "name": "EMペンデュラム・マジシャン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP079",
+      "name": "慧眼の魔術師",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP080",
+      "name": "賤竜の魔術師",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP081",
+      "name": "EMドクロバット・ジョーカー",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP082",
+      "name": "EMモンキーボード",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP083",
+      "name": "調弦の魔術師",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP084",
+      "name": "クロノグラフ・マジシャン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP085",
+      "name": "虹彩の魔術師",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP086",
+      "name": "紫毒の魔術師",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP087",
+      "name": "オッドアイズ・ボルテックス・ドラゴン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP088",
+      "name": "オッドアイズ・アブソリュート・ドラゴン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP089",
+      "name": "星刻の魔術師",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP090",
+      "name": "覇王黒竜オッドアイズ・リベリオン・エクシーズ・ドラゴン",
+      "image": "",
+      "type": "xyz"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP091",
+      "name": "星霜のペンデュラムグラフ",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP092",
+      "name": "デュエリスト・アドベント",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP093",
+      "name": "時空のペンデュラムグラフ",
+      "image": "",
+      "type": "trap"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP094",
+      "name": "バックアップ・セクレタリー",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP095",
+      "name": "レディ・デバッガー",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP096",
+      "name": "コード・ジェネレーター",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP097",
+      "name": "パラレルエクシード",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP098",
+      "name": "ファイアウォール・ディフェンサー",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP099",
+      "name": "ファイアウォール・ファントム",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP100",
+      "name": "サイバース・ディセーブルム",
+      "image": "",
+      "type": "fusion"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP101",
+      "name": "リンクリボー",
+      "image": "",
+      "type": "link"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP102",
+      "name": "トランスコード・トーカー",
+      "image": "",
+      "type": "link"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP103",
+      "name": "サイバース・ウィッチ",
+      "image": "",
+      "type": "link"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP104",
+      "name": "アップデートジャマー",
+      "image": "",
+      "type": "link"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP105",
+      "name": "ファイアウォール・ドラゴン・ダークフルード",
+      "image": "",
+      "type": "link"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP106",
+      "name": "ファイアウォール・ドラゴン・ダークフルード－ネオテンペスト",
+      "image": "",
+      "type": "link"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP107",
+      "name": "ファイアウォール·ドラゴン·シンギュラリティ",
+      "image": "",
+      "type": "link"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP108",
+      "name": "サイバネット・コーデック",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP109",
+      "name": "サイバネット・マイニング",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP110",
+      "name": "サイバネット・コンフリクト",
+      "image": "",
+      "type": "trap"
+    },
+    {
+      "id": "",
+      "number": "",
+      "name": "閉ザサレシ世界ノ冥神",
+      "image": "",
+      "type": "link"
     }
   ]
 }

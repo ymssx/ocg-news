@@ -9,15 +9,25 @@
   "list": [
     {
       "id": "",
+      "name": "究極竜魔導師",
+      "type": "fusion",
+      "rare": "UR",
+      "number": "QCDB-JP001",
+      "desc": "融合/效果怪獸  12  光  龍族  5000/4000\n「青眼の究極竜」(或「ブルーアイズ」怪獸X3)+「カオス」儀式怪獸\n此卡只能用融合召喚特殊召喚\n①:對手發動效果時可以發動(此卡名的此效果對魔法˙陷阱˙怪獸一回合只能各一次發動)。該發動無效並破壞\n②:表側表示的此卡因為對方離場的場合可以發動。我方EX牌組˙墓地「ブルーアイズ」怪獸或「カオス」儀式怪獸1體特殊召喚"
+    },
+    {
+      "id": "",
       "name": "ハネクリボーＬＶ６",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP002",
-      "desc": ""
+      "desc": "特殊召喚/效果怪獸  6  光  天使族  300/200\n此卡名規則上視為「E・HERO」卡、「フェイバリット」(摯愛)卡。此卡不能通常召喚。「ハネクリボーＬＶ６」僅能一回合一次，將我方手牌˙場上(表側表示)˙墓地「E・HERO」融合怪獸或「ハネクリボー」1體除外來從手牌˙墓地特殊召喚\n①:對手怪獸攻擊宣言時，或對方場上怪獸發動效果時，解放此卡可以發動。該怪獸1體破壞，給對方該原攻擊力數值的傷害"
     },
     {
       "id": "",
       "name": "輝ける星の竜",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP003",
       "desc": ""
     },
@@ -25,6 +35,7 @@
       "id": "",
       "name": "ＦＡ－ホープ・レイ・ランサー",
       "type": "xyz",
+      "rare": "UR",
       "number": "QCDB-JP004",
       "desc": ""
     },
@@ -32,6 +43,7 @@
       "id": "",
       "name": "覇王龍ズァーク－シンクロ・ユニバース",
       "type": "synchro",
+      "rare": "UR",
       "pendulum": true,
       "number": "QCDB-JP005",
       "desc": ""
@@ -40,6 +52,7 @@
       "id": "",
       "name": "コード・オブ・ソウル",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP006",
       "desc": ""
     },
@@ -47,6 +60,7 @@
       "id": "",
       "name": "ブラック・マジシャン",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP007",
       "desc": ""
     },
@@ -54,6 +68,7 @@
       "id": "",
       "name": "ブラック・マジシャン・ガール",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP008",
       "desc": ""
     },
@@ -61,6 +76,7 @@
       "id": "",
       "name": "青眼の白龍",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP009",
       "desc": ""
     },
@@ -68,13 +84,23 @@
       "id": "",
       "name": "真紅眼の黒竜",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP010",
       "desc": ""
     },
     {
       "id": "",
+      "name": "破滅竜ガンドラX",
+      "type": "monster",
+      "rare": "UR",
+      "number": "QCDB-JP011",
+      "desc": "效果怪獸  8  暗  龍族  0/0\n①:此卡從手牌召喚˙特殊召喚時可以發動。場上其他怪獸全部破壞，給對方破壞怪獸中原攻擊力最高怪獸數值的傷害。此卡攻擊力和此效果給對方的傷害數值相同\n②:我方結束階段發動。我方生命值減半"
+    },
+    {
+      "id": "",
       "name": "守護神官マハード",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP012",
       "desc": ""
     },
@@ -82,6 +108,7 @@
       "id": "",
       "name": "ブラック・マジシャン・ガール",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP008",
       "desc": ""
     },
@@ -89,6 +116,7 @@
       "id": "",
       "name": "青眼の亜白龍",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP014",
       "desc": ""
     },
@@ -124,6 +152,7 @@
       "id": "",
       "name": "妖精伝姫－シラユキ",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP019",
       "desc": ""
     },
@@ -181,6 +210,7 @@
       "id": "",
       "name": "スターダスト・シンクロン",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP027",
       "desc": ""
     },
@@ -195,6 +225,7 @@
       "id": "",
       "name": "アサルト・シンクロン",
       "type": "monster",
+      "rare": "UR",
       "number": "QCDB-JP029",
       "desc": ""
     },
@@ -209,6 +240,7 @@
       "id": "",
       "name": "イリュージョン・オブ・カオス",
       "type": "ritual",
+      "rare": "UR",
       "number": "QCDB-JP031",
       "desc": ""
     },
@@ -216,6 +248,7 @@
       "id": "",
       "name": "伝説の剣闘士 カオス・ソルジャー",
       "type": "ritual",
+      "rare": "UR",
       "number": "QCDB-JP032",
       "desc": ""
     },
@@ -223,6 +256,7 @@
       "id": "",
       "name": "超魔導師－ブラック・マジシャンズ",
       "type": "fusion",
+      "rare": "UR",
       "number": "QCDB-JP033",
       "desc": ""
     },
@@ -230,6 +264,7 @@
       "id": "",
       "name": "Wake Up Your E・HERO",
       "type": "fusion",
+      "rare": "UR",
       "number": "QCDB-JP034",
       "desc": ""
     },
@@ -237,6 +272,7 @@
       "id": "",
       "name": "アクセルシンクロ・スターダスト・ドラゴン",
       "type": "synchro",
+      "rare": "UR",
       "number": "QCDB-JP035",
       "desc": ""
     },
@@ -251,6 +287,7 @@
       "id": "",
       "name": "カオス・アンヘル－混沌の双翼－",
       "type": "synchro",
+      "rare": "UR",
       "number": "QCDB-JP037",
       "desc": ""
     },
@@ -357,6 +394,7 @@
       "id": "",
       "name": "フェイバリット・ヒーロー",
       "type": "spell",
+      "rare": "UR",
       "number": "QCDB-JP054",
       "desc": ""
     },
@@ -399,6 +437,7 @@
       "id": "",
       "name": "ブルーアイズ・カオス・MAX・ドラゴン",
       "type": "ritual",
+      "rare": "UR",
       "number": "QCDB-JP013",
       "desc": ""
     }

@@ -217,7 +217,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                   className={classNames({ 'p-0 border-gray-900 min-h-[32px] w-[25%]': true, border: ceil * ROW + row < number })}
                   style={{
                     background: ceil * ROW + row < number
-                      ? cardList[ceil * ROW + row]?.pendulum
+                      ? (cardList[ceil * ROW + row]?.pendulum && false)
                         ? `radial-gradient(circle at 150% 150%, #66CDAA, ${colorList[ceil * ROW + row]?.bg})`
                         : colorList[ceil * ROW + row]?.bg
                       : 'none',
@@ -246,7 +246,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                       className={classNames({ 'p-0 border-gray-900 min-h-[32px] w-[25%]': true, border: (ceil * UN_SORT_ROW + row) < unSortCardList.length })}
                       style={{
                         background: (ceil * UN_SORT_ROW + row) < unSortCardList.length
-                          ? unSortCardList[ceil * UN_SORT_ROW + row]?.pendulum
+                          ? (unSortCardList[ceil * UN_SORT_ROW + row]?.pendulum && false)
                             ? `radial-gradient(circle at 150% 150%, #66CDAA, ${cardColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown]})`
                             : cardColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown]
                           : 'none',

@@ -810,10 +810,198 @@
     },
     {
       "id": "",
-      "number": "",
+      "number": "QCCU-JP192",
       "name": "閉ザサレシ世界ノ冥神",
       "image": "",
       "type": "link"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP111",
+      "name": "古代の機械巨人",
+      "image": "",
+      "rare": "UR",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP112",
+      "name": "古代の機械箱",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP113",
+      "name": "古代の機械飛竜",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP114",
+      "name": "古代の機械猟犬",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP115",
+      "name": "古代の機械素体",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP116",
+      "name": "古代の機械究極巨人",
+      "image": "",
+      "type": "fusion"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP117",
+      "name": "古代の機械混沌巨人",
+      "image": "",
+      "rare": "UR",
+      "type": "fusion"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP118",
+      "name": "古代の機械魔神",
+      "image": "",
+      "type": "fusion"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP119",
+      "name": "古代の機械超巨人",
+      "image": "",
+      "type": "fusion"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP120",
+      "name": "古代の機械弩士",
+      "image": "",
+      "type": "link"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP121",
+      "name": "歯車街",
+      "image": "",
+      "rare": "UR",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP122",
+      "name": "古代の機械射出機",
+      "image": "",
+      "rare": "UR",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP123",
+      "name": "古代の機械要塞",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP124",
+      "name": "古代の機械融合",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP128",
+      "name": "ライトロード・サモナー ルミナス",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP129",
+      "name": "ライトロード・ビースト ウォルフ",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP130",
+      "name": "裁きの龍",
+      "image": "",
+      "rare": "UR",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP131",
+      "name": "ライトロード・アサシン ライデン",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP132",
+      "name": "ライトロード・アーチャー フェリス",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP133",
+      "name": "トワイライトロード‧シャーマンルミナス",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP134",
+      "name": "戒めの龍",
+      "image": "",
+      "type": "monster"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP135",
+      "name": "ライトロード・セイント ミネルバ",
+      "image": "",
+      "type": "xyz"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP136",
+      "name": "ライトロード・ドミニオン・キュリオス",
+      "image": "",
+      "type": "link"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP137",
+      "name": "ソーラー・エクスチェンジ",
+      "image": "",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP138",
+      "name": "光の援軍",
+      "image": "",
+      "rare": "UR",
+      "type": "spell"
+    },
+    {
+      "id": "",
+      "number": "QCCU-JP139",
+      "name": "ライトロードの裁き",
+      "image": "",
+      "type": "trap"
     }
   ]
 }

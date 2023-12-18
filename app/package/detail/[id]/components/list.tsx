@@ -205,7 +205,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
           ...images,
           ...cardList.filter(item => item?.image).map(item => item?.image),
         ].map(src => (
-          <Image width={150} height={150} key={src} className="inline-block max-h-[150px] max-w-[150px] w-auto h-auto mr-2" src={src} alt={''} />
+          src ? <Image width={150} height={150} key={src} className="inline-block max-h-[150px] max-w-[150px] w-auto h-auto mr-2" src={src} alt={''} /> : null
         ))}
       </div>
   

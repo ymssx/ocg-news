@@ -357,6 +357,13 @@
     },
     {
       "id": "",
+      "name": "ヴァレルエンド・ドラゴン",
+      "type": "link",
+      "number": "QCDB-JP047",
+      "desc": ""
+    },
+    {
+      "id": "",
       "name": "アクセスコード・トーカー",
       "type": "link",
       "number": "QCDB-JP048",
@@ -374,6 +381,13 @@
       "name": "空牙団の懐剣 ドナ",
       "type": "link",
       "number": "QCDB-JP050",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "コズミック・サイクロン",
+      "type": "link",
+      "number": "QCDB-JP051",
       "desc": ""
     },
     {

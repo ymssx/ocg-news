@@ -323,7 +323,7 @@
       "id": "",
       "name": "FNo.0 未来龍皇ホープ",
       "type": "xyz",
-      "number": "QCDB-JP041",
+      "number": "QCDB-JP042",
       "desc": ""
     },
     {
@@ -331,7 +331,7 @@
       "name": "覇王黒竜オッドアイズ・リベリオン・ドラゴン－オーバーロード",
       "type": "xyz",
       "pendulum": true,
-      "number": "QCDB-JP042",
+      "number": "QCDB-JP043",
       "desc": ""
     },
     {
@@ -396,6 +396,13 @@
       "type": "spell",
       "rare": "UR",
       "number": "QCDB-JP054",
+      "desc": ""
+    },
+    {
+      "id": "",
+      "name": "カードテキスト",
+      "type": "spell",
+      "number": "QCDB-JP055",
       "desc": ""
     },
     {

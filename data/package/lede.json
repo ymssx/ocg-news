@@ -48,6 +48,7 @@
       "id": "",
       "name": "サイレント・マジシャン・ゼロ",
       "type": "monster",
+      "rare": "SR",
       "number": "LEDE-JP003",
       "image": "https://yu-gi-oh.jp/images/news/1801_20231108061649_img_1_YcQKZcB3MQDvuFFFheg6tH7teoHmxGsMh8U6YUxkkyVV3Yaa16VkBQTg5YIqdy2A.jpg",
       "desc": "效果怪獸  4  光  魔法使族  1000/1000\n此卡名的③效果一回合只能使用一次\n①:對方抽牌的場合發動。此卡等級上升抽牌量的數值\n②:此卡等級比原等級高的場合，此卡攻擊力上升該差距*500\n③:我方場上有「光の黃金櫃」存在，對方發動魔法卡效果時可以發動。該發動無效，此卡等級上升1"
@@ -114,6 +115,7 @@
       "id": "",
       "name": "天盃龍パイドラ",
       "type": "monster",
+      "rare": "SR",
       "number": "LEDE-JP016",
       "desc": "效果怪獸  3  炎  龍族  1700/1000\n此卡名的①效果一回合只能使用一次\n①:此卡召喚˙特殊召喚的場合可以發動。牌組「燦幻」魔法˙陷阱卡1張，加入手牌或覆蓋到我方場上\n②:此卡在怪獸區存在為限，我方龍族˙炎屬性怪獸戰鬥對我方發生的戰鬥傷害為0\n③:一回合一次，雙方戰鬥階段可以發動。將包含此卡的我方場上怪獸作為素材進行S召喚",
       "image": "https://yu-gi-oh.jp/images/news/1816_20231206011353_img_1_UePjzL7Ck66qqTEUkNxvEUL5Lbyqk8A4aPdObYQ9VKqBdsTC5Gx9b85mYtQ8pR2D.jpg"

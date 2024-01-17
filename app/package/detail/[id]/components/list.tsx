@@ -268,8 +268,9 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
       ) : null}
 
       <div className="py-4 flex gap-4">{Object.entries(rareMap || {}).map(([rare, number]) => (
-        <div key={rare} className="flex gap-2">
+        <div key={rare} className="flex gap-0.5">
           <label>{rare}</label>
+          <span>/</span>
           <div>{number}</div>
         </div>
       ))}</div>

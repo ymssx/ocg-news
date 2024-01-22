@@ -14,6 +14,12 @@ function getNameRare(text) {
   return { name, rare };
 }
 
+function removeBracketContent(string) {
+  const pattern = /\([^()]*\)/g;
+  const result = string.replace(pattern, '');
+  return result;
+}
+
 function getPackageJson(text, packageId) {
   const list = text
     .split(packageId)
@@ -22,9 +28,32 @@ function getPackageJson(text, packageId) {
       const item = originData.trim();
       const parts = item.split('\n').filter(item => item.trim());
       const baseInfo = parts.shift()?.split(' ')?.filter(item => item.trim()) || [];
+      const type = (function() {
+        const raw = removeBracketContent(parts[0] || '');
+        if (raw.includes('融合')) {
+          return 'fusion';
+        } else if (raw.includes('XYZ')) {
+          return 'xyz';
+        } else if (raw.includes('同步')) {
+          return 'synchro';
+        } else if (raw.includes('連結')) {
+          return 'link';
+        } else if (raw.includes('儀式')) {
+          return 'ritual';
+        } else if (raw.includes('怪獸')) {
+          return 'monster';
+        } else if (raw.includes('魔法')) {
+          return 'spell';
+        } else if (raw.includes('陷阱')) {
+          return 'trap';
+        } else {
+          return '';
+        }
+      })();
       const data = {
         id: '',
         number: `${packageId}${baseInfo[0]}`,
+        type,
         ...getNameRare(baseInfo[1] || ''),
         desc: parts.join('\n'),
       };
@@ -33,10 +62,3 @@ function getPackageJson(text, packageId) {
     console.log(JSON.stringify(list));
     return list;
 }
-
-getPackageJson(`
-LEDE-JP032  (R)フィッシュボーグ－ハープナー
-(生化魚叉手)  協調/效果怪獸  4  水  魚族  400/400
-此卡名的①效果一回合只能使用一次
-①:展示手牌此卡與手牌水屬性怪獸1體可以發動。該2體怪獸中1體特殊召喚，另1體捨棄
-②:此卡作為水屬性S怪獸S素材送墓的場合可以發動。對方場上效果怪獸1體這回合效果無效`, 'LEDE');

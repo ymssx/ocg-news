@@ -275,14 +275,14 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
         </div>
       ))}</div>
 
-      {links.length ? (<div>
+      {/* {links.length ? (<div>
         <h2>Links</h2>
         <ul>
           {[...links].reverse().map(item => (
             <li key={item.title}><a href={item.href}>{item.title}</a></li>
           ))}
         </ul>
-      </div>) : null}
+      </div>) : null} */}
     </div>
   );
 }

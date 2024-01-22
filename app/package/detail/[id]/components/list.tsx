@@ -38,7 +38,7 @@ var parseColor = function (hexStr: string) {
 };
 
 // zero-pad 1 digit to 2
-var pad = function (s) {
+var pad = function (s: string) {
   return (s.length === 1) ? '0' + s : s;
 };
 

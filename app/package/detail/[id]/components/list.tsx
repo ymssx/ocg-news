@@ -5,15 +5,22 @@ import { CardItem, CardType } from "../type";
 import { isMobileDevice, onlyBrowser } from "@/utils/bom";
 import classNames from "classnames";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
+// import {
+//   Dialog,
+//   DialogContent,
+//   DialogDescription,
+//   DialogHeader,
+//   DialogTitle,
+//   DialogTrigger,
+// } from "@/components/ui/dialog";
 import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+
 
 function extractNumbersFromString(str: string) {
   const regex = /\d+(\.\d+)?/g;
@@ -159,26 +166,26 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
       <div className="min-h-[32px] h-full flex items-center">
         {item ? (
           <div className="p-1 px-2">
-            <Dialog>
-              <DialogTrigger className="text-left">
-                {count}
-                {/* <span>{item?.number}</span> */}
-                <span className={classNames({ 'underline decoration-dotted': item?.image })}>
-                  {/* {item?.image ? <img alt={item?.name} src={item?.image} width={15} height={30} /> : null} */}
-                  {/* {(item?.image) ? <Link href={item?.image}>{item?.name}</Link> : item?.name} */}
-                  {item?.name}
-                </span>
-              </DialogTrigger>
-              <DialogContent className="min-w-[600px] max-w-[720px]">
-                <DialogHeader>
-                  <DialogTitle className="mb-2">{item?.name}</DialogTitle>
-                </DialogHeader>
-                <div className="flex gap-6 items-start">
-                  {item?.image ? <a href={item.image} target="_blank"><Image className="rounded-md min-w-[300px]" alt={item?.name} src={item?.image} width={300} height={450} /></a> : null}
-                  <div className="min-w-[300px]">{(item?.desc || '-')?.split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
-                </div>
-              </DialogContent>
-            </Dialog>
+            <TooltipProvider delayDuration={100}>
+              <Tooltip>
+                <TooltipTrigger className="text-left">
+                  {count}
+                  {/* <span>{item?.number}</span> */}
+                  <span className={classNames({ 'underline decoration-dotted': item?.image })}>
+                    {/* {item?.image ? <img alt={item?.name} src={item?.image} width={15} height={30} /> : null} */}
+                    {/* {(item?.image) ? <Link href={item?.image}>{item?.name}</Link> : item?.name} */}
+                    {item?.name}
+                  </span>
+                </TooltipTrigger>
+                <TooltipContent className="min-w-[600px] max-w-[720px]">
+                  <div className="mb-2 font-bold">{item?.name}</div>
+                  <div className="flex gap-6 items-start">
+                    {item?.image ? <a href={item.image} target="_blank"><Image className="rounded-md min-w-[300px]" alt={item?.name} src={item?.image} width={300} height={450} /></a> : null}
+                    <div className="min-w-[300px]">{(item?.desc || '-')?.split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
+                  </div>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
             {/* {item?.isNew ? <span className="ml-1 text-xs">[new]</span> : null} */}
             {item?.rare ? <code className="ml-1 underline">[{item?.rare}]</code> : null}
           </div>

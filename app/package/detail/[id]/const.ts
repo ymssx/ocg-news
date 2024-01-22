@@ -1,7 +1,7 @@
 import { CardType } from "./type";
 
 export const cardColorMap = {
-  [CardType.unknown]: '#ddd',
+  [CardType.unknown]: '#dddddd',
   [CardType.spell]: '#66CDAA',
   [CardType.trap]: '#f396d0',
   // [CardType.normal]: '#FAFAD2',
@@ -10,7 +10,7 @@ export const cardColorMap = {
   [CardType.ritual]: '#63B8FF',
   [CardType.fusion]: '#b288d3',
   [CardType.synchro]: '#F0F0F0',
-  [CardType.xyz]: '#444',
+  [CardType.xyz]: '#444444',
   [CardType.link]: '#104E8B',
 
 }

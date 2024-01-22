@@ -32,6 +32,35 @@ function isTypeNone(type?: CardType) {
   return !type || type === CardType.unknown;
 }
 
+// convert #hex notation to rgb array
+var parseColor = function (hexStr: string) {
+  return hexStr.length === 4 ? hexStr.substr(1).split('').map(function (s) { return 0x11 * parseInt(s, 16); }) : [hexStr.substr(1, 2), hexStr.substr(3, 2), hexStr.substr(5, 2)].map(function (s) { return parseInt(s, 16); })
+};
+
+// zero-pad 1 digit to 2
+var pad = function (s) {
+  return (s.length === 1) ? '0' + s : s;
+};
+
+var gradientColors = function (_start: string, _end: string, steps: number, gamma: number) {
+  var i, j, ms, me, output = [], so = [];
+  gamma = gamma || 1;
+  var normalize = function (channel: number) {
+    return Math.pow(channel / 255, gamma);
+  };
+  const start = parseColor(_start).map(normalize);
+  const end = parseColor(_end).map(normalize);
+  for (i = 0; i < steps; i++) {
+    ms = i / (steps - 1);
+    me = 1 - ms;
+    for (j = 0; j < 3; j++) {
+      so[j] = pad(Math.round(Math.pow(start[j] * me + end[j] * ms, 1 / gamma) * 255).toString(16));
+    }
+    output.push('#' + so.join(''));
+  }
+  return output;
+};
+
 interface Props {
   id: string;
   name: string;
@@ -135,6 +164,25 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
             }
           }
         }
+      }
+
+      // A - 无 - 无 - B的场景，中间两个格子的渐变
+      if (
+        index > 2
+        && !isTypeNone(newList[index])
+        && isTypeNone(newList[index - 1])
+        && isTypeNone(newList[index - 2])
+        && !isTypeNone(newList[index - 3])
+      ) {
+        const midColor = gradientColors(cardColorMap[cardList[index - 3]?.type || CardType.unknown], cardColorMap[item?.type || CardType.unknown], 3, 2.2)[1];
+        newColorList[index - 1] = {
+          bg: `linear-gradient(to bottom, ${midColor}, ${cardColorMap[item?.type || CardType.unknown]})`,
+          font: cardFontColorMap[newList[index] || CardType.unknown],
+        };
+        newColorList[index - 2] = {
+          bg: `linear-gradient(to bottom, ${cardColorMap[cardList[index - 3]?.type || CardType.unknown]}, ${midColor})`,
+          font: cardFontColorMap[newList[index - 3] || CardType.unknown],
+        };
       }
     });
     for (let index = 0; index < number; index += 1) {

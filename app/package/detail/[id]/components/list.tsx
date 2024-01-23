@@ -265,7 +265,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
       </div> */}
   
       {/* <div className="font-bold mb-2 text-black">卡表</div> */}
-      <table className="border-collapse max-w-[1200px] border-[1.5px] border-gray-800">
+      <table className="border-collapse max-w-[1200px]">
         <tbody className="">
           {new Array(ROW).fill(0).map((_, row) => (
             <tr key={row} className="">
@@ -273,7 +273,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                 <td
                   key={ceil}
                   className={classNames({
-                    'p-0 border-gray-800 border-r-[1.5px] text-start align-top min-h-[32px] w-[25%]': true,
+                    'p-0 border-gray-800 text-start align-top min-h-[32px] w-[25%]': true,
                     border: ceil * ROW + row < number,
                     'brightness-90': !cardList[ceil * ROW + row],
                   })}
@@ -298,14 +298,14 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
       {unSortCardList.length ? (
         <div className="mt-6 flex flex-col">
           <h2 className="">未知编号</h2>
-          <table className="border-collapse max-w-[1200px] border-[1.5px] border-gray-800">
+          <table className="border-collapse max-w-[1200px]">
             <tbody className="">
               {new Array(UN_SORT_ROW).fill(0).map((_, row) => (
                 <tr key={row} className="">
                   {new Array(COL).fill(0).map((_, ceil) => (
                     <td
                       key={ceil}
-                      className={classNames({ 'p-0 border-gray-800 border-[1.5px] text-start align-top min-h-[32px] w-[25%]': true, border: (ceil * UN_SORT_ROW + row) < unSortCardList.length })}
+                      className={classNames({ 'p-0 border-gray-800 text-start align-top min-h-[32px] w-[25%]': true, border: (ceil * UN_SORT_ROW + row) < unSortCardList.length })}
                       style={{
                         background: (ceil * UN_SORT_ROW + row) < unSortCardList.length
                           ? (unSortCardList[ceil * UN_SORT_ROW + row]?.pendulum && false)

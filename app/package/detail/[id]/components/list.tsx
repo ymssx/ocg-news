@@ -223,9 +223,11 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                     {/* {item?.image ? <img alt={item?.name} src={item?.image} width={15} height={30} /> : null} */}
                     {/* {(item?.image) ? <Link href={item?.image}>{item?.name}</Link> : item?.name} */}
                     {item?.name}
+                    {/* {item?.isNew ? <span className="ml-1 text-xs">[new]</span> : null} */}
+                    {item?.rare ? <code className="ml-1 underline">[{item?.rare}]</code> : null}
                   </span>
                 </TooltipTrigger>
-                <TooltipContent className="min-w-[600px] max-w-[720px]">
+                <TooltipContent className="min-w-[300px] max-w-[500px]">
                   <div className="mb-2 font-bold">{item?.name}</div>
                   <div className="flex gap-6 items-start">
                     {item?.image ? <a href={item.image} target="_blank"><Image className="rounded-md min-w-[300px]" alt={item?.name} src={item?.image} width={300} height={450} /></a> : null}
@@ -234,10 +236,8 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
-            {/* {item?.isNew ? <span className="ml-1 text-xs">[new]</span> : null} */}
-            {item?.rare ? <code className="ml-1 underline">[{item?.rare}]</code> : null}
           </div>
-        ) : <div className="min-h-[32px] w-full h-full px-2 bg-black bg-opacity-10 flex items-center">{count}</div>}
+        ) : <div className="min-h-[32px] w-full h-full px-2 flex items-center">{count}</div>}
       </div>
     );
   }
@@ -255,24 +255,28 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
           <div className="text-gray-900 bg-gray-50 p-4 rounded-md w-full">{...(desc || '-').split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
         </div>
       </div>
-      <div className="mb-8">
+      {/* <div className="mb-8">
         {[
           ...images,
           ...cardList.filter(item => item?.image).map(item => item?.image),
         ].map(src => (
           src ? <Image width={150} height={150} key={src} className="inline-block max-h-[150px] max-w-[150px] w-auto h-auto mr-2" src={src} alt={''} /> : null
         ))}
-      </div>
+      </div> */}
   
       {/* <div className="font-bold mb-2 text-black">卡表</div> */}
-      <table className="border-collapse max-w-[1200px]">
+      <table className="border-collapse max-w-[1200px] border-[1.5px] border-gray-800">
         <tbody className="">
           {new Array(ROW).fill(0).map((_, row) => (
             <tr key={row} className="">
               {new Array(COL).fill(0).map((_, ceil) => (
                 <td
                   key={ceil}
-                  className={classNames({ 'p-0 border-gray-900 min-h-[32px] w-[25%]': true, border: ceil * ROW + row < number })}
+                  className={classNames({
+                    'p-0 border-gray-800 border-r-[1.5px] text-start align-top min-h-[32px] w-[25%]': true,
+                    border: ceil * ROW + row < number,
+                    'brightness-90': !cardList[ceil * ROW + row],
+                  })}
                   style={{
                     background: ceil * ROW + row < number
                       ? (cardList[ceil * ROW + row]?.pendulum && false)
@@ -294,14 +298,14 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
       {unSortCardList.length ? (
         <div className="mt-6 flex flex-col">
           <h2 className="">未知编号</h2>
-          <table className="border-collapse max-w-[1200px]">
+          <table className="border-collapse max-w-[1200px] border-[1.5px] border-gray-800">
             <tbody className="">
               {new Array(UN_SORT_ROW).fill(0).map((_, row) => (
                 <tr key={row} className="">
                   {new Array(COL).fill(0).map((_, ceil) => (
                     <td
                       key={ceil}
-                      className={classNames({ 'p-0 border-gray-900 min-h-[32px] w-[25%]': true, border: (ceil * UN_SORT_ROW + row) < unSortCardList.length })}
+                      className={classNames({ 'p-0 border-gray-800 border-[1.5px] text-start align-top min-h-[32px] w-[25%]': true, border: (ceil * UN_SORT_ROW + row) < unSortCardList.length })}
                       style={{
                         background: (ceil * UN_SORT_ROW + row) < unSortCardList.length
                           ? (unSortCardList[ceil * UN_SORT_ROW + row]?.pendulum && false)

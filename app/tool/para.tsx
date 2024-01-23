@@ -1,5 +1,6 @@
 'use client';
 import { useRef } from "react";
+import { getPackageJson } from '@/scripts/pull';
 
 const ParaTool = () => {
   const value = useRef('');
@@ -37,7 +38,22 @@ const ParaTool = () => {
             console.error(e);
             // message.error(e);
           });
-      }}>JSON</button>
+      }}>List2JSON</button>
+      <button onClick={() => {
+        const parts = value.current.split('\n');
+        const packageId = parts.shift();
+        const realText = parts.join('\n');
+        const cards = getPackageJson(realText, packageId);
+        window.navigator?.clipboard
+          ?.writeText(JSON.stringify(cards))
+          .then(() => {
+            // message.success('copied');
+          })
+          .catch((e) => {
+            console.error(e);
+            // message.error(e);
+          });
+      }}>Text2JSON</button>
     </div>
   );
 };

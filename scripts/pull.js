@@ -20,7 +20,7 @@ function removeBracketContent(string) {
   return result;
 }
 
-function getPackageJson(text, packageId) {
+export function getPackageJson(text, packageId) {
   const list = text
     .split(packageId)
     .filter(item => item.trim())

@@ -4,7 +4,9 @@ on:
       - CREATE_PACKAGE
 
 jobs:
-  job1:
+  my-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ toJson(github.event) }}
+      - name: Print event payload
+        run: |
+          echo '${{ toJson(github.event) }}'

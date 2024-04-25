@@ -1,0 +1,10 @@
+on:
+  repository_dispatch:
+    types:
+      - CREATE_PACKAGE
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo success

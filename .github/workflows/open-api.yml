@@ -18,7 +18,7 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.name $github.event.sender.login
-          git config --global user.email "${github.event.sender.login}@unknown.com"
+          git config --global user.email "${{ github.event.sender.login }}@unknown.com"
 
       - name: Commit and Push
         env:

@@ -246,14 +246,9 @@
     },
     {
       "desc": "",
-      "name": "",
-      "number": "INFO-jp030",
-      "undefined": {
-        "desc": "",
-        "name": "面子蝙蝠",
-        "number": "INFO-JP030",
-        "type": "monster"
-      }
+      "name": "面子蝙蝠",
+      "number": "INFO-JP030",
+      "type": "monster"
     },
     {
       "desc": "",

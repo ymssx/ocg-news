@@ -1,7 +1,7 @@
 on:
   repository_dispatch:
     types:
-      - CREATE_PACKAGE
+      - UPDATE_PACKAGE
 
 jobs:
   my-job:
@@ -9,4 +9,5 @@ jobs:
     steps:
       - name: Print event payload
         run: |
-          echo '${{ toJson(github.event) }}'
+          echo '$(toJson(github.event).client_payload)'
+          node scripts/update-data.js '$(toJson(github.event).client_payload)'

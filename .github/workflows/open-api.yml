@@ -10,4 +10,4 @@ jobs:
       - name: Print event payload
         run: |
           echo '$(toJson(github.event).client_payload)'
-          node scripts/update-data.js '$(toJson(github.event).client_payload)'
+          node ./scripts/update-data.js '$(toJson(github.event).client_payload)'

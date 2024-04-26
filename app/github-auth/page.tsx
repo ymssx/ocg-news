@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { getAuth, setAuth } from '@/components/e-components/core/auth';
 
-export default () => {
+export default function AuthPage() {
   const auth = getAuth();
   const [name, setName] = useState(auth.name || '');
   const [token, setToken] = useState(auth.token || '');

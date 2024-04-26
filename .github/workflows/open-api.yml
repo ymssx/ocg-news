@@ -4,7 +4,7 @@ on:
       - UPDATE_PACKAGE
 
 jobs:
-  my-job:
+  update-package:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -29,4 +29,5 @@ jobs:
           git push origin HEAD:refs/heads/master
       
   build-nextjs:
+    needs: update-package
     uses: ./.github/workflows/nextjs.yml

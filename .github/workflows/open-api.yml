@@ -7,9 +7,10 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: Print event payload
         run: |
           echo '${{toJson(github.event.client_payload)}}'
-          ls
-          ls ../
-          node ../scripts/update-data.js '${{toJson(github.event.client_payload)}}'
+          node ./scripts/update-data.js '${{toJson(github.event.client_payload)}}'

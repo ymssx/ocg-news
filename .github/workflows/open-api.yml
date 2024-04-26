@@ -14,3 +14,16 @@ jobs:
         run: |
           echo '${{toJson(github.event.client_payload)}}'
           node ./scripts/update-data.js '${{toJson(github.event.client_payload)}}'
+
+      - name: Configure Git
+        run: |
+          git config --global user.name $github.event.sender.login
+          git config --global user.email "${github.event.sender.login}@unknown.com"
+
+      - name: Commit and Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add .
+          git commit -m "Commit changes"
+          git push origin HEAD:refs/heads/master

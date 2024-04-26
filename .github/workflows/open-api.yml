@@ -27,3 +27,6 @@ jobs:
           git add .
           git commit -m "Commit changes"
           git push origin HEAD:refs/heads/master
+      
+      - name: Build nextjs
+        uses: ./.github/workflows/nextjs.yml

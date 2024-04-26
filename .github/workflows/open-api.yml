@@ -10,5 +10,6 @@ jobs:
       - name: Print event payload
         run: |
           echo '${{toJson(github.event.client_payload)}}'
-          echo $(pwd)
+          ls
+          ls ../
           node ../scripts/update-data.js '${{toJson(github.event.client_payload)}}'

@@ -25,8 +25,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add .
-          git commit -m "Commit changes"
-          git push origin HEAD:refs/heads/master
+          git commit -m "update data"
+          git push origin master
       
   build-nextjs:
     needs: update-package

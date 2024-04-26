@@ -2,6 +2,7 @@ import { PackageData } from "./type";
 import CardPackage from './components/list';
 import { getPackages } from "@/utils/data";
 import { Metadata } from "next/types";
+import { jsonHelper } from "@/components/e-components/core";
 
 export async function generateMetadata(
   { params }: {
@@ -21,12 +22,13 @@ export default async ({ params }: {
   params: { id: string }
 }) => {
   const { id } = params;
-  const data: PackageData = (await import(`@/data/package/${id}.json`)).default;
+  const path = `@/data/package/${id}.json`;
+  const _data: PackageData = (await import(`@/data/package/${id}.json`)).default;
 
   return (
     <>
       <div className="p-2">
-        <CardPackage {...data} />
+        <CardPackage originDara={_data} path={path} />
       </div>
 
       <div className="p-2 px-6 flex gap-4">

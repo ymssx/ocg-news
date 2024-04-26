@@ -1,5 +1,5 @@
 'use client';
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { cardColorMap, cardFontColorMap } from "../const";
 import { CardItem, CardType } from "../type";
 import { isMobileDevice, onlyBrowser } from "@/utils/bom";
@@ -20,6 +20,10 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { ProxyJson, jsonHelper } from "@/components/e-components/core";
+import EText from "@/components/e-components/text";
+import EContainer from "@/components/e-components/container";
+import { hasAuth as getHasAuth } from "@/components/e-components/core/auth";
 
 
 function extractNumbersFromString(str: string) {
@@ -43,7 +47,7 @@ var pad = function (s: string) {
 };
 
 var gradientColors = function (_start: string, _end: string, steps: number, gamma: number) {
-  var i, j, ms, me, output = [], so = [];
+  var i, j, ms, me, output: string[] = [], so: string[] = [];
   gamma = gamma || 1;
   var normalize = function (channel: number) {
     return Math.pow(channel / 255, gamma);
@@ -61,7 +65,7 @@ var gradientColors = function (_start: string, _end: string, steps: number, gamm
   return output;
 };
 
-interface Props {
+interface _Props {
   id: string;
   name: string;
   number: number;
@@ -73,7 +77,17 @@ interface Props {
   links?: { title: string; href: string }[];
 }
 
-const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero, hasSecret, links = [] }: Props) => {
+interface Props {
+  // data: _Props;
+  originDara: _Props;
+  path: string;
+}
+
+const CardPackage = ({ originDara, path }: Props) => {
+  const data = jsonHelper(path, originDara);
+  const list = data.list;
+
+  const { number: _number, fromZero, hasSecret } = originDara;
   const number = hasSecret ? _number + 1 : _number;
   const unSortCardList = useMemo(() => list.filter(item => !item.number), [list]);
 
@@ -81,18 +95,26 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
   const ROW = Math.ceil(number / COL);
   const UN_SORT_ROW = Math.ceil(unSortCardList.length / COL);
 
-  const cardList: (CardItem | null)[] = useMemo(() => {
+  const [hasAuth, setHasAuth] = useState(false);
+
+  useEffect(() => {
+    setHasAuth(getHasAuth());
+  }, []);
+
+  // 渲染相关
+
+  const cardList: (ProxyJson<CardItem> | null)[] = useMemo(() => {
     const newList = new Array(number).fill(null);
-    list.forEach((item) => {
+    list.forEach(item => {
       if (!item.number) {
         return;
       }
       let index: number | null;
-      const numberSplit = item.number?.split('-');
+      const numberSplit = item.number?.get()?.split('-') || '';
       if (numberSplit[numberSplit.length - 1]?.toUpperCase() === 'JPS01') {
         index = number - 1;
       } else {
-        index = extractNumbersFromString(item.number);
+        index = extractNumbersFromString(item.number?.get() || '');
       }
       if (typeof index === 'number' && index <= number) {
         newList[index - (fromZero ? 0 : 1)] = item;
@@ -116,36 +138,36 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
           !isTypeNone(newList[index - 2])
         ) {
           newColorList[index - 1] = {
-            bg: `linear-gradient(to bottom, ${cardColorMap[cardList[index - 2]?.type || CardType.unknown]}, ${cardColorMap[item?.type || CardType.unknown]})`,
+            bg: `linear-gradient(to bottom, ${cardColorMap[cardList[index - 2]?.type?.get() || CardType.unknown]}, ${cardColorMap[item?.type?.get() || CardType.unknown]})`,
             font: cardFontColorMap[newList[index - 2] || CardType.unknown],
           };
         } else if (
-          !isTypeNone(item?.type)
+          !isTypeNone(item?.type?.get())
           // !isTypeNone(newList[index - 2])
         ) {
           newColorList[index - 1] = {
-            bg: `linear-gradient(to bottom, ${cardColorMap[cardList[index - 2]?.type || CardType.unknown]}, ${cardColorMap[item?.type || CardType.unknown]})`,
+            bg: `linear-gradient(to bottom, ${cardColorMap[cardList[index - 2]?.type?.get() || CardType.unknown]}, ${cardColorMap[item?.type?.get() || CardType.unknown]})`,
             font: cardFontColorMap[newList[index - 2] || CardType.unknown],
           };
         }
       }
 
       if (item?.type) {
-        newList[index] = item?.type;
-        if (item?.type === lastType) {
+        newList[index] = item?.type?.get();
+        if (item?.type?.get() === lastType) {
           for (let i = lastIndex; i <= index; i += 1) {
             if (newList[i] === CardType.unknown) {
-              newList[i] = item?.type;
+              newList[i] = item?.type?.get();
               if (newColorList[i]) {
                 delete newColorList[i];
               }
             }
           }
         } else {
-          if ([CardType.monster].includes(item.type)) {
+          if ([CardType.monster].includes(item.type?.get())) {
             for (let i = lastIndex; i <= index; i += 1) {
               if (newList[i] === CardType.unknown) {
-                newList[i] = item?.type;
+                newList[i] = item?.type?.get();
                 if (newColorList[i]) {
                   delete newColorList[i];
                 }
@@ -153,7 +175,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
             }
           }
           lastIndex = index;
-          lastType = item?.type;
+          lastType = item?.type?.get();
         }
       } else if (index === (hasSecret ? (number - 2) : (number - 1))) {
         if ([CardType.trap].includes(lastType || CardType.unknown)) {
@@ -174,13 +196,13 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
         && isTypeNone(newList[index - 2])
         && !isTypeNone(newList[index - 3])
       ) {
-        const midColor = gradientColors(cardColorMap[cardList[index - 3]?.type || CardType.unknown], cardColorMap[item?.type || CardType.unknown], 3, 2.2)[1];
+        const midColor = gradientColors(cardColorMap[cardList[index - 3]?.type?.get() || CardType.unknown], cardColorMap[item?.type?.get() || CardType.unknown], 3, 2.2)[1];
         newColorList[index - 1] = {
-          bg: `linear-gradient(to bottom, ${midColor}, ${cardColorMap[item?.type || CardType.unknown]})`,
+          bg: `linear-gradient(to bottom, ${midColor}, ${cardColorMap[item?.type?.get() || CardType.unknown]})`,
           font: cardFontColorMap[newList[index] || CardType.unknown],
         };
         newColorList[index - 2] = {
-          bg: `linear-gradient(to bottom, ${cardColorMap[cardList[index - 3]?.type || CardType.unknown]}, ${midColor})`,
+          bg: `linear-gradient(to bottom, ${cardColorMap[cardList[index - 3]?.type?.get() || CardType.unknown]}, ${midColor})`,
           font: cardFontColorMap[newList[index - 3] || CardType.unknown],
         };
       }
@@ -199,16 +221,16 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
   const rareMap: Record<string, number> = useMemo(() => {
     return list.reduce((pre: Record<string, number> , item) => {
       if (item?.rare) {
-        if (!pre[item?.rare]) {
-          pre[item.rare] = 0;
+        if (!pre[item?.rare?.get() || '']) {
+          pre[item.rare?.get() || ''] = 0;
         }
-        pre[item.rare] += 1;
+        pre[item.rare?.get() || ''] += 1;
       }
       return pre;
     }, {});
   }, [list]);
 
-  const renderItem = (item: CardItem | null, index?: number) => {
+  const renderItem = (item: ProxyJson<CardItem> | null, index?: number) => {
     const count = (index !== undefined) ? <code className="inline-block opacity-60 min-w-[24px] mr-[2px]">{(hasSecret && index === (number - 1)) ? 'S1' : (fromZero ? index : index + 1)}</code> : null;
     return (
       <div className="min-h-[32px] h-full flex items-center">
@@ -222,22 +244,29 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                   <span className={classNames({ 'underline decoration-dotted': item?.image })}>
                     {/* {item?.image ? <img alt={item?.name} src={item?.image} width={15} height={30} /> : null} */}
                     {/* {(item?.image) ? <Link href={item?.image}>{item?.name}</Link> : item?.name} */}
-                    {item?.name}
+                    {/* {item?.name?.get()} */}
+                    <EText value={item} render={(item) => JSON.parse(item)?.name} placeholder={hasAuth && <span>[+]</span>} />
                     {/* {item?.isNew ? <span className="ml-1 text-xs">[new]</span> : null} */}
-                    {item?.rare ? <code className="ml-1 underline">[{item?.rare}]</code> : null}
+                    {item?.rare?.get() ? <code className="ml-1 underline">[{item?.rare?.get()}]</code> : null}
                   </span>
                 </TooltipTrigger>
                 <TooltipContent className="min-w-[300px] max-w-[500px]">
-                  <div className="mb-2 font-bold">{item?.name}</div>
+                  <div className="mb-2 font-bold">{item?.name?.get()}</div>
                   <div className="flex gap-6 items-start">
-                    {item?.image ? <a href={item.image} target="_blank"><Image className="rounded-md min-w-[300px]" alt={item?.name} src={item?.image} width={300} height={450} /></a> : null}
-                    <div className="min-w-[300px]">{(item?.desc || '-')?.split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
+                    {item?.image?.get() ? <a href={item.image?.get()} target="_blank"><Image className="rounded-md min-w-[300px]" alt={item?.name?.get()} src={item?.image?.get() || ''} width={300} height={450} /></a> : null}
+                    <div className="min-w-[300px] whitespace-pre-wrap">
+                      <EText value={item?.desc} />
+                    </div>
                   </div>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
           </div>
-        ) : <div className="min-h-[32px] w-full h-full px-2 flex items-center">{count}</div>}
+        ) : (
+          <div className="min-h-[32px] w-full h-full px-2 flex items-center">
+            {count}
+          </div>
+        )}
       </div>
     );
   }
@@ -248,11 +277,16 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
   });
 
   return (
+    <EContainer>
     <div className="flex flex-col p-4">
-      <h1 className="">{name}</h1>
+      <h1 className="">
+        <EText value={data.name} />
+      </h1>
       <div className="mb-2 pb-4 flex gap-4 justify-start">
         <div className="h-full">
-          <div className="text-gray-900 bg-gray-50 p-4 rounded-md w-full">{...(desc || '-').split('\n').map((item, index) => <div key={index}>{item}</div>)}</div>
+          <div className="text-gray-900 bg-gray-50 p-4 rounded-md w-full whitespace-pre-wrap">
+            <EText value={data.desc} />
+          </div>
         </div>
       </div>
       {/* <div className="mb-8">
@@ -265,6 +299,14 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
       </div> */}
   
       {/* <div className="font-bold mb-2 text-black">卡表</div> */}
+      {hasAuth && (
+        <div className="mb-2">
+          <EText value={list} render={(_, { start }) => (
+            <button onClick={start} className="hover:text-green-700">编辑</button>
+          )} />
+        </div>
+      )}
+  
       <table className="border-collapse max-w-[1200px]">
         <tbody className="">
           {new Array(ROW).fill(0).map((_, row) => (
@@ -309,10 +351,10 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
                       style={{
                         background: (ceil * UN_SORT_ROW + row) < unSortCardList.length
                           ? (unSortCardList[ceil * UN_SORT_ROW + row]?.pendulum && false)
-                            ? `radial-gradient(circle at 150% 150%, #66CDAA, ${cardColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown]})`
-                            : cardColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown]
+                            ? `radial-gradient(circle at 150% 150%, #66CDAA, ${cardColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type?.get() || CardType.unknown]})`
+                            : cardColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type?.get() || CardType.unknown]
                           : 'none',
-                        color: cardFontColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown],
+                        color: cardFontColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type?.get() || CardType.unknown],
                         // borderColor: cardFontColorMap[unSortCardList[ceil * UN_SORT_ROW + row]?.type || CardType.unknown],
                       }}
                     >
@@ -343,6 +385,7 @@ const CardPackage = ({ list, name, number: _number, desc, images = [], fromZero,
         </ul>
       </div>) : null} */}
     </div>
+    </EContainer>
   );
 }
 

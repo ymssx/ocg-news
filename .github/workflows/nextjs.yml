@@ -55,11 +55,6 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-      - name: Check if data folder has changed
-        id: check-data-folder
-        run: |
-          git diff --quiet HEAD^ -- data
-          echo "data-changed=$?" >> $GITHUB_ENV
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
@@ -69,7 +64,6 @@ jobs:
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
       - name: Restore cache
-        if: steps.check-data-folder.outputs.data-changed == '0'
         uses: actions/cache@v3
         with:
           path: |

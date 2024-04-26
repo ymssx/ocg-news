@@ -1,13 +1,18 @@
 const fs = require('fs');
 
-// 要更新的 JSON 数据
-const jsonData = {
-  "@/data/package/info.json": {
-    "name": "213123123",
-    "desc": "12312312312312",
-    "list.10.name": "123qewq"
-  }
-};
+// // 要更新的 JSON 数据
+// const jsonData = {
+//   "@/data/package/info.json": {
+//     "list.30": {
+//       "desc": "",
+//       "name": "面子蝙蝠",
+//       "number": "INFO-JP030",
+//       "type": "monster"
+//     },
+//     "name": "123123",
+//     "list.30.desc": "????"
+//   }
+// };
 
 // 更新 JSON 文件的函数
 function updateJsonFile(_filePath, data) {
@@ -37,25 +42,30 @@ function updateJsonFile(_filePath, data) {
 }
 
 // 递归更新嵌套字段的函数
-function updateNestedFields(obj, data) {
-  for (const key in data) {
-    if (key.includes('.')) {
-      const [nestedKey, nestedIndex, nestedField] = key.split('.');
-      const index = parseInt(nestedIndex, 10);
-      if (Array.isArray(obj[nestedKey]) && typeof index === 'number' && index >= 0) {
-        if (obj[nestedKey][index] && typeof obj[nestedKey][index] === 'object') {
-          obj[nestedKey][index][nestedField] = data[key];
-        } else {
-          console.error(`无法更新字段 ${key}，索引超出范围或对象不存在`);
-        }
-      } else {
-        console.error(`无法更新字段 ${key}，不是有效的嵌套属性`);
-      }
-    } else {
-      obj[key] = data[key];
+function updateNestedFields(_target, changeMap) {
+  let target = _target;
+  for (const key in changeMap) {
+    const newData = changeMap[key];
+    if (!key) {
+      target = newData;
+      break;
     }
+    const keys = key.split('.');
+    if (keys.length === 1) {
+      target[key] = newData;
+    }
+    let current = target;
+    for (let index = 0; index < keys.length - 1; index += 1) {
+      const currentKey = keys[index];
+      if (current[currentKey] !== undefined) {
+        current = current[currentKey];
+      } else {
+        throw new Error(`filed ${key} can\'t index json`, target);
+      }
+    }
+    current[keys[keys.length - 1]] = newData;
   }
-  return obj;
+  return target;
 }
 
 
@@ -68,3 +78,4 @@ function update(jsonData) {
 }
 
 update(JSON.parse(process.argv[2] || '{}'));
+// update(jsonData);

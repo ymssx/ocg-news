@@ -66,19 +66,19 @@ async function parseChanges(jsonData) {
 
 
 // // 要更新的 JSON 数据
-const jsonData = {
-  "@/data/package/info.json": {
-    "list.30": {
-      "desc": "",
-      "name": "面子蝙蝠",
-      "number": "INFO-JP030",
-      "type": "monster"
-    },
-    "name": "123123",
-    "list.31.desc": "????"
-  }
-};
+// const jsonData = {
+//   "@/data/package/info.json": {
+//     "list.30": {
+//       "desc": "",
+//       "name": "面子蝙蝠",
+//       "number": "INFO-JP030",
+//       "type": "monster"
+//     },
+//     "name": "123123",
+//     "list.31.desc": "????"
+//   }
+// };
 
-// const changeMap = JSON.parse(process.argv[2] || '{}');
-// update(changeMap);
-parseChanges(jsonData);
+const changeMap = JSON.parse(process.argv[2] || '{}');
+update(changeMap);
+parseChanges(changeMap);

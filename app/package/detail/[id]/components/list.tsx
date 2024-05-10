@@ -27,6 +27,9 @@ import { hasAuth as getHasAuth } from "@/components/e-components/core/auth";
 
 
 function extractNumbersFromString(str: string) {
+  if (str.includes('?')) {
+    return null;
+  }
   const regex = /\d+(\.\d+)?/g;
   const match = str.match(regex);
   return match ? Number(match[match.length - 1]) : null;

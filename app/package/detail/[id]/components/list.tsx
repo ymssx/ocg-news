@@ -89,7 +89,7 @@ const CardPackage = ({ originDara, path }: Props) => {
 
   const { number: _number, fromZero, hasSecret } = originDara;
   const number = hasSecret ? _number + 1 : _number;
-  const unSortCardList = useMemo(() => list.filter(item => !item.number), [list]);
+  const unSortCardList = useMemo(() => list.filter(item => !(item.number?.get() && !item.number?.get()?.includes('?'))), [list]);
 
   const COL = onlyBrowser(() => isMobileDevice() ? 1 : 3, 3);
   const ROW = Math.ceil(number / COL);

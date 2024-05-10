@@ -27,7 +27,7 @@ function padZeros(number, length) {
 export function getPackageJson(text, packageId, number, fromZero) {
   const list = new Array(number).fill(1).map((_, index) => ({
     id: '',
-    number: `${packageId}-${padZeros(index + (fromZero ? 0 : 1), 3)}`,
+    number: `${packageId.toUpperCase()}-JP${padZeros(index + (fromZero ? 0 : 1), 3)}`,
     type: '',
     name: '',
     rare: '',
@@ -71,7 +71,7 @@ export function getPackageJson(text, packageId, number, fromZero) {
         ...getNameRare(baseInfo.join('#114514#') || ''),
         desc: parts.join('\n'),
       };
-      const index = Number(numberString);
+      const index = Number(numberString.replace('-JP'));
       if (!isNaN(index)) {
         list[index - (fromZero ? 0 : 1)] = data;
       } else {

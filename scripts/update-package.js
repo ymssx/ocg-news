@@ -27,14 +27,14 @@ async function parseChanges(jsonData) {
       if (key === 'list') {
         res = [
           ...res,
-          ...listData,
+          ...listData.filter(item => item.name),
         ];
         break;
       }
       const match = key.match(regex);
       if (match && match[1]) {
         const number = parseInt(match[1]);
-        if (!addedSet.has(number) && listData[number]) {
+        if (!addedSet.has(number) && listData[number]?.name) {
           res = [
             ...res,
             listData[number],

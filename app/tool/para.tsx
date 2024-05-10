@@ -42,8 +42,11 @@ const ParaTool = () => {
       <button onClick={() => {
         const parts = value.current.split('\n');
         const packageId = parts.shift();
+        const params = parts.shift()?.split(' ') || [80, '1'];
+        const number = Number(params[0]);
+        const fromZero = params[1] === '1';
         const realText = parts.join('\n');
-        const cards = getPackageJson(realText, packageId);
+        const cards = getPackageJson(realText, packageId, number, fromZero);
         window.navigator?.clipboard
           ?.writeText(JSON.stringify(cards))
           .then(() => {

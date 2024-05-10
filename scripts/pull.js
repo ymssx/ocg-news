@@ -20,11 +20,23 @@ function removeBracketContent(string) {
   return result;
 }
 
-export function getPackageJson(text, packageId) {
-  const list = text
+function padZeros(number, length) {
+  return String(number).padStart(length, '0');
+}
+
+export function getPackageJson(text, packageId, number, fromZero) {
+  const list = new Array(number).fill(1).map((_, index) => ({
+    id: '',
+    number: `${packageId}-${padZeros(index + (fromZero ? 0 : 1), 3)}`,
+    type: '',
+    name: '',
+    rare: '',
+    desc: '',
+  }));
+  text
     .split(packageId)
     .filter(item => item.trim())
-    .map(originData => {
+    .forEach(originData => {
       const item = originData.trim();
       const parts = item.split('\n').filter(item => item.trim());
       const baseInfo = parts.shift()?.split(' ')?.filter(item => item.trim()) || [];
@@ -57,7 +69,12 @@ export function getPackageJson(text, packageId) {
         ...getNameRare(baseInfo[1] || ''),
         desc: parts.join('\n'),
       };
-      return data;
+      const index = Number(baseInfo[0]);
+      if (!isNaN(index)) {
+        list[index - (fromZero ? 0 : 1)] = data;
+      } else {
+        list.push(data);
+      }
     });
     console.log(JSON.stringify(list));
     return list;

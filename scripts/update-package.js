@@ -2,20 +2,6 @@ const fs = require('fs');
 const { update } = require('./update-data.js');
 const { updateDiffFile } = require('./update-diff.js');
 
-function extractNumbersFromList(list) {
-  const numbers = [];
-
-  for (let i = 0; i < list.length; i++) {
-    const match = list[i].match(regex);
-    if (match && match[1]) {
-      const number = parseInt(match[1]);
-      numbers.push(number);
-    }
-  }
-
-  return numbers;
-}
-
 function readJson(_filePath) {
   const filePath = _filePath.replace('@', '.');
   return new Promise((resolve, reject) => {
@@ -80,5 +66,7 @@ async function parseChanges(jsonData) {
 // };
 
 const changeMap = JSON.parse(process.argv[2] || '{}');
-update(changeMap);
-parseChanges(changeMap);
+update(changeMap)
+  .then(() => {
+    parseChanges(changeMap);
+  });

@@ -18,10 +18,9 @@ function updateDiffFile(newData, _filePath, MAXLEN = 20) {
       ];
       const newList = [];
       // 去重
-      for (let index = contactList.length - 1; index >= 0; index -= 1) {
-        const item = contactList[index];
+      for (const item of contactList) {
         if (!idSet.has(item.id)) {
-          newList.unshift(item);
+          newList.push(item);
           idSet.add(item.id);
           if (newList.length >= MAXLEN) {
             break;

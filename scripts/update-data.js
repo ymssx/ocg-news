@@ -17,27 +17,29 @@ const fs = require('fs');
 // 更新 JSON 文件的函数
 function updateJsonFile(_filePath, data) {
   const filePath = _filePath.replace('@', '.');
-  fs.readFile(filePath, 'utf8', (err, fileContent) => {
-    if (err) {
-      console.error(`无法读取文件 ${filePath}: `, err);
-      return;
-    }
-
-    try {
-      const json = JSON.parse(fileContent);
-      const updatedJson = updateNestedFields(json, data);
-      const updatedContent = JSON.stringify(updatedJson, null, 2);
-
-      fs.writeFile(filePath, updatedContent, 'utf8', (err) => {
-        if (err) {
-          console.error(`无法写入文件 ${filePath}: `, err);
-        } else {
-          console.log(`已成功更新文件 ${filePath}`);
-        }
-      });
-    } catch (err) {
-      console.error(`无法解析文件 ${filePath} 的 JSON 内容: `, err);
-    }
+  return new Promise((resolve, reject) => {
+    fs.readFile(filePath, 'utf8', (err, fileContent) => {
+      if (err) {
+        reject(err);
+        return;
+      }
+  
+      try {
+        const json = JSON.parse(fileContent);
+        const updatedJson = updateNestedFields(json, data);
+        const updatedContent = JSON.stringify(updatedJson, null, 2);
+  
+        fs.writeFile(filePath, updatedContent, 'utf8', (err) => {
+          if (err) {
+            reject(err);
+          } else {
+            resolve();
+          }
+        });
+      } catch (err) {
+        reject(err);
+      }
+    });
   });
 }
 
@@ -69,12 +71,14 @@ function updateNestedFields(_target, changeMap) {
 }
 
 
-function update(jsonData) {
+async function update(jsonData) {
+  const job = [];
   // 遍历并更新每个文件的 JSON 内容
   for (const filePath in jsonData) {
     const data = jsonData[filePath];
-    updateJsonFile(filePath, data);
+    job.push(updateJsonFile(filePath, data));
   }
+  return Promise.all(job);
 }
 
 module.exports = {

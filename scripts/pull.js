@@ -71,7 +71,7 @@ export function getPackageJson(text, packageId, number, fromZero) {
         ...getNameRare(baseInfo.join('#114514#') || ''),
         desc: parts.join('\n'),
       };
-      const index = Number(numberString.replace('-JP'));
+      const index = Number(numberString.replace('-JP', ''));
       if (!isNaN(index)) {
         list[index - (fromZero ? 0 : 1)] = data;
       } else {

@@ -20,6 +20,12 @@ export default function EText<T extends ProxyJson<any>>(props: Props<T>) {
   const [saveLoading, setSaveLoading] = useState(false);
   const contentRef = useRef<HTMLSpanElement>(null);
 
+  useEffect(() => {
+    if (value?.get() !== tempValue) {
+      setTempValue(value?.get());
+    }
+  }, [value?.get()]);
+
   const setEditMode = (val) => {
     if (!hasAuth()) {
       window.open('/github-auth');

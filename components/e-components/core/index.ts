@@ -49,7 +49,7 @@ export function getJsonProxy<T extends object, F extends keyof T>(
     // 有全局管理的场景，走全局管理
     if (window._econtainer) {
       window._econtainer.addChange(context.path, context.fullField || '', value);
-      return Promise.resolve();
+      // return Promise.resolve();
     }
     tempData = value;
     return new Promise<void>((resolve, reject) => {
@@ -148,7 +148,7 @@ export function getJsonProxy<T extends object, F extends keyof T>(
   } as any;
 }
 
-export function jsonHelper<T extends object>(path: string, json: T): ProxyJson<T> {
+export function jsonHelper<T extends object>(path: string, json: T, config: { onChange?: (j: T) => void } = {}): ProxyJson<T> {
   let newJson = { ...json };
   let job: ReturnType<typeof setTimeout>;
   function handleSave({
@@ -157,16 +157,34 @@ export function jsonHelper<T extends object>(path: string, json: T): ProxyJson<T
     resolve,
     reject,
   }: HandleSaveParams) {
-    const keys = field.split('.');
-    let tempJson = newJson;
-    for (const key of keys) {
-      const target = tempJson[key];
-      if (typeof target === 'object') {
-        tempJson[key] = { ...target };
-        tempJson = tempJson[key];
+    let target = newJson;
+    const key = field;
+    const newData = value;
+    if (!key) {
+      target = newData;
+      return;
+    }
+    const keys = key.split('.');
+    if (keys.length === 1) {
+      target[key] = newData;
+    }
+    let current = target;
+    for (let index = 0; index < keys.length - 1; index += 1) {
+      const currentKey = keys[index];
+      if (current[currentKey] !== undefined) {
+        current = current[currentKey];
+      } else {
+        throw new Error(`filed ${key} can\'t index json`, target);
       }
     }
-    tempJson[keys[keys.length - 1]] = value;
+    current[keys[keys.length - 1]] = newData;
+
+    config?.onChange?.(newJson);
+
+    if (window._econtainer) {
+      resolve();
+      return;
+    }
     if (job) {
       clearTimeout(job);
     }

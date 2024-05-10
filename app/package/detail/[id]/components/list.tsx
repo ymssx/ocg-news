@@ -20,10 +20,11 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { ProxyJson, jsonHelper } from "@/components/e-components/core";
+import { ProxyJson } from "@/components/e-components/core";
 import EText from "@/components/e-components/text";
 import EContainer from "@/components/e-components/container";
 import { hasAuth as getHasAuth } from "@/components/e-components/core/auth";
+import { useJson } from "@/components/e-components/core/hooks";
 
 
 function extractNumbersFromString(str: string) {
@@ -86,8 +87,8 @@ interface Props {
   path: string;
 }
 
-const CardPackage = ({ originDara, path }: Props) => {
-  const data = jsonHelper(path, originDara);
+const CardPackage = ({ originDara: _originData, path }: Props) => {
+  const [originDara, data] = useJson(path, _originData);
   const list = data.list;
 
   const { number: _number, fromZero, hasSecret } = originDara;
@@ -122,7 +123,7 @@ const CardPackage = ({ originDara, path }: Props) => {
       if (typeof index === 'number' && index <= number) {
         newList[index - (fromZero ? 0 : 1)] = item;
       }
-    })
+    });
     return newList;
   }, [list]);
 

@@ -24,7 +24,7 @@ jobs:
       - name: Print event payload
         run: |
           echo '${{toJson(github.event.client_payload)}}'
-          node ./scripts/update-data.js '${{toJson(github.event.client_payload)}}'
+          node ./scripts/update-package.js '${{toJson(github.event.client_payload)}}'
       - name: Configure Git
         run: |
           git config --global user.name "${{ github.event.sender.login }}"

@@ -77,5 +77,6 @@ function update(jsonData) {
   }
 }
 
-update(JSON.parse(process.argv[2] || '{}'));
-// update(jsonData);
+module.exports = {
+  update,
+};

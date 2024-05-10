@@ -1,7 +1,7 @@
 import cardDiffList from '@/data/diff/card.json';
 import { getPackages } from '@/utils/data';
 import Link from 'next/link';
-import { PackageData } from './package/detail/[id]/type';
+import { CardItem, PackageData } from './package/detail/[id]/type';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 
 export default async () => {
@@ -15,7 +15,7 @@ export default async () => {
       <section>
         <h1>New</h1>
         <ul>
-          {cardDiffList.map((item, i) => (
+          {(cardDiffList as CardItem[]).map((item, i) => (
             <li key={item.number}>
               <Link href={`/package/detail/${item.number?.split('-')[0]?.toLocaleLowerCase()}/`}>
                 <TooltipProvider delayDuration={100}>

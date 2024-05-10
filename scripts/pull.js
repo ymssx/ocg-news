@@ -2,16 +2,16 @@ function getNameRare(text) {
   let rare = '';
   let name = '';
 
-  const match = text.match(/\((.*?)\)(.*)/);
+  const match = text.match(/^\((.*?)\)(.*)/);
 
   if (match) {
     rare = match[1];
-    name = match[2].replace(/\(.*?\)/g, '');
+    name = match[2].split('(')[0];
   } else {
     name = text;
   }
 
-  return { name, rare };
+  return { name: name.replace(/#114514#/g, ' ').split('(')[0], rare };
 }
 
 function removeBracketContent(string) {
@@ -40,8 +40,9 @@ export function getPackageJson(text, packageId, number, fromZero) {
       const item = originData.trim();
       const parts = item.split('\n').filter(item => item.trim());
       const baseInfo = parts.shift()?.split(' ')?.filter(item => item.trim()) || [];
+      const oneline = baseInfo.length > 2 && !parts[0];
       const type = (function() {
-        const raw = removeBracketContent(parts[0] || '');
+        const raw = oneline ? baseInfo[2] : removeBracketContent(parts[0] || '');
         if (raw.includes('融合')) {
           return 'fusion';
         } else if (raw.includes('XYZ')) {
@@ -59,17 +60,18 @@ export function getPackageJson(text, packageId, number, fromZero) {
         } else if (raw.includes('陷阱')) {
           return 'trap';
         } else {
-          return '';
+          return oneline ? 'monster' : '';
         }
       })();
+      const numberString = baseInfo.shift();
       const data = {
         id: '',
-        number: `${packageId}${baseInfo[0]}`,
+        number: `${packageId}${numberString}`,
         type,
-        ...getNameRare(baseInfo[1] || ''),
+        ...getNameRare(baseInfo.join('#114514#') || ''),
         desc: parts.join('\n'),
       };
-      const index = Number(baseInfo[0]);
+      const index = Number(numberString);
       if (!isNaN(index)) {
         list[index - (fromZero ? 0 : 1)] = data;
       } else {

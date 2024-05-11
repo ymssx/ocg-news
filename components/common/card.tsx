@@ -4,7 +4,7 @@ interface Props {
   data: CardItem;
 };
 
-export default ({ data }: Props) => {
+export default function Card({ data }: Props) {
   return (
     <div className="flex gap-2 h-[175px] max-w-[600px]">
       <div className='w-[120px] flex-shrink-0'>

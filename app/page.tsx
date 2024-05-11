@@ -3,19 +3,33 @@ import { getPackages } from '@/utils/data';
 import Link from 'next/link';
 import { CardItem, PackageData } from './package/detail/[id]/type';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+import Card from '@/components/common/card';
+
+export const metadata = {
+  title: 'YuGiOh News',
+  description: 'Big welcome to Labrynth!',
+}
 
 export default async () => {
   const packageList = getPackages();
   const listInto: PackageData[] = await Promise.all(
     packageList.filter((_, index) => index <= 20).map(async (id) => (await import(`@/data/package/${id}.json`)).default)
   );
+
+  const cardList = (cardDiffList as CardItem[]);
+  const cardWithImageList = cardList.filter(item => item.image);
   
   return (
     <div className="p-4">
       <section>
         <h1>New</h1>
+        {Boolean(cardWithImageList.length) && <div className="flex flex-col gap-4 mb-6">
+          {cardWithImageList.map(item => (
+            <Card data={item} key={item.number} />
+          ))}
+        </div>}
         <ul>
-          {(cardDiffList as CardItem[]).map((item, i) => (
+          {cardList.map((item, i) => (
             <li key={item.number}>
               <Link href={`/package/detail/${item.number?.split('-')[0]?.toLocaleLowerCase()}/`}>
                 <TooltipProvider delayDuration={100}>

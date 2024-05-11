@@ -23,7 +23,7 @@ export default async () => {
     <div className="p-4">
       <section>
         <h1>New</h1>
-        {Boolean(cardWithImageList.length) && <div className="flex flex-col gap-4 mb-6">
+        {Boolean(cardWithImageList.length) && <div className="flex flex-wrap gap-6 mb-6">
           {cardWithImageList.map(item => (
             <Card data={item} key={item.number} />
           ))}

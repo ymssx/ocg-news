@@ -257,7 +257,7 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
                 <TooltipContent className="min-w-[300px] max-w-[500px]">
                   <div className="mb-2 font-bold">{item?.name?.get()}</div>
                   <div className="flex gap-6 items-start">
-                    {item?.image?.get() ? <a href={item.image?.get()} target="_blank"><Image className="rounded-md min-w-[300px]" alt={item?.name?.get()} src={item?.image?.get() || ''} width={300} height={450} /></a> : null}
+                    {item?.image?.get() ? <a href={item.image?.get()} target="_blank"><Image className="rounded-md min-w-[120px]" alt={item?.name?.get()} src={item?.image?.get() || ''} width={120} height={175} /></a> : null}
                     <div className="min-w-[300px] whitespace-pre-wrap">
                       <EText value={item?.desc} />
                     </div>

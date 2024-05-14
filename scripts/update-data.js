@@ -27,6 +27,7 @@ function updateJsonFile(_filePath, data) {
       try {
         const json = JSON.parse(fileContent);
         const updatedJson = updateNestedFields(json, data);
+        updatedJson.lastUpdate = new Date().getTime();
         const updatedContent = JSON.stringify(updatedJson, null, 2);
   
         fs.writeFile(filePath, updatedContent, 'utf8', (err) => {

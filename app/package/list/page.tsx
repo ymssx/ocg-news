@@ -9,7 +9,7 @@ const PackageList = async () => {
     <div className="p-8">
       <h1>Packages</h1>
       <ul className="">
-        {listInto.map(({ id, name, desc }) => (
+        {listInto.sort((a, b) => ((b.lastUpdate || 0) - (a.lastUpdate || 0))).map(({ id, name, desc }) => (
           <li key={id}>
             <a title={desc || name} href={`/package/detail/${id.toLocaleLowerCase()}`}>{name}</a>
           </li>

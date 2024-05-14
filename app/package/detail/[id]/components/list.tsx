@@ -250,16 +250,17 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
                     {/* {(item?.image) ? <Link href={item?.image}>{item?.name}</Link> : item?.name} */}
                     {/* {item?.name?.get()} */}
                     <EText value={item} render={(item) => JSON.parse(item)?.name} placeholder={hasAuth && <span>[+]</span>} />
+                    <EText value={item.image} render={(item) => (hasAuth && <span className="ml-1">{item ? '[E]' : '[+]'}</span>)} />
                     {/* {item?.isNew ? <span className="ml-1 text-xs">[new]</span> : null} */}
                     {item?.rare?.get() ? <code className="ml-1 underline">[{item?.rare?.get()}]</code> : null}
                   </span>
                 </TooltipTrigger>
                 <TooltipContent className="min-w-[300px] max-w-[500px]">
-                  <div className="mb-2 font-bold">{item?.name?.get()}</div>
+                  <div className="mb-2 font-bold">{item?.name?.get() || '--'}</div>
                   <div className="flex gap-6 items-start">
                     {item?.image?.get() ? <a href={item.image?.get()} target="_blank"><Image className="rounded-md min-w-[120px]" alt={item?.name?.get()} src={item?.image?.get() || ''} width={120} height={175} /></a> : null}
                     <div className="min-w-[300px] whitespace-pre-wrap">
-                      <EText value={item?.desc} />
+                      <EText value={item?.desc} placeholder="--" />
                     </div>
                   </div>
                 </TooltipContent>
@@ -293,14 +294,23 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
           </div>
         </div>
       </div>
-      {/* <div className="mb-8">
-        {[
-          ...images,
-          ...cardList.filter(item => item?.image).map(item => item?.image),
-        ].map(src => (
-          src ? <Image width={150} height={150} key={src} className="inline-block max-h-[150px] max-w-[150px] w-auto h-auto mr-2" src={src} alt={''} /> : null
-        ))}
-      </div> */}
+
+      <EText value={data.images} render={(item) => {
+        const images = JSON.parse(item || '[]') || [];
+        if (!images.length) {
+          return hasAuth ? '[+]' : null;
+        }
+        return (
+          <div className="mb-8">
+            {[
+              ...images,
+              ...cardList.filter(item => item?.image).map(item => item?.image),
+            ].map(src => (
+              src ? <Image width={150} height={150} key={src} className="inline-block max-h-[150px] max-w-[150px] w-auto h-auto mr-2" src={src} alt={''} /> : null
+            ))}
+          </div>
+        );
+      }} />
   
       {/* <div className="font-bold mb-2 text-black">卡表</div> */}
       {hasAuth && (

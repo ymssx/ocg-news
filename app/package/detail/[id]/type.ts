@@ -33,4 +33,5 @@ export interface PackageData {
   images?: string[];
   number: number;
   list: CardItem[];
+  lastUpdate?: number;
 }

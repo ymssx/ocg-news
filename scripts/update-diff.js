@@ -27,7 +27,8 @@ function updateDiffFile(newData, _filePath, MAXLEN = 20) {
           }
         }
       }
-      const updatedContent = JSON.stringify(newList);
+      const time = new Date().getTime();
+      const updatedContent = JSON.stringify(newList.map(item => ({ ...item, time })));
 
       fs.writeFile(filePath, updatedContent, 'utf8', (err) => {
         if (err) {

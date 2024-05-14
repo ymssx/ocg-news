@@ -61,7 +61,7 @@ export default async () => {
         <h1>Package List</h1>
         {listInto.length < packageList.length && <div className="my-2"><Link href={'/package/list'}>See All</Link></div>}
         <ul className="">
-          {listInto.map(({ id, name, desc }) => (
+          {listInto.sort((a, b) => ((b.lastUpdate || 0) - (a.lastUpdate || 0))).map(({ id, name, desc }) => (
             <li key={id}>
               <a title={desc || name} href={`/package/detail/${id.toLocaleLowerCase()}`}>{name}</a>
             </li>

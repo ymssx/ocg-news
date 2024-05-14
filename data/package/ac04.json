@@ -550,7 +550,8 @@
       "name": "沈黙の魔術師－サイレント・マジシャン",
       "number": "AC04-JP0??",
       "rare": "",
-      "type": "monster"
+      "type": "monster",
+      "image": "https://yu-gi-oh.jp/images/news/1913_20240402062512_9SYEY4GLevx1YgjIV5fh1DN825dnXe3WuRaIJgSoQFfmkCs57LcxOntFgMs3omNW.jpg"
     },
     {
       "desc": "",
@@ -608,5 +609,6 @@
       "rare": "",
       "type": "monster"
     }
-  ]
+  ],
+  "lastUpdate": 1715672765155
 }

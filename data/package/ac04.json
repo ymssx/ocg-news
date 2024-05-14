@@ -22,28 +22,31 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(死靈公爵)  融合/效果怪獸  6  闇  惡魔族  2000/1700\n惡魔族˙不死族怪獸X2\n此卡控制者在我方每次準備階段，支付500生命值或將此卡破壞。此卡名的②③效果一回合可以各用一次\n①:此卡不會被戰鬥破壞\n②:我方主要階段可以發動。召喚1體怪獸\n③:將墓地此卡除外，以我方墓地等級4以上惡魔族˙不死族怪獸1體為對象可以發動。該怪獸加入手牌",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1929_20240419064034_img_1_sfgwi68VCT3pDPoOcVGU68CuimgJq1mYUIJ3EHMFYFubUYpurwFnsHXRr1YXtBuB.jpg",
+      "name": "死霊公爵",
       "number": "AC04-JP002",
       "rare": "",
-      "type": ""
+      "type": "fusion"
     },
     {
-      "desc": "",
+      "desc": "(死靈的殘像)  裝備魔法\n僅能裝備給等級5以上惡魔族˙不死族怪獸。此卡名的①效果一回合只能使用一次\n①:可以選擇以下一個效果發動\n●以我方手牌˙場上怪獸作為融合素材，融合召喚1體融合怪獸\n●將和裝備怪獸同種族˙屬性˙攻擊力的「ドップラートークン」(5星˙?/0)1體在我方場上特殊召喚\n②:裝備怪獸和對方怪獸戰鬥的攻擊宣言時可以發動。該對方怪獸攻擊力下降裝備怪獸攻擊力數值",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1929_20240419064034_img_2_sfgwi68VCT3pDPoOcVGU68CuimgJq1mYUIJ3EHMFYFubUYpurwFnsHXRr1YXtBuB.jpg",
+      "name": "死霊の殘像",
       "number": "AC04-JP003",
       "rare": "",
-      "type": ""
+      "type": "spell"
     },
     {
-      "desc": "",
+      "desc": "(死靈之盾)  永續陷阱\n①:對方怪獸攻擊宣言時一次，將我方墓地惡魔族˙不死族怪獸1體除外可以發動。該攻擊無效\n②:一回合一次，對方發動破壞卡片的效果時，將我方墓地惡魔族˙不死族怪獸1體除外可以發動。該發動無效\n③:雙方結束階段，惡魔族˙不死族怪獸不在我方場上存在的場合發動。此卡送墓",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1929_20240419064102_img_1_JkNbMGBd8Lv1CtveBqGCFJkHQYCDIS6S2JrCNqdK2PB26xU5da5ghfox4oyA6uQw.jpg",
+      "name": "死霊の盾",
       "number": "AC04-JP004",
       "rare": "",
-      "type": ""
+      "type": "trap"
     },
     {
       "desc": "",
@@ -227,28 +230,31 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(金色的魅惑女王)  效果/連結怪獸  Link3  暗  魔法使族  2500/\n魔法使族怪獸三體    ↓←→\n①:此卡L召喚的場合可以發動。我方牌組˙墓地「魅惑の女王」怪獸1體特殊召喚，此卡攻擊力到下回合結束為止上升1500\n②:原本卡名包含「魅惑の女王」的我方怪獸持有的自身將怪獸裝備的效果，變為對手回合可以發動的效果\n③:一回合一次，對方發動效果時可以發動。場上卡片1張破壞。這回合，我方場上「魅惑の女王」怪獸不會被效果破壞",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1929_20240419064102_img_2_JkNbMGBd8Lv1CtveBqGCFJkHQYCDIS6S2JrCNqdK2PB26xU5da5ghfox4oyA6uQw.jpg",
+      "name": "金色の魅惑の女王",
       "number": "AC04-JP027",
-      "rare": "",
-      "type": ""
+      "rare": "UR",
+      "type": "link"
     },
     {
-      "desc": "",
+      "desc": "(魅惑的宮殿)  場地魔法\n此卡名的③效果一回合最多使用3次\n①:我方場上魔法使族怪獸攻擊力˙守備力上升500\n②:我方場上「魅惑の女王」效果怪獸獲得以下效果\n●將有用自身效果裝備卡的此卡送墓可以發動。手牌˙牌組攻擊力1500以下魔法使族怪獸1體特殊召喚\n③:送墓1張手牌可以發動。牌組「魅惑の女王」怪獸1體，加入手牌或在對方場上特殊召喚",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1929_20240419064132_img_1_BbXDqX0nGBI9C8Pu2B4Bu05u9yDEEBHGcdHHy5u262181FrrGjtyYmiXYkcblhfB.jpg",
+      "name": "魅惑の宫殿",
       "number": "AC04-JP028",
       "rare": "",
-      "type": ""
+      "type": "spell"
     },
     {
-      "desc": "",
+      "desc": "(魅惑之舞)  永續魔法\n此卡名的卡一回合只能發動一張，此卡名的③效果一回合只能使用一次\n①:此卡發動的效果處理時，可以將牌組「魅惑の女王」怪獸1體或「魅惑の宫殿」1張加入手牌\n②:我方場上「魅惑の女王」怪獸攻擊力，上升自身效果裝備怪獸攻擊力數值\n③:將我方場上其他魔法˙陷阱卡1張送墓可以發動。我方墓地「魅惑の女王」怪獸盡可能特殊召喚(同名卡最多1張)",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1929_20240419064132_img_2_BbXDqX0nGBI9C8Pu2B4Bu05u9yDEEBHGcdHHy5u262181FrrGjtyYmiXYkcblhfB.jpg",
+      "name": "魅惑の舞",
       "number": "AC04-JP029",
       "rare": "",
-      "type": ""
+      "type": "spell"
     },
     {
       "desc": "",

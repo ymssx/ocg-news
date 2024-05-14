@@ -5,5 +5,711 @@
   "hasSecret": true,
   "name": "『遊戯王OCG デュエルモンスターズ RAGE OF THE ABYSS』",
   "desc": "●発売日／2024年7月27日（土）\n●メーカー／KONAMI\n●価格／1パック5枚入り176円（税込）\n　 　   　 1ボックス30パック入り",
-  "list": [{"id":"","number":"RAAB-JP000","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP001","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP002","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP003","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP004","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP005","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP006","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP007","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP008","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP009","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP010","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP011","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP012","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP013","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP014","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP015","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP016","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP017","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP018","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP019","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP020","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP021","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP022","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP023","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP024","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP025","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP026","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP027","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP028","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP029","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP030","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP031","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP032","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP033","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP034","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP035","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP036","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP037","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP038","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP039","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP040","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP041","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP042","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP043","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP044","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP045","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP046","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP047","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP048","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP049","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP050","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP051","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP052","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP053","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP054","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP055","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP056","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP057","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP058","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP059","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP060","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP061","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP062","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP063","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP064","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP065","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP066","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP067","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP068","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP069","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP070","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP071","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP072","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP073","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP074","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP075","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP076","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP077","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP078","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP079","type":"","name":"","rare":"","desc":""},{"id":"","number":"RAAB-JP080","type":"","name":"","rare":"","desc":""}]
+  "list": [
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP000",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "(浮上的大口鯊)  效果怪獸  4  水  魚族  1800/300\n此卡名的①②效果一回合可以各用一次\n①:發動過魔法卡的我方主要階段可以發動。此卡從手牌特殊召喚。此效果發動後，這回合我方從EX牌組只能特殊召喚X怪獸\n②:此卡召喚˙特殊召喚的場合可以發動。牌組魚族「シャーク」怪獸1體加入手牌\n③:此卡用作水屬性怪獸X召喚使用的場合，此卡的等級可以當作3或5",
+      "id": "",
+      "image": "https://yu-gi-oh.jp/images/news/1930_20240419065557_txBw6HE4d5BeO0Wus4WnLTI0dmCTvQfcBfM6kQ0DKzgYp2GVub75uFtLpudY8819.jpg",
+      "name": "浮上するビッグ・ジョーズ",
+      "number": "RAAB-JP001",
+      "rare": "",
+      "type": "monster"
+    },
+    {
+      "desc": "(鯊龍鯊)  效果怪獸  4  水  魚族  1400/1050\n此卡名的①②效果一回合可以各用一次\n①:此卡用抽牌以外方式加入手牌的場合可以發動。此卡從手牌特殊召喚\n②:此卡用作怪獸3體以上作為素材的水屬性X怪獸X召喚的場合，可以當作2體X素材\n③:持有此卡作為素材的「シャーク・ドレイク」X怪獸獲得以下效果\n●一回合一次，取除此卡2個X素材，以場上魔法˙陷阱卡1張為對象可以發動。該卡變為此卡X素材",
+      "id": "",
+      "image": "https://yu-gi-oh.jp/images/news/1930_20240419083222_zZQfnbxIiN7xjm18FgeV8sYBWzKbAvgxIuTwJE4rRzcycRwfyPyw5MvRC5tCrNxx.jpg",
+      "name": "ドレイク・シャーク",
+      "number": "RAAB-JP002",
+      "rare": "",
+      "type": "monster"
+    },
+    {
+      "desc": "(武裝鯊)  效果怪獸  3  水  魚族  500/2000\n此卡名規則上視為「アーマード・エクシーズ」卡。此卡名①②效果一回合可以各用一次\n①:送墓EX牌組1體水屬性X怪獸，以等級和該怪獸階級相同的我方墓地魚族怪獸1體為對象可以發動。該怪獸特殊召喚\n②:對方回合，此卡在墓地存在的場合，以我方場上水屬性X怪獸1體為對象可以發動。此卡作為攻擊力上升500的裝備卡給該怪獸裝備",
+      "id": "",
+      "image": "https://yu-gi-oh.jp/images/news/1930_20240419070031_CPeTT0NMMppmASHMUDECE3tVfs5XeAYgN0zgoAr1pUdnnjx7k28ptrAOa3k216YF.jpg",
+      "name": "アーマード・シャーク",
+      "number": "RAAB-JP003",
+      "rare": "",
+      "type": "monster"
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP004",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP005",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP006",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP007",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP008",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP009",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP010",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP011",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP012",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP013",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP014",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP015",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP016",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP017",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP018",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP019",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP020",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP021",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP022",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP023",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP024",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP025",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP026",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP027",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP028",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP029",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP030",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP031",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP032",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP033",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP034",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP035",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP036",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP037",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP038",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP039",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP040",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP041",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP042",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP043",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP044",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP045",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP046",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP047",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP048",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP049",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP050",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP051",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP052",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP053",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP054",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP055",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP056",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP057",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP058",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP059",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP060",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP061",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP062",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP063",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP064",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP065",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP066",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP067",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP068",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP069",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP070",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP071",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP072",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP073",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP074",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP075",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP076",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP077",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP078",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP079",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "RAAB-JP080",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "(CNo.32 海咬龍 鯊龍 返白)  XYZ/效果怪獸  階級5  水  海龍族  3100/2600\n等級5怪獸X4\n此卡可以捨棄手牌1張魔法卡，在我方場上4階「シャーク・ドレイク」X怪獸上重疊X召喚\n①:雙方回合一次，取除此卡一個X素材，以對方場上效果怪獸1體為對象可以發動。該怪獸效果無效，攻擊力˙守備力變為0\n②:此卡一次戰鬥階段可以攻擊2次\n③:此卡攻擊守備表示怪獸的場合，給對方攻擊力超過守備力數值的戰鬥傷害",
+      "id": "",
+      "image": "https://yu-gi-oh.jp/images/news/1930_20240419070313_2JcoH9RcvClQIcGweVi1niwF9HnlYWXOf00kzFCiHlyQB2AdLiVyEF3DLemj0AxT.jpg",
+      "name": "CNo.32 海咬龍シャーク・ドレイク・リバイス",
+      "number": "RAAB-JP0??",
+      "rare": "",
+      "type": "xyz"
+    },
+    {
+      "desc": "(深海善龍)  XYZ/效果怪獸  階級3  水  海龍族  2000/0\n等級3怪獸X2\n此卡名的①②效果一回合可以各用一次\n①:此卡特殊召喚的場合可以發動。牌組「ヴァーチュ・ストリーム」1張加入手牌\n②:可以選擇以下一個效果發動\n●取除我方場上一個X素材可以發動。「リヴァーチュ・ドラゴン」以外我方墓地魚族˙海龍族˙水族怪獸1體加入手牌\n●以場上X怪獸2體為對象可以發動。其中1體1個X素材變為另1體的X素材",
+      "id": "",
+      "image": "https://yu-gi-oh.jp/images/news/1930_20240419071249_81Z0LaLoFaRzzfm1bFzdhh31slOsviFuXekg2tL8Jav75VwUYlv6IovyN7f8fis2.jpg",
+      "name": "リヴァーチュ・ドラゴン",
+      "number": "RAAB-JP0??",
+      "rare": "",
+      "type": "xyz"
+    },
+    {
+      "desc": "(噴水引擎顯露)  通常魔法\n此卡名的①②效果一回合可以各用一次\n①:我方手牌˙墓地等級4以下魚族˙海龍族˙水族怪獸1體特殊召喚。此效果特殊召喚的怪獸在我方場上表側表示存在為限，我方從EX牌組只能特殊召喚X怪獸\n②:對方場上有攻擊表示怪獸存在的場合，將墓地此卡除外，以我方場上魚族˙海龍族˙水族怪獸1體為對象可以發動。該怪獸攻擊力這回合上升1000",
+      "id": "",
+      "image": "https://yu-gi-oh.jp/images/news/1930_20240419071630_AcNGbqfF9CaeK6XwkgOA7yLWK2fqcC9acKf3089zAXRJTn34JI2H6DdE59uW9rwa.jpg",
+      "name": "アクア・ジェット・サーフェス",
+      "number": "RAAB-JP0??",
+      "rare": "",
+      "type": "spell"
+    },
+    {
+      "desc": "(轉生揭幕鎧甲)  裝備魔法\n此卡名規則上視為「アーマード・エクシーズ」卡。此卡名的卡一回合只能發動一張\n①:此卡裝備的X怪獸獲得以下效果\n●此卡不會被戰鬥破壞\n●此卡戰鬥過的雙方回合一次可以發動。此卡裝備卡1張回到手牌。之後，進行水屬性X怪獸1體的X召喚\n②:此卡送墓的場合可以發動。這回合結束階段，將墓地此卡給我方場上X怪獸1體裝備",
+      "id": "",
+      "image": "https://yu-gi-oh.jp/images/news/1930_20240419071740_RbAnrGOo3IhG2LinAdm9MnxUnC4qVucnMcO1gcfZiAdaLBCLcoImP5425zjPhB0r.jpg",
+      "name": "アクア・ジェット・サーフェス",
+      "number": "RAAB-JP0??",
+      "rare": "",
+      "type": "spell"
+    },
+    {
+      "desc": "(美德潮流)  通常陷阱\n此卡名的①②效果一回合可以各用一次\n①:以我方場上魚族˙海龍族˙水族怪獸1體與對方場上2張卡為對象可以發動。那些卡破壞\n②:將墓地此卡除外，以場上表側表示怪獸1體為對象可以發動。根據該怪獸屬性適用以下效果\n●水屬性:這回合，對象怪獸1次不被效果破壞\n●那以外:對象怪獸變為水屬性",
+      "id": "",
+      "image": "https://yu-gi-oh.jp/images/news/1930_20240419071937_Gt7hbpsviUhPTDMN3xtUeNJAU6HGuXt0GoVfTDRzVwEmzPxqAh9csIdACiGw3xk7.jpg",
+      "name": "ヴァーチュ・ストリーム",
+      "number": "RAAB-JP0??",
+      "rare": "",
+      "type": "trap"
+    },
+    {
+      "desc": "(超量波賽頓飛濺)  通常陷阱\n此卡名的①②效果一回合只能選擇一個使用一次\n①:用X怪獸作為X素材的X怪獸在我方場上存在的場合，宣言一個場上怪獸屬性可以發動。沒有裝備魔法卡裝備的場上宣言屬性怪獸全部破壞\n②:將墓地此卡除外，取除我方場上1個X素材可以發動。我方墓地魚族˙海龍族˙水族怪獸1體在我方或對方場上特殊召喚",
+      "id": "",
+      "image": "https://yu-gi-oh.jp/images/news/1930_20240419072030_izohFRG4fs1X6awfaHfKxGZ1Cb6PQ4cztFUwWaqzGiLC65fVCBfyH5nKWjXndxaM.jpg",
+      "name": "エクシーズ・ポセイドン・スプラッシュ",
+      "number": "RAAB-JP0??",
+      "rare": "",
+      "type": "trap"
+    }
+  ]
 }

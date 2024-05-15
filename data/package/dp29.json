@@ -51,12 +51,13 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(時空的七皇)  通常魔法\n此卡名的卡一回合只能發動一張\n①:展示EX牌組「No.101」~「No.107」的「No.」X怪獸1體可以發動。種族或屬性與展示怪獸相同，等級和該怪獸階級一樣的怪獸1體從牌組加入手牌。之後，我方1張手牌回到牌組最上方。此卡發動後，這回合我方從EX牌組只能特殊召喚X怪獸",
       "id": "",
-      "name": "",
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEiLX9dB1XYyZtsRZqTjhIXP8aU0k8pSa5nE7IHqgaRZ8UPzb1NaApp2yi6xlATOtG5itDHkDRaKKP_Uo3cBSUDS7XfzY7lDL0MeU8Xnn5bYFuf6U18kvqsZ0QNy9tlNgS2cUylWsD87BoJh9IZrbX5ZObyWlg8E_LFwwsPKrG_KJC1-13SAJ10tQbrKdpu5=w509-h754",
+      "name": "時空の七皇",
       "number": "DP29-006",
       "rare": "",
-      "type": ""
+      "type": "spell"
     },
     {
       "desc": "",
@@ -888,5 +889,6 @@
       "rare": "",
       "type": "trap"
     }
-  ]
+  ],
+  "lastUpdate": 1715775414363
 }

@@ -136,90 +136,93 @@
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1931_20240424022442_img_1_AzLD7OK1VeSekBRUITbYZKRYHgfFvpfucrxZ37ROZhr9i8RoPsAm1RA8wdEhIjRk.jpg",
+      "name": "カット·イン·シャーク",
       "number": "AC04-JP015",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1931_20240424022442_img_2_AzLD7OK1VeSekBRUITbYZKRYHgfFvpfucrxZ37ROZhr9i8RoPsAm1RA8wdEhIjRk.jpg",
+      "name": "ギミック·パペットーキラーナイト",
       "number": "AC04-JP016",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "ライトハンド・シャーク",
       "number": "AC04-JP017",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "ランタン・シャーク",
       "number": "AC04-JP018",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "カッター・シャーク",
       "number": "AC04-JP019",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "アビス・シャーク",
       "number": "AC04-JP020",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "クリスタル・シャーク",
       "number": "AC04-JP021",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "揺海魚デッドリーフ",
       "number": "AC04-JP022",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "No.32 海咬龍シャーク・ドレイク",
       "number": "AC04-JP023",
       "rare": "",
-      "type": ""
+      "type": "xyz"
     },
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "image": "",
+      "name": "No.4 猛毒刺胞ステルス・クラーゲン",
       "number": "AC04-JP024",
       "rare": "",
-      "type": ""
+      "type": "xyz"
     },
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "バハムート・シャーク",
       "number": "AC04-JP025",
       "rare": "",
-      "type": ""
+      "type": "xyz"
     },
     {
       "desc": "",
@@ -259,10 +262,10 @@
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "白の水鏡",
       "number": "AC04-JP030",
       "rare": "",
-      "type": ""
+      "type": "spell"
     },
     {
       "desc": "",
@@ -491,10 +494,10 @@
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "エクシーズ・リバイブ・スプラッシュ",
       "number": "AC04-JP059",
       "rare": "",
-      "type": ""
+      "type": "trap"
     },
     {
       "desc": "(特異點的惡魔)  效果怪獸  1  暗  惡魔族  0/0\n此卡名的效果一回合只能使用一次\n①:對方將怪獸特殊召喚時，捨棄手牌此卡與魔法卡1張可以發動。該怪獸破壞",
@@ -610,5 +613,5 @@
       "type": "monster"
     }
   ],
-  "lastUpdate": 1715672765155
+  "lastUpdate": 1715747015635
 }

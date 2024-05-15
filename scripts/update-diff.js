@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // 更新 JSON 文件的函数
-function updateDiffFile(newData, _filePath, MAXLEN = 20) {
+function updateDiffFile(newData, _filePath, MAXLEN = 100) {
   const filePath = _filePath.replace('@', '.');
   fs.readFile(filePath, 'utf8', (err, fileContent) => {
     if (err) {
@@ -12,8 +12,9 @@ function updateDiffFile(newData, _filePath, MAXLEN = 20) {
     try {
       const list = JSON.parse(fileContent) || [];
       const idSet = new Set();
+      const time = new Date().getTime();
       const contactList = [
-        ...newData,
+        ...newData.map(item => ({ ...item, time })),
         ...list,
       ];
       const newList = [];
@@ -27,8 +28,7 @@ function updateDiffFile(newData, _filePath, MAXLEN = 20) {
           }
         }
       }
-      const time = new Date().getTime();
-      const updatedContent = JSON.stringify(newList.map(item => ({ ...item, time })));
+      const updatedContent = JSON.stringify(newList);
 
       fs.writeFile(filePath, updatedContent, 'utf8', (err) => {
         if (err) {

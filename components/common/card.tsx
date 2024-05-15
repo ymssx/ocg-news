@@ -17,28 +17,28 @@ interface Props {
 export default function Card({ data }: Props) {
   const [showImg, setShowImg] = useState(true);
   return (
-    <div className="flex gap-3 h-[175px] max-w-[600px]">
-      <div className='w-[120px] flex-shrink-0 bg-gray-100'>
+    <div className="flex gap-3 w-full max-w-[600px]">
+      <div className='w-[120px] h-full flex-shrink-0'>
         {data.image && <Image
           width={120}
           height={175}
           alt={data.name}
           src={data.image}
-          className={classNames({ 'opacity-0': !showImg })}
+          className={classNames({ 'opacity-0': !showImg, 'bg-gray-100': true })}
           onError={() => setShowImg(false)}
         />}
       </div>
-      <div className="overflow-auto">
-        <div className="font-bold">{data.name}</div>
+      <div className="flex-1 overflow-hidden">
+        <div className="font-bold truncate">{data.name}</div>
         <TooltipProvider delayDuration={100}>
           <Tooltip>
             <TooltipTrigger className="text-left">
               <div className="mt-1 text-sm text-gray-600 whitespace-pre-wrap line-clamp-5">
-                {data.desc}
+                {data.desc || '--'}
               </div>
             </TooltipTrigger>
             <TooltipContent className="min-w-[300px] max-w-[500px]">
-              {data.desc}
+              {data.desc || '--'}
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>

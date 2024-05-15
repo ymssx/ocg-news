@@ -4,8 +4,10 @@ import { hasAuth } from './core/auth';
 
 interface Props<T extends ProxyJson<any>> {
   value: undefined | (T extends { get: any; set: any } ? T : never);
-  render?: (value: string, context: { start: () => void }) => string | ReactNode;
+  render?: (value: any, context: { start: () => void }) => string | ReactNode;
   placeholder?: ReactNode | string;
+  getData?: (data: string) => string;
+  setData?: (data: string, originData: any) => any;
 }
 
 export default function EText<T extends ProxyJson<any>>(props: Props<T>) {
@@ -13,12 +15,16 @@ export default function EText<T extends ProxyJson<any>>(props: Props<T>) {
     value,
     render = value => value,
     placeholder,
+    getData,
+    setData,
   } = props;
 
   const [editMode, _setEditMode] = useState(false);
   const [tempValue, setTempValue] = useState(value?.get());
   const [saveLoading, setSaveLoading] = useState(false);
   const contentRef = useRef<HTMLSpanElement>(null);
+
+  const isObj = typeof value?.__originData === 'object';
 
   useEffect(() => {
     if (value?.get() !== tempValue) {
@@ -43,7 +49,7 @@ export default function EText<T extends ProxyJson<any>>(props: Props<T>) {
   }
 
   if (!editMode) {
-    const view = render(tempValue, {
+    const view = render(isObj ? JSON.parse(tempValue) : tempValue, {
       start() {
         setEditMode(true);
       }
@@ -63,8 +69,12 @@ export default function EText<T extends ProxyJson<any>>(props: Props<T>) {
   const handleSave = () => {
     const innerText = contentRef.current?.innerText || '';
     let newVal = innerText;
-    if (typeof value.__originData === 'object') {
-      newVal = JSON.parse(newVal || '{}');
+    if (setData) {
+      newVal = setData(newVal, value.__originData);
+    } else {
+      if (isObj) {
+        newVal = JSON.parse(newVal || '{}');
+      }
     }
     setTempValue(innerText);
     setSaveLoading(true);
@@ -89,7 +99,7 @@ export default function EText<T extends ProxyJson<any>>(props: Props<T>) {
         suppressContentEditableWarning
         className="outline-green-600 focus:bg-green-600 focus:bg-opacity-10 whitespace-pre-wrap"
       >
-        {tempValue}
+        {getData ? getData(tempValue) : tempValue}
       </span>
       <div className="flex gap-2 my-2 text-base font-normal text-black">
         <button className="py-1 px-3 bg-gray-200 hover:bg-gray-300 rounded-sm" disabled={saveLoading} onClick={handleCancel}>Cancel</button>

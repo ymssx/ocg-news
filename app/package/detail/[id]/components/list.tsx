@@ -249,7 +249,7 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
                     {/* {item?.image ? <img alt={item?.name} src={item?.image} width={15} height={30} /> : null} */}
                     {/* {(item?.image) ? <Link href={item?.image}>{item?.name}</Link> : item?.name} */}
                     {/* {item?.name?.get()} */}
-                    <EText value={item} render={(item) => JSON.parse(item)?.name} placeholder={hasAuth && <span>[+]</span>} />
+                    <EText value={item} render={(item) => item?.name} placeholder={hasAuth && <span>[+]</span>} />
                     <EText value={item.image} render={(item) => (hasAuth && <span className="ml-1">{item ? '[E]' : '[+]'}</span>)} />
                     {/* {item?.isNew ? <span className="ml-1 text-xs">[new]</span> : null} */}
                     {item?.rare?.get() ? <code className="ml-1 underline">[{item?.rare?.get()}]</code> : null}
@@ -295,10 +295,9 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
         </div>
       </div>
 
-      <EText value={data.images} render={(item) => {
-        const images = JSON.parse(item || '[]') || [];
+      <EText value={data.images} getData={data => data || '[""]'} render={(images = [], { start }) => {
         if (!images.length) {
-          return hasAuth ? '[+]' : null;
+          return hasAuth ? <button className="hover:text-green-700" onClick={start}>添加图片</button> : null;
         }
         return (
           <div className="mb-8">
@@ -314,10 +313,29 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
   
       {/* <div className="font-bold mb-2 text-black">卡表</div> */}
       {hasAuth && (
-        <div className="mb-2">
+        <div className="mb-2 flex flex-col">
           <EText value={list} render={(_, { start }) => (
             <button onClick={start} className="hover:text-green-700">编辑</button>
           )} />
+          <EText
+            value={list}
+            render={(_, { start }) => (
+              <button onClick={start} className="hover:text-green-700">添加未知编号</button>
+            )}
+            getData={() => ''}
+            setData={(data, originData) => {
+              const list = data?.split('\n')?.map(item => ({
+                name: item,
+                number: '',
+                type: '',
+                desc: '',
+              }));
+              return [
+                ...originData,
+                ...list,
+              ];
+            }}
+            />
         </div>
       )}
   

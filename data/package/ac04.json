@@ -134,7 +134,7 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(切入鯊)  效果怪獸  5  水  魚族  0/2000\n此卡名的①②效果一回合可以各用一次\n①:此卡在手牌˙墓地存在，我方場上僅1體怪獸成為攻擊˙效果對象時，解放該怪獸可以發動。此卡特殊召喚\n②:此卡特殊召喚的場合可以發動。這回合結束階段。我方墓地「カット・イン・シャーク」以外水屬性怪獸1體加入手牌",
       "id": "",
       "image": "https://yu-gi-oh.jp/images/news/1931_20240424022442_img_1_AzLD7OK1VeSekBRUITbYZKRYHgfFvpfucrxZ37ROZhr9i8RoPsAm1RA8wdEhIjRk.jpg",
       "name": "カット·イン·シャーク",
@@ -143,7 +143,7 @@
       "type": "monster"
     },
     {
-      "desc": "",
+      "desc": "(奇巧人偶 殺手騎士)  效果怪獸  4  暗  機械族  1800/500\n此卡名的①②效果一回合可以各用一次，這些效果發動的回合，我方從EX牌組只能特殊召喚「ギミック・パペット」怪獸\n①:此卡在手牌存在的場合，以我方墓地「ギミック・パペット」怪獸1體或對方墓地怪獸1體為對象可以發動。該怪獸在持有者場上效果無效守備表示特殊召喚。之後，此卡特殊召喚\n②:此卡從手牌以外送墓的場合可以發動。此卡加入手牌",
       "id": "",
       "image": "https://yu-gi-oh.jp/images/news/1931_20240424022442_img_2_AzLD7OK1VeSekBRUITbYZKRYHgfFvpfucrxZ37ROZhr9i8RoPsAm1RA8wdEhIjRk.jpg",
       "name": "ギミック·パペットーキラーナイト",
@@ -613,5 +613,5 @@
       "type": "monster"
     }
   ],
-  "lastUpdate": 1715747015635
+  "lastUpdate": 1715752284636
 }

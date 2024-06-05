@@ -112,10 +112,10 @@
     {
       "desc": "",
       "id": "",
-      "name": "",
+      "name": "ブレイク・ザ・シール",
       "number": "AC04-JP012",
       "rare": "",
-      "type": ""
+      "type": "trap"
     },
     {
       "desc": "",
@@ -613,5 +613,5 @@
       "type": "monster"
     }
   ],
-  "lastUpdate": 1715752284636
+  "lastUpdate": 1717591415554
 }

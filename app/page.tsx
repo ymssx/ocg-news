@@ -4,9 +4,7 @@ import Link from 'next/link';
 import { CardItem, PackageData } from './package/detail/[id]/type';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import Card from '@/components/common/card';
-import moment from 'moment';
-
-moment.locale();
+import timeOral from 'time-oral';
 
 export const metadata = {
   title: 'YuGiOh News',
@@ -32,7 +30,7 @@ function groupAndSortObjects<T extends { time: number }>(objects: T[]): { date: 
     } else {
       // 将时间戳转换为日期
       const date = new Date();
-      const formattedDate = moment(obj.time).calendar();
+      const formattedDate = timeOral(obj.time);
 
       if (!currentGroup || currentGroup.date !== formattedDate) {
         // 创建新的分组

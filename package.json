@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cdb": "bash ./scripts/cdb.sh"
   },
   "dependencies": {
     "@octokit/core": "^6.1.2",
@@ -35,6 +36,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "postcss": "^8",
+    "sqlite3": "^5.1.7",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }

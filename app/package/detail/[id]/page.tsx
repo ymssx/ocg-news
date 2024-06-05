@@ -9,7 +9,7 @@ export async function generateMetadata(
     params: { id: string }
   },
 ): Promise<Metadata> {
-  const { id } = params || 'Package Detail';
+  const { id } = params;
   const data: PackageData = (await import(`@/data/package/${id}.json`)).default;
  
   return {

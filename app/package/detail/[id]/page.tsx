@@ -2,7 +2,7 @@ import { PackageData } from "./type";
 import CardPackage from './components/list';
 import { getPackages } from "@/utils/data";
 import { Metadata } from "next/types";
-import { jsonHelper } from "@/components/e-components/core";
+import { getCardListByNames } from "@/lib/cdb";
 
 export async function generateMetadata(
   { params }: {
@@ -24,6 +24,24 @@ export default async ({ params }: {
   const { id } = params;
   const path = `@/data/package/${id}.json`;
   const _data: PackageData = (await import(`@/data/package/${id}.json`)).default;
+
+  const noDetailCards = _data.list.filter(card => !card.desc).map(card => card.name).filter(item => item);
+  const detailCards = await getCardListByNames(noDetailCards);
+  const nameMap = detailCards.reduce((map, item) => {
+    if (item.desc) {
+      return {
+        ...map,
+        [item.name]: item,
+      };
+    }
+    return map;
+  }, {});
+  _data.list.forEach(card => {
+    if (!card.desc && nameMap[card.name]) {
+      card.desc = nameMap[card.name].desc;
+      card.type = nameMap[card.name].type;
+    }
+  })
 
   return (
     <>

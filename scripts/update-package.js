@@ -16,18 +16,20 @@ function readJson(_filePath) {
   });
 }
 
-async function parseChanges(jsonData) {
+async function parseChanges(jsonData, oldListMap) {
   let res = [];
   const regex = /list\.(\d+)/;
   for (const filePath in jsonData) {
     const data = jsonData[filePath];
     const addedSet = new Set();
+    const oldList = oldListMap[filePath];
+    const oldNameSet = new Set(oldList.filter(item => item.name).map(item => item.name));
     const listData = (await readJson(filePath)).list || [];
     for (const key in data) {
       if (key === 'list') {
         res = [
           ...res,
-          ...listData.filter(item => item.name),
+          ...listData.filter(item => item.name && !(oldNameSet.has(item.name))),
         ];
         break;
       }
@@ -65,8 +67,19 @@ async function parseChanges(jsonData) {
 //   }
 // };
 
-const changeMap = JSON.parse(process.argv[2] || '{}');
-update(changeMap)
-  .then(() => {
-    parseChanges(changeMap);
-  });
+async function main() {
+  const changeMap = JSON.parse(process.argv[2] || '{}');
+  const oldListMap = Object.keys(changeMap).reduce(async (pre, filePath) => {
+    const list = (await readJson(filePath)).list || [];
+    return {
+      ...pre,
+      filePath: list,
+    };
+  }, {});
+  update(changeMap)
+    .then(() => {
+      parseChanges(changeMap, oldListMap);
+    });
+}
+
+main();

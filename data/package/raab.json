@@ -10,42 +10,47 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP000",
+      "number": "ROTA-JP000",
       "rare": "",
       "type": ""
     },
     {
       "desc": "(浮上的大口鯊)  效果怪獸  4  水  魚族  1800/300\n此卡名的①②效果一回合可以各用一次\n①:發動過魔法卡的我方主要階段可以發動。此卡從手牌特殊召喚。此效果發動後，這回合我方從EX牌組只能特殊召喚X怪獸\n②:此卡召喚˙特殊召喚的場合可以發動。牌組魚族「シャーク」怪獸1體加入手牌\n③:此卡用作水屬性怪獸X召喚使用的場合，此卡的等級可以當作3或5",
       "id": "",
-      "image": "https://yu-gi-oh.jp/images/news/1930_20240419065557_txBw6HE4d5BeO0Wus4WnLTI0dmCTvQfcBfM6kQ0DKzgYp2GVub75uFtLpudY8819.jpg",
       "name": "浮上するビッグ・ジョーズ",
-      "number": "RAAB-JP001",
+      "number": "ROTA-JP001",
       "rare": "",
       "type": "monster"
     },
     {
-      "desc": "(鯊龍鯊)  效果怪獸  4  水  魚族  1400/1050\n此卡名的①②效果一回合可以各用一次\n①:此卡用抽牌以外方式加入手牌的場合可以發動。此卡從手牌特殊召喚\n②:此卡用作怪獸3體以上作為素材的水屬性X怪獸X召喚的場合，可以當作2體X素材\n③:持有此卡作為素材的「シャーク・ドレイク」X怪獸獲得以下效果\n●一回合一次，取除此卡2個X素材，以場上魔法˙陷阱卡1張為對象可以發動。該卡變為此卡X素材",
+      "desc": "(鯊龍鯊)  效果怪獸  4  水  魚族  1400/1050\n此卡名的①②效果一回合可以各用一次\n①:此卡用抽牌以外方式加入手牌的場合可以發動。此卡從手牌特殊召喚\n②:怪獸3體以上作為素材的水屬性X怪獸X召喚的場合，此卡可以當作2體X素材\n③:持有此卡作為素材的「シャーク・ドレイク」X怪獸獲得以下效果\n●一回合一次，取除此卡2個X素材，以場上魔法˙陷阱卡1張為對象可以發動。該卡變為此卡X素材",
       "id": "",
-      "image": "https://yu-gi-oh.jp/images/news/1930_20240419083222_zZQfnbxIiN7xjm18FgeV8sYBWzKbAvgxIuTwJE4rRzcycRwfyPyw5MvRC5tCrNxx.jpg",
       "name": "ドレイク・シャーク",
-      "number": "RAAB-JP002",
-      "rare": "",
+      "number": "ROTA-JP002",
+      "rare": "R",
       "type": "monster"
     },
     {
       "desc": "(武裝鯊)  效果怪獸  3  水  魚族  500/2000\n此卡名規則上視為「アーマード・エクシーズ」卡。此卡名①②效果一回合可以各用一次\n①:送墓EX牌組1體水屬性X怪獸，以等級和該怪獸階級相同的我方墓地魚族怪獸1體為對象可以發動。該怪獸特殊召喚\n②:對方回合，此卡在墓地存在的場合，以我方場上水屬性X怪獸1體為對象可以發動。此卡作為攻擊力上升500的裝備卡給該怪獸裝備",
       "id": "",
-      "image": "https://yu-gi-oh.jp/images/news/1930_20240419070031_CPeTT0NMMppmASHMUDECE3tVfs5XeAYgN0zgoAr1pUdnnjx7k28ptrAOa3k216YF.jpg",
       "name": "アーマード・シャーク",
-      "number": "RAAB-JP003",
+      "number": "ROTA-JP003",
       "rare": "",
+      "type": "monster"
+    },
+    {
+      "desc": "(寄宿內心的青眼龍)  效果怪獸  8  光  龍族  3000/2500\n此卡卡名規則上視為「ミレニアム」卡。此卡名的①效果一回合只能使用一次，③效果在我方發動過「千年の十字」的決鬥中可以使用一次\n①:將此卡從手牌捨棄可以發動。牌組「千年の十字」1張加入手牌\n②:此卡控制權不能變更\n③:此卡在墓地存在的狀態，對手將等級8以上或攻擊力3000以上怪獸召喚˙特殊召喚的場合可以發動。該怪獸送墓，此卡特殊召喚",
+      "id": "",
+      "name": "心宿りし青眼竜",
+      "number": "ROTA-JP004",
+      "rare": "UR",
       "type": "monster"
     },
     {
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP004",
+      "number": "ROTA-JP005",
       "rare": "",
       "type": ""
     },
@@ -53,7 +58,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP005",
+      "number": "ROTA-JP006",
       "rare": "",
       "type": ""
     },
@@ -61,7 +66,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP006",
+      "number": "ROTA-JP007",
       "rare": "",
       "type": ""
     },
@@ -69,7 +74,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP007",
+      "number": "ROTA-JP008",
       "rare": "",
       "type": ""
     },
@@ -77,7 +82,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP008",
+      "number": "ROTA-JP009",
       "rare": "",
       "type": ""
     },
@@ -85,7 +90,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP009",
+      "number": "ROTA-JP010",
       "rare": "",
       "type": ""
     },
@@ -93,7 +98,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP010",
+      "number": "ROTA-JP011",
       "rare": "",
       "type": ""
     },
@@ -101,351 +106,23 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP011",
+      "number": "ROTA-JP012",
       "rare": "",
       "type": ""
     },
     {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP012",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP013",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP014",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP015",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP016",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP017",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP018",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP019",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP020",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP021",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP022",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP023",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP024",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP025",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP026",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP027",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP028",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP029",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP030",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP031",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP032",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP033",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP034",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP035",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP036",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP037",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP038",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP039",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP040",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP041",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP042",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
+      "desc": "(原石龍 帝國龍)  效果怪獸  6  地  龍族  2600/0\n此卡僅能解放通常怪獸1體來召喚。此卡名的①效果一回合只能使用一次\n①:對方主要階段，展示手牌此卡可以發動。召喚「原石」怪獸1體\n②:此卡上級召喚的場合可以發動。以下效果適用\n●對方場上全部表側表示怪獸效果無效化\n●種族或屬性與我方墓地通常怪獸相同的對方場上怪獸全部除外",
       "id": "",
-      "name": "",
-      "number": "RAAB-JP043",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP044",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP045",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP046",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP047",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP048",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP049",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP050",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP051",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP052",
-      "rare": "",
-      "type": ""
-    },
-    {
-      "desc": "",
-      "id": "",
-      "name": "",
-      "number": "RAAB-JP053",
-      "rare": "",
-      "type": ""
+      "name": "原石竜インペリアル・ドラゴン",
+      "number": "ROTA-JP013",
+      "rare": "UR",
+      "type": "monster"
     },
     {
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP054",
+      "number": "ROTA-JP014",
       "rare": "",
       "type": ""
     },
@@ -453,7 +130,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP055",
+      "number": "ROTA-JP015",
       "rare": "",
       "type": ""
     },
@@ -461,7 +138,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP056",
+      "number": "ROTA-JP016",
       "rare": "",
       "type": ""
     },
@@ -469,7 +146,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP057",
+      "number": "ROTA-JP017",
       "rare": "",
       "type": ""
     },
@@ -477,7 +154,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP058",
+      "number": "ROTA-JP018",
       "rare": "",
       "type": ""
     },
@@ -485,7 +162,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP059",
+      "number": "ROTA-JP019",
       "rare": "",
       "type": ""
     },
@@ -493,7 +170,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP060",
+      "number": "ROTA-JP020",
       "rare": "",
       "type": ""
     },
@@ -501,7 +178,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP061",
+      "number": "ROTA-JP021",
       "rare": "",
       "type": ""
     },
@@ -509,7 +186,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP062",
+      "number": "ROTA-JP022",
       "rare": "",
       "type": ""
     },
@@ -517,7 +194,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP063",
+      "number": "ROTA-JP023",
       "rare": "",
       "type": ""
     },
@@ -525,7 +202,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP064",
+      "number": "ROTA-JP024",
       "rare": "",
       "type": ""
     },
@@ -533,7 +210,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP065",
+      "number": "ROTA-JP025",
       "rare": "",
       "type": ""
     },
@@ -541,7 +218,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP066",
+      "number": "ROTA-JP026",
       "rare": "",
       "type": ""
     },
@@ -549,7 +226,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP067",
+      "number": "ROTA-JP027",
       "rare": "",
       "type": ""
     },
@@ -557,7 +234,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP068",
+      "number": "ROTA-JP028",
       "rare": "",
       "type": ""
     },
@@ -565,7 +242,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP069",
+      "number": "ROTA-JP029",
       "rare": "",
       "type": ""
     },
@@ -573,7 +250,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP070",
+      "number": "ROTA-JP030",
       "rare": "",
       "type": ""
     },
@@ -581,7 +258,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP071",
+      "number": "ROTA-JP031",
       "rare": "",
       "type": ""
     },
@@ -589,7 +266,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP072",
+      "number": "ROTA-JP032",
       "rare": "",
       "type": ""
     },
@@ -597,7 +274,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP073",
+      "number": "ROTA-JP033",
       "rare": "",
       "type": ""
     },
@@ -605,7 +282,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP074",
+      "number": "ROTA-JP034",
       "rare": "",
       "type": ""
     },
@@ -613,7 +290,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP075",
+      "number": "ROTA-JP035",
       "rare": "",
       "type": ""
     },
@@ -621,7 +298,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP076",
+      "number": "ROTA-JP036",
       "rare": "",
       "type": ""
     },
@@ -629,7 +306,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP077",
+      "number": "ROTA-JP037",
       "rare": "",
       "type": ""
     },
@@ -637,7 +314,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP078",
+      "number": "ROTA-JP038",
       "rare": "",
       "type": ""
     },
@@ -645,7 +322,7 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP079",
+      "number": "ROTA-JP039",
       "rare": "",
       "type": ""
     },
@@ -653,65 +330,323 @@
       "desc": "",
       "id": "",
       "name": "",
-      "number": "RAAB-JP080",
+      "number": "ROTA-JP040",
       "rare": "",
       "type": ""
     },
     {
-      "desc": "(CNo.32 海咬龍 鯊龍 返白)  XYZ/效果怪獸  階級5  水  海龍族  3100/2600\n等級5怪獸X4\n此卡可以捨棄手牌1張魔法卡，在我方場上4階「シャーク・ドレイク」X怪獸上重疊X召喚\n①:雙方回合一次，取除此卡一個X素材，以對方場上效果怪獸1體為對象可以發動。該怪獸效果無效，攻擊力˙守備力變為0\n②:此卡一次戰鬥階段可以攻擊2次\n③:此卡攻擊守備表示怪獸的場合，給對方攻擊力超過守備力數值的戰鬥傷害",
+      "desc": "(CNo.32 海咬龍 鯊龍 海惡白)  XYZ/效果怪獸  階級5  水  海龍族  3100/2600\n等級5怪獸X4\n此卡可以捨棄手牌1張魔法卡，在我方場上4階「シャーク・ドレイク」X怪獸上重疊X召喚\n①:雙方回合一次，取除此卡一個X素材，以對方場上效果怪獸1體為對象可以發動。該怪獸效果無效，攻擊力˙守備力變為0\n②:此卡一次戰鬥階段可以攻擊2次，攻擊守備表示怪獸的場合，給對方攻擊力超過守備力數值的戰鬥傷害",
       "id": "",
-      "image": "https://yu-gi-oh.jp/images/news/1930_20240419070313_2JcoH9RcvClQIcGweVi1niwF9HnlYWXOf00kzFCiHlyQB2AdLiVyEF3DLemj0AxT.jpg",
       "name": "CNo.32 海咬龍シャーク・ドレイク・リバイス",
-      "number": "RAAB-JP0??",
+      "number": "ROTA-JP041",
+      "rare": "UR",
+      "type": "xyz"
+    },
+    {
+      "desc": "(深海善龍)  XYZ/效果怪獸  階級3  水  海龍族  2000/0\n等級3怪獸X2\n此卡名的①②效果一回合可以各用一次\n①:此卡特殊召喚的場合可以發動。牌組「ヴァーチュ・ストリーム」1張加入手牌\n②:可以選擇以下一個效果發動\n●取除我方場上一個X素材。「リヴァーチュ・ドラゴン」以外我方墓地魚族˙海龍族˙水族怪獸1體加入手牌\n●以場上X怪獸2體為對象可以發動。其中1體1個X素材變為另1體的X素材",
+      "id": "",
+      "name": "リヴァーチュ・ドラゴン",
+      "number": "ROTA-JP042",
       "rare": "",
       "type": "xyz"
     },
     {
-      "desc": "(深海善龍)  XYZ/效果怪獸  階級3  水  海龍族  2000/0\n等級3怪獸X2\n此卡名的①②效果一回合可以各用一次\n①:此卡特殊召喚的場合可以發動。牌組「ヴァーチュ・ストリーム」1張加入手牌\n②:可以選擇以下一個效果發動\n●取除我方場上一個X素材可以發動。「リヴァーチュ・ドラゴン」以外我方墓地魚族˙海龍族˙水族怪獸1體加入手牌\n●以場上X怪獸2體為對象可以發動。其中1體1個X素材變為另1體的X素材",
+      "desc": "",
       "id": "",
-      "image": "https://yu-gi-oh.jp/images/news/1930_20240419071249_81Z0LaLoFaRzzfm1bFzdhh31slOsviFuXekg2tL8Jav75VwUYlv6IovyN7f8fis2.jpg",
-      "name": "リヴァーチュ・ドラゴン",
-      "number": "RAAB-JP0??",
+      "name": "",
+      "number": "ROTA-JP043",
       "rare": "",
-      "type": "xyz"
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP044",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP045",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP046",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP047",
+      "rare": "",
+      "type": ""
     },
     {
       "desc": "(噴水引擎顯露)  通常魔法\n此卡名的①②效果一回合可以各用一次\n①:我方手牌˙墓地等級4以下魚族˙海龍族˙水族怪獸1體特殊召喚。此效果特殊召喚的怪獸在我方場上表側表示存在為限，我方從EX牌組只能特殊召喚X怪獸\n②:對方場上有攻擊表示怪獸存在的場合，將墓地此卡除外，以我方場上魚族˙海龍族˙水族怪獸1體為對象可以發動。該怪獸攻擊力這回合上升1000",
       "id": "",
-      "image": "https://yu-gi-oh.jp/images/news/1930_20240419071630_AcNGbqfF9CaeK6XwkgOA7yLWK2fqcC9acKf3089zAXRJTn34JI2H6DdE59uW9rwa.jpg",
       "name": "アクア・ジェット・サーフェス",
-      "number": "RAAB-JP0??",
+      "number": "ROTA-JP048",
       "rare": "",
       "type": "spell"
     },
     {
-      "desc": "(轉生揭幕鎧甲)  裝備魔法\n此卡名規則上視為「アーマード・エクシーズ」卡。此卡名的卡一回合只能發動一張\n①:此卡裝備的X怪獸獲得以下效果\n●此卡不會被戰鬥破壞\n●此卡戰鬥過的雙方回合一次可以發動。此卡裝備卡1張回到手牌。之後，進行水屬性X怪獸1體的X召喚\n②:此卡送墓的場合可以發動。這回合結束階段，將墓地此卡給我方場上X怪獸1體裝備",
+      "desc": "(轉生揭幕鎧甲)  裝備魔法\n此卡名規則上視為「アーマード・エクシーズ」卡。此卡名的卡一回合只能發動一張\n①:此卡裝備的X怪獸獲得以下效果\n●此卡不會被戰鬥破壞\n●此卡戰鬥過的雙方回合一次可以發動。此卡裝備卡1張回到手牌。之後，進行水屬性X怪獸1體的X召喚\n②:此卡送墓的回合結束階段可以發動。此卡給我方場上X怪獸1體裝備",
       "id": "",
-      "image": "https://yu-gi-oh.jp/images/news/1930_20240419071740_RbAnrGOo3IhG2LinAdm9MnxUnC4qVucnMcO1gcfZiAdaLBCLcoImP5425zjPhB0r.jpg",
-      "name": "アクア・ジェット・サーフェス",
-      "number": "RAAB-JP0??",
+      "name": "リンカーネイト・アンヴェイル・メイル",
+      "number": "ROTA-JP049",
       "rare": "",
       "type": "spell"
     },
     {
-      "desc": "(美德潮流)  通常陷阱\n此卡名的①②效果一回合可以各用一次\n①:以我方場上魚族˙海龍族˙水族怪獸1體與對方場上2張卡為對象可以發動。那些卡破壞\n②:將墓地此卡除外，以場上表側表示怪獸1體為對象可以發動。根據該怪獸屬性適用以下效果\n●水屬性:這回合，對象怪獸1次不被效果破壞\n●那以外:對象怪獸變為水屬性",
+      "desc": "",
       "id": "",
-      "image": "https://yu-gi-oh.jp/images/news/1930_20240419071937_Gt7hbpsviUhPTDMN3xtUeNJAU6HGuXt0GoVfTDRzVwEmzPxqAh9csIdACiGw3xk7.jpg",
+      "name": "",
+      "number": "ROTA-JP050",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP051",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP052",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP053",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP054",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP055",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP056",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP057",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "(原石的皇脈)  永續魔法\n此卡名的①③效果一回合可以各用一次\n①:此卡發動時的效果處理，將牌組「原石の皇脈」以外「原石」卡1張加入手牌\n②:我方場上通常怪獸及「原石」怪獸攻擊力，上升我方墓地通常怪獸種類*300\n③:宣言一個通常怪獸卡名可以發動。宣言的通常怪獸1體從我方手牌˙牌組˙墓地守備表示特殊召喚。這回合，我方不能發動特殊召喚的場上怪獸效果",
+      "id": "",
+      "name": "原石の皇脈",
+      "number": "ROTA-JP058",
+      "rare": "",
+      "type": "spell"
+    },
+    {
+      "desc": "(原石的鳴獰)  速攻魔法\n①:支付2000生命值，宣言一個通常怪獸卡名可以發動。到對手回合結束為止，我方宣言的通常怪獸及我方「原石」怪獸不會被戰鬥破壞。我方場上沒有怪獸的場合，可以再將宣言的通常怪獸1體從牌組守備表示特殊召喚\n②:對手召喚怪獸的場合，將墓地此卡除外，以我方場上˙墓地通常怪獸1體為對象可以發動。持有比該怪獸更低攻擊力的場上怪獸1體除外",
+      "id": "",
+      "name": "原石の鳴獰",
+      "number": "ROTA-JP059",
+      "rare": "",
+      "type": "spell"
+    },
+    {
+      "desc": "(原石的穿光)  速攻魔法\n此卡名的①②效果一回合可以各用一次\n①:展示手牌「原石の穿光」以外「原石」卡或通常怪獸1體，以場上表側表示卡片1張為對象可以發動(衍生物以外的通常怪獸或等級5以上「原石」怪獸在我方場上存在的場合，可以不展示來發動)。對象卡效果無效並除外\n②:我方場上有「原石」怪獸存在的場合，我方主要階段可以發動。墓地的此卡在我方場上覆蓋",
+      "id": "",
+      "name": "原石の穿光",
+      "number": "ROTA-JP060",
+      "rare": "",
+      "type": "spell"
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP061",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP062",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP063",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP064",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP065",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP066",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP067",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "(美德潮流)  通常陷阱\n此卡名的①②效果一回合可以各用一次\n①:以我方場上魚族˙海龍族˙水族怪獸1體與對方場上2張卡為對象可以發動。那些卡破壞\n②:將墓地此卡除外，以場上表側表示怪獸1體為對象可以發動。該怪獸是水屬性的場合，這回合，對象怪獸1次不被效果破壞。那以外的場合，對象怪獸變為水屬性",
+      "id": "",
       "name": "ヴァーチュ・ストリーム",
-      "number": "RAAB-JP0??",
+      "number": "ROTA-JP068",
       "rare": "",
       "type": "trap"
     },
     {
       "desc": "(超量波賽頓飛濺)  通常陷阱\n此卡名的①②效果一回合只能選擇一個使用一次\n①:用X怪獸作為X素材的X怪獸在我方場上存在的場合，宣言一個場上怪獸屬性可以發動。沒有裝備魔法卡裝備的場上宣言屬性怪獸全部破壞\n②:將墓地此卡除外，取除我方場上1個X素材可以發動。我方墓地魚族˙海龍族˙水族怪獸1體在我方或對方場上特殊召喚",
       "id": "",
-      "image": "https://yu-gi-oh.jp/images/news/1930_20240419072030_izohFRG4fs1X6awfaHfKxGZ1Cb6PQ4cztFUwWaqzGiLC65fVCBfyH5nKWjXndxaM.jpg",
       "name": "エクシーズ・ポセイドン・スプラッシュ",
-      "number": "RAAB-JP0??",
+      "number": "ROTA-JP069",
       "rare": "",
       "type": "trap"
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP070",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP071",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP072",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP073",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP074",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP075",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "(原石的號咆)  通常陷阱\n①:宣言一個通常怪獸卡名可以發動。這回合，我方宣言的通常怪獸及我方「原石」怪獸戰鬥對我方的戰鬥傷害為0。我方場上沒有怪獸的場合，可以再將宣言的通常怪獸1體從我方牌組˙墓地特殊召喚\n②:對方回合將墓地此卡除外，以我方場上˙墓地通常怪獸1體為對象可以發動。這回合獲得持有比該怪獸高攻擊力的對方場上怪獸1體控制權",
+      "id": "",
+      "name": "原石の号咆",
+      "number": "ROTA-JP076",
+      "rare": "",
+      "type": "trap"
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP077",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP078",
+      "rare": "",
+      "type": ""
+    },
+    {
+      "desc": "",
+      "id": "",
+      "name": "",
+      "number": "ROTA-JP079",
+      "rare": "",
+      "type": ""
     }
   ],
   "images": "[\"https://yu-gi-oh.jp/images/news/1930_20240419065243_JpnVxlLlCaMPAJwGpiYobhKJTm39DsbLVEeIqprqG33EBnIoLeSmBatSBnQCTrNo.jpg\"]",
-  "lastUpdate": 1715666013136
+  "lastUpdate": 1718105167494
 }

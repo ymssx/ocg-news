@@ -296,7 +296,7 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
       </div>
 
       <EText value={data.images} getData={data => data || '[""]'} render={(_images, { start }) => {
-        const images = typeof _images === 'string' ? JSON.parse(_images || '[]') : _images;
+        const images = typeof _images === 'string' ? JSON.parse(_images || '[]') : (_images || []);
         if (!images.length) {
           return hasAuth ? <button className="hover:text-green-700" onClick={start}>添加图片</button> : null;
         }

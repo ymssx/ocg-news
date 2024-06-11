@@ -295,7 +295,8 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
         </div>
       </div>
 
-      <EText value={data.images} getData={data => data || '[""]'} render={(images = [], { start }) => {
+      <EText value={data.images} getData={data => data || '[""]'} render={(_images, { start }) => {
+        const images = typeof _images === 'string' ? JSON.parse(_images || '[]') : _images;
         if (!images.length) {
           return hasAuth ? <button className="hover:text-green-700" onClick={start}>添加图片</button> : null;
         }
@@ -303,7 +304,7 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
           <div className="mb-8">
             {[
               ...images,
-              ...cardList.filter(item => item?.image).map(item => item?.image),
+              // ...cardList.filter(item => item?.image?.get()).map(item => item?.image?.get()),
             ].map(src => (
               src ? <Image width={150} height={150} key={src} className="inline-block max-h-[150px] max-w-[150px] w-auto h-auto mr-2" src={src} alt={''} /> : null
             ))}

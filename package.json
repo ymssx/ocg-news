@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "cache-img": "bash ./scripts/cache-images.js",
+    "build": "yarn cache-img && next build",
     "start": "next start",
     "lint": "next lint",
     "cdb": "bash ./scripts/cdb.sh"

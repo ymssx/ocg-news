@@ -1,6 +1,6 @@
 import { transYdk } from '@/lib/ydk';
 import { getDataFileContent, getYdkFiles } from '@/utils/data';
-import { getCardList, getFinalType } from '@/lib/cdb';
+import { getCardList } from '@/lib/cdb';
 import CardTable from '@/components/common/card-table';
 
 function getCardTableData(list) {
@@ -10,7 +10,6 @@ function getCardTableData(list) {
     hasSecret: false,
     list: list.map((item, index) => ({
       ...item, number: `DK-JP${String(index + 1).padStart(3 - String(index + 1).length, '0')}`,
-      type: getFinalType(item.type, item.type2),
     })),
   };
 }

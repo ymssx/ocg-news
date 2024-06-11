@@ -73,7 +73,7 @@ async function main() {
     const list = (await readJson(filePath)).list || [];
     return {
       ...pre,
-      filePath: list,
+      [filePath]: list,
     };
   }, {});
   update(changeMap)

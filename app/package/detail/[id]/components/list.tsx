@@ -156,7 +156,7 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
         }
       }
 
-      if (item?.type) {
+      if (item?.type?.get()) {
         newList[index] = item?.type?.get();
         if (item?.type?.get() === lastType) {
           for (let i = lastIndex; i <= index; i += 1) {

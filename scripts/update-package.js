@@ -23,13 +23,20 @@ async function parseChanges(jsonData, oldListMap) {
     const data = jsonData[filePath];
     const addedSet = new Set();
     const oldList = oldListMap[filePath];
-    const oldNameSet = new Set(oldList.filter(item => item.name).map(item => item.name));
+    const oldNameMap = new Map();
+    oldList.filter(item => item.name).forEach(item => oldNameMap.set(item.name, item));
     const listData = (await readJson(filePath)).list || [];
     for (const key in data) {
       if (key === 'list') {
         res = [
           ...res,
-          ...listData.filter(item => item.name && !(oldNameSet.has(item.name))),
+          ...listData.filter(item => item.name).filter(item => {
+            if (!oldNameMap.has(item.name)) {
+              return false;
+            }
+            const oldData = oldNameMap.get(item.name);
+            return oldData?.name !== item?.name || oldData?.desc !== item?.desc || oldData?.image !== item?.image;
+          }),
         ];
         break;
       }

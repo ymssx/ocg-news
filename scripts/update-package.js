@@ -24,7 +24,7 @@ async function parseChanges(jsonData, oldListMap) {
     const addedSet = new Set();
     const oldList = oldListMap[filePath];
     const oldNameMap = new Map();
-    oldList.filter(item => item.name).forEach(item => oldNameMap.set(item.name, item));
+    oldList?.filter(item => item.name).forEach(item => oldNameMap.set(item.name, item));
     const listData = (await readJson(filePath)).list || [];
     for (const key in data) {
       if (key === 'list') {
@@ -76,13 +76,11 @@ async function parseChanges(jsonData, oldListMap) {
 
 async function main() {
   const changeMap = JSON.parse(process.argv[2] || '{}');
-  const oldListMap = Object.keys(changeMap).reduce(async (pre, filePath) => {
+  const oldListMap = {};
+  for (const filePath in changeMap) {
     const list = (await readJson(filePath)).list || [];
-    return {
-      ...pre,
-      [filePath]: list,
-    };
-  }, {});
+    oldListMap[filePath] = list;
+  }
   update(changeMap)
     .then(() => {
       parseChanges(changeMap, oldListMap);

@@ -14,7 +14,7 @@ function updateDiffFile(newData, _filePath, MAXLEN = 100) {
       const idSet = new Set();
       const time = new Date().getTime();
       const contactList = [
-        ...newData.map(item => ({ ...item, time })),
+        ...newData.map(item => ({ time, ...item })),
         ...list,
       ];
       const newList = [];

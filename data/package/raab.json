@@ -161,20 +161,22 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(六武眾的破戒僧)  協調/效果怪獸  3  暗  戰士族  500/0\n此卡名①方法的特殊召喚一回合只能一次，②③效果一回合可以各用一次\n①:我方場上有「六武衆の破戒僧」以外「六武衆」怪獸存在的場合，此卡可以從手牌特殊召喚\n②:此卡從場上送墓的場合可以發動。牌組「六武衆」速攻魔法1張加入手牌\n③:以此卡為素材S召喚的「六武衆」怪獸獲得以下效果\n●對方場上怪獸等級下降1",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1955_20240527051453_img_1_qUyRZctwL6hnsRQupcSnNRQuRSrW8aJnu54HVl2hgZKOoY6UyM7CbLwrbcDY0KBl.jpg",
+      "name": "六武衆の破戒僧",
       "number": "ROTA-JP019",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
-      "desc": "",
+      "desc": "(六武眾的指南番)  協調/效果怪獸  2  地  戰士族  200/1200\n此卡名①方法的特殊召喚一回合只能一次，②③效果一回合可以各用一次\n①:我方場上有「六武衆の指南番」以外「六武衆」怪獸存在的場合，此卡可以從手牌特殊召喚\n②:此卡從場上送墓的場合可以發動。我方牌組˙墓地「六武式」卡1張加入手牌\n③:以此卡為素材S召喚的「六武衆」怪獸獲得以下效果\n●對方場上怪獸攻擊力下降500",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1955_20240527051453_img_2_qUyRZctwL6hnsRQupcSnNRQuRSrW8aJnu54HVl2hgZKOoY6UyM7CbLwrbcDY0KBl.jpg",
+      "name": "六武衆の指南番",
       "number": "ROTA-JP020",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
@@ -321,20 +323,22 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(真魔六武眾 紫炎)  同步/效果怪獸  6  暗  戰士族  2500/1900\n戰士族協調+協調以外的「六武衆」怪獸一體以上\n此卡名的①效果一回合只能使用一次\n①:此卡S召喚的場合可以發動。我方牌組˙墓地「六武衆」怪獸或「紫炎」效果怪獸1體加入手牌\n②:一回合一次，對方發動怪獸效果時可以發動。該發動無效並破壞\n③:場上此卡被戰鬥˙效果破壞的場合，作為代替可以將我方場上怪獸1體破壞",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1955_20240527051520_img_1_O2qqMdkIdKzQBvyGJkwpmrOwt0MkStTel7LvZv103qG3a37jdtOFbazIQBtisADR.jpg",
+      "name": "真魔六武衆－シエン",
       "number": "ROTA-JP039",
-      "rare": "",
-      "type": ""
+      "rare": "UR",
+      "type": "synchro"
     },
     {
-      "desc": "",
+      "desc": "(真魔六武眾 緣)  同步/效果怪獸  6  光  戰士族  1700/1200\n協調+協調以外怪獸一體以上\n此卡名的①③效果一回合可以各用一次\n①:此卡S召喚的場合，將我方墓地「六武衆」怪獸任意數量除外，以該數量的對方場上怪獸為對象可以發動。那些怪獸回到手牌\n②:我方場上戰士族怪獸攻擊力˙守備力戰鬥階段上升500\n③:此卡送墓的場合可以發動。我方除外狀態「六武衆」怪獸1體特殊召喚",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1955_20240527051520_img_2_O2qqMdkIdKzQBvyGJkwpmrOwt0MkStTel7LvZv103qG3a37jdtOFbazIQBtisADR.jpg",
+      "name": "真魔六武衆－エニシ",
       "number": "ROTA-JP040",
-      "rare": "",
-      "type": ""
+      "rare": "R",
+      "type": "synchro"
     },
     {
       "desc": "(CNo.32 海咬龍 鯊龍 海惡白)  XYZ/效果怪獸  階級5  水  海龍族  3100/2600\n等級5怪獸X4\n此卡可以捨棄手牌1張魔法卡，在我方場上4階「シャーク・ドレイク」X怪獸上重疊X召喚\n①:雙方回合一次，取除此卡一個X素材，以對方場上效果怪獸1體為對象可以發動。該怪獸效果無效，攻擊力˙守備力變為0\n②:此卡一次戰鬥階段可以攻擊2次，攻擊守備表示怪獸的場合，給對方攻擊力超過守備力數值的戰鬥傷害",
@@ -516,12 +520,13 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(六武式襲雙陣)  速攻魔法\n此卡名的①②效果一回合只能選擇一個使用一次\n①:以下效果選擇一個適用，我方場上「六武衆」怪獸存在2體以上的場合，可以適用兩方\n●我方手牌˙墓地攻擊力2000以下「六武衆」怪獸1體特殊召喚\n●對方場上攻擊力2000以下怪獸1體變為裡側守備表示\n②:我方主要階段將墓地此卡除外，以我方墓地「六武衆」怪獸1體為對象可以發動。該怪獸加入手牌",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1955_20240527051549_img_1_in5wjET40COrimnH2ZBoXwGSsO6XLmCtP5gy9xr0x5fVfIcYhbA4OGL6THRetTL6.jpg",
+      "name": "六武式襲双陣",
       "number": "ROTA-JP063",
       "rare": "",
-      "type": ""
+      "type": "spell"
     },
     {
       "desc": "",
@@ -654,5 +659,5 @@
     }
   ],
   "images": "[\"https://yu-gi-oh.jp/images/news/1930_20240419065243_JpnVxlLlCaMPAJwGpiYobhKJTm39DsbLVEeIqprqG33EBnIoLeSmBatSBnQCTrNo.jpg\"]",
-  "lastUpdate": 1718112833974
+  "lastUpdate": 1718171086486
 }

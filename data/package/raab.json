@@ -44,7 +44,8 @@
       "name": "心宿りし青眼竜",
       "number": "ROTA-JP004",
       "rare": "UR",
-      "type": "monster"
+      "type": "monster",
+      "image": "https://yu-gi-oh.jp/images/news/1952_20240527044443_3ejgSYDDXJgChbgQZSCbeyFnWQN3RIiKmHo2dp40xa2S2YiRpkqJYvxt98mQEIYp.jpg"
     },
     {
       "desc": "",
@@ -116,7 +117,8 @@
       "name": "原石竜インペリアル・ドラゴン",
       "number": "ROTA-JP013",
       "rare": "UR",
-      "type": "monster"
+      "type": "monster",
+      "image": "https://yu-gi-oh.jp/images/news/1954_20240527050828_img_1_PqTS31FM14w3B2FDaLsw004cWhxl2WKIDbY6QdIHX28ZtDaJNI3D7xdTSP4LlCRm.jpg"
     },
     {
       "desc": "",
@@ -476,7 +478,8 @@
       "name": "原石の皇脈",
       "number": "ROTA-JP058",
       "rare": "",
-      "type": "spell"
+      "type": "spell",
+      "image": "https://yu-gi-oh.jp/images/news/1954_20240527050828_img_2_PqTS31FM14w3B2FDaLsw004cWhxl2WKIDbY6QdIHX28ZtDaJNI3D7xdTSP4LlCRm.jpg"
     },
     {
       "desc": "(原石的鳴獰)  速攻魔法\n①:支付2000生命值，宣言一個通常怪獸卡名可以發動。到對手回合結束為止，我方宣言的通常怪獸及我方「原石」怪獸不會被戰鬥破壞。我方場上沒有怪獸的場合，可以再將宣言的通常怪獸1體從牌組守備表示特殊召喚\n②:對手召喚怪獸的場合，將墓地此卡除外，以我方場上˙墓地通常怪獸1體為對象可以發動。持有比該怪獸更低攻擊力的場上怪獸1體除外",
@@ -484,7 +487,8 @@
       "name": "原石の鳴獰",
       "number": "ROTA-JP059",
       "rare": "",
-      "type": "spell"
+      "type": "spell",
+      "image": "https://yu-gi-oh.jp/images/news/1954_20240527050854_img_1_KBBkbpIxZrxCQ8YVZmGC48i4mxGN4WcDVdnuGvhdbVfrT4CreGrYEPQoDXz5rR8D.jpg"
     },
     {
       "desc": "(原石的穿光)  速攻魔法\n此卡名的①②效果一回合可以各用一次\n①:展示手牌「原石の穿光」以外「原石」卡或通常怪獸1體，以場上表側表示卡片1張為對象可以發動(衍生物以外的通常怪獸或等級5以上「原石」怪獸在我方場上存在的場合，可以不展示來發動)。對象卡效果無效並除外\n②:我方場上有「原石」怪獸存在的場合，我方主要階段可以發動。墓地的此卡在我方場上覆蓋",
@@ -492,7 +496,8 @@
       "name": "原石の穿光",
       "number": "ROTA-JP060",
       "rare": "",
-      "type": "spell"
+      "type": "spell",
+      "image": "https://yu-gi-oh.jp/images/news/1954_20240527050854_img_2_KBBkbpIxZrxCQ8YVZmGC48i4mxGN4WcDVdnuGvhdbVfrT4CreGrYEPQoDXz5rR8D.jpg"
     },
     {
       "desc": "",
@@ -620,7 +625,8 @@
       "name": "原石の号咆",
       "number": "ROTA-JP076",
       "rare": "",
-      "type": "trap"
+      "type": "trap",
+      "image": "https://yu-gi-oh.jp/images/news/1954_20240527050946_img_1_vcgr8JZpYHWsmN4IdsE86Y0HA3M49KGulncjw1MI6j1iutpLZrJVF9aD1m80vEjW.jpg"
     },
     {
       "desc": "",
@@ -648,5 +654,5 @@
     }
   ],
   "images": "[\"https://yu-gi-oh.jp/images/news/1930_20240419065243_JpnVxlLlCaMPAJwGpiYobhKJTm39DsbLVEeIqprqG33EBnIoLeSmBatSBnQCTrNo.jpg\"]",
-  "lastUpdate": 1718105167494
+  "lastUpdate": 1718112833974
 }

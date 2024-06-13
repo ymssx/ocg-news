@@ -32,7 +32,7 @@ async function parseChanges(jsonData, oldListMap) {
           ...res,
           ...listData.filter(item => item.name).filter(item => {
             if (!oldNameMap.has(item.name)) {
-              return false;
+              return true;
             }
             const oldData = oldNameMap.get(item.name);
             return oldData?.name !== item?.name || oldData?.desc !== item?.desc || oldData?.image !== item?.image;

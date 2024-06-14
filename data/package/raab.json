@@ -191,12 +191,13 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(聯合飛行員)  聯合/效果怪獸  5  光  機械族  2100/1000\n此卡名的②效果1回合只能使用1次\n①:1回合1次，可以選擇以下1個效果發動\n●以我方場上1體效果怪獸為對象，將此卡作為裝備魔法卡裝備。裝備怪獸被戰鬥‧效果破壞的場合，破壞這張卡代替\n●裝備狀態的此卡特殊召喚\n②:將裝備狀態的此卡回到手牌可以發動。將除外狀態1體可以裝備的聯合怪獸視為使用自身效果作為裝備魔法卡裝備給我方1體怪獸。此卡從我方手牌特殊召喚",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1957_20240527053231_img_1_Y5On9p1jGS87MFkk7bzaRMznkw8xsAEE5Sr27gZByV7BbhjW9WwOhl1FWx3Cx5Eq.jpg",
+      "name": "ユニオン・パイロット",
       "number": "ROTA-JP022",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
@@ -215,12 +216,13 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(普魯普魯怪)  效果怪獸  2  水  水族  450/500\n此卡名的效果1回合只能使用1次\n①:此卡在手牌存在的場合，以我方主要怪獸區1體水屬性怪獸為對象可以發動。該我方怪獸破壞，特殊召喚此卡到該怪獸存在的區域。之後，可以破壞對方所有和此卡同縱列的表側表示卡片",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1957_20240527053231_img_2_Y5On9p1jGS87MFkk7bzaRMznkw8xsAEE5Sr27gZByV7BbhjW9WwOhl1FWx3Cx5Eq.jpg",
+      "name": "ツルプルプルン",
       "number": "ROTA-JP025",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
@@ -239,12 +241,13 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(夢幻吸收體)  效果怪獸  2  水 天使族  0/0\n此卡名的①效果1回合只能使用1次\n①:對手發動手牌‧墓地‧除外狀態的怪獸效果的場合可以發動。此卡從手牌‧墓地特殊召喚。此效果特殊召喚的此卡結束階段破壞\n②:此卡在怪獸區存在，每次對方發動怪獸效果，此卡攻擊力上升1000",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1957_20240527053259_img_1_4Afyfsah0Z48IPCy11mv3Po9e135fa6aYbO2ImX6AR4Ie65TvfEournNghIB5DZS.jpg",
+      "name": "夢幻吸収体",
       "number": "ROTA-JP028",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "",
@@ -287,12 +290,13 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(空隙的原星龍)  融合/效果怪獸  8  光  龍族  2500/2500\n光‧闇屬性的龍族怪獸+龍族怪獸\n此卡名的①②效果1回合可以各用1次\n①:此卡融合召喚的場合，以對方場上最多為此卡融合素材光‧闇屬性怪獸數量的卡為對象可以發動。那些卡破壞\n②:此卡被除外的場合，以我方場上光‧闇屬性龍族‧等級4怪獸1體為對象可以發動。該怪獸等級變成8",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1957_20240527053259_img_2_4Afyfsah0Z48IPCy11mv3Po9e135fa6aYbO2ImX6AR4Ie65TvfEournNghIB5DZS.jpg",
+      "name": "空隙の原星竜",
       "number": "ROTA-JP034",
-      "rare": "",
-      "type": ""
+      "rare": "R",
+      "type": "fusion"
     },
     {
       "desc": "",
@@ -542,12 +546,13 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(謳歌死亡的魔瞳)  通常魔法\n①:這場決鬥中，適用以下效果。\n●我方不能發動手牌怪獸效果\n●我方怪獸在1次戰鬥階段中可以攻擊怪獸2次\n●我方怪獸和對方怪獸戰鬥給對手的戰鬥傷害變成2倍\n②:將墓地此卡除外可以發動。牌組1張「モルガナイト」卡加入手牌。之後，我方1張手牌回到牌組下方",
       "id": "",
-      "name": "",
+      "image": "https://yu-gi-oh.jp/images/news/1957_20240527053325_img_1_ilkgORCm8yIPYc9zQRRMsuDD9Ob9BjEjIpFU4F634EGQeFFtVW5DE6EDIdCJBFqH.jpg",
+      "name": "死を謳う魔瞳",
       "number": "ROTA-JP065",
       "rare": "",
-      "type": ""
+      "type": "spell"
     },
     {
       "desc": "",
@@ -666,5 +671,5 @@
     }
   ],
   "images": "[\"https://yu-gi-oh.jp/images/news/1930_20240419065243_JpnVxlLlCaMPAJwGpiYobhKJTm39DsbLVEeIqprqG33EBnIoLeSmBatSBnQCTrNo.jpg\"]",
-  "lastUpdate": 1718255972821
+  "lastUpdate": 1718344808584
 }

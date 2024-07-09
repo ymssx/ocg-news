@@ -35,7 +35,14 @@ async function parseChanges(jsonData, oldListMap) {
               return true;
             }
             const oldData = oldNameMap.get(item.name);
-            return oldData?.name !== item?.name || oldData?.desc !== item?.desc || oldData?.image !== item?.image;
+            return (
+              oldData?.name !== item?.name
+              || oldData?.desc !== item?.desc
+              || (
+                item?.image // 新列表有图片
+                && (oldData?.image !== item?.image) // 图片地址有变化
+              )
+            );
           }),
         ];
         break;
@@ -60,8 +67,8 @@ async function parseChanges(jsonData, oldListMap) {
 }
 
 
-// // 要更新的 JSON 数据
-// const jsonData = {
+// 要更新的 JSON 数据
+// const changeMap = {
 //   "@/data/package/info.json": {
 //     "list.30": {
 //       "desc": "",
@@ -81,7 +88,9 @@ async function main() {
     const list = (await readJson(filePath)).list || [];
     oldListMap[filePath] = list;
   }
-  update(changeMap)
+  update(changeMap, {
+    merge: true,
+  })
     .then(() => {
       parseChanges(changeMap, oldListMap);
     });

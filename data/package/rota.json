@@ -229,7 +229,8 @@
       "name": "Lマジマージ",
       "number": "ROTA-JP027",
       "rare": "",
-      "type": "monster"
+      "type": "monster",
+      "image": "https://yu-gi-oh.jp/images/news/1990_20240624014851_img_1_bBQV3nqj5NUNopMu8X4ccvHzkM5YaeM1eaMXD269EQKs3WczrURIFY7nj0A9TKyx.jpg"
     },
     {
       "desc": "(夢幻吸收體)  效果怪獸  2  水 天使族  0/0\n此卡名的①效果1回合只能使用1次\n①:對手發動手牌‧墓地‧除外狀態的怪獸效果的場合可以發動。此卡從手牌‧墓地特殊召喚。此效果特殊召喚的此卡結束階段破壞\n②:此卡在怪獸區存在，每次對方發動怪獸效果，此卡攻擊力上升1000",
@@ -297,7 +298,8 @@
       "name": "黎銘機ヘオスヴァローグ",
       "number": "ROTA-JP035",
       "rare": "",
-      "type": "fusion"
+      "type": "fusion",
+      "image": "https://yu-gi-oh.jp/images/news/1990_20240624014851_img_2_bBQV3nqj5NUNopMu8X4ccvHzkM5YaeM1eaMXD269EQKs3WczrURIFY7nj0A9TKyx.jpg"
     },
     {
       "desc": "",
@@ -393,7 +395,8 @@
       "name": "彷徨える幽霊船",
       "number": "ROTA-JP047",
       "rare": "",
-      "type": "link"
+      "type": "link",
+      "image": "https://yu-gi-oh.jp/images/news/1990_20240624014903_img_1_8NqNn2isGVRq98sZRFmHlKM0Ew0gNHOKS4X6u3o1M3hK1PjGTJM2TYrXIh2WmGg5.jpg"
     },
     {
       "desc": "(噴水引擎顯露)  通常魔法\n此卡名的①②效果一回合可以各用一次\n①:我方手牌˙墓地等級4以下魚族˙海龍族˙水族怪獸1體特殊召喚。此效果特殊召喚的怪獸在我方場上表側表示存在為限，我方從EX牌組只能特殊召喚X怪獸\n②:對方場上有攻擊表示怪獸存在的場合，將墓地此卡除外，以我方場上魚族˙海龍族˙水族怪獸1體為對象可以發動。該怪獸攻擊力這回合上升1000",
@@ -533,7 +536,8 @@
       "name": "超獸の咆哮",
       "number": "ROTA-JP064",
       "rare": "",
-      "type": "spell"
+      "type": "spell",
+      "image": "https://yu-gi-oh.jp/images/news/1990_20240624014903_img_2_8NqNn2isGVRq98sZRFmHlKM0Ew0gNHOKS4X6u3o1M3hK1PjGTJM2TYrXIh2WmGg5.jpg"
     },
     {
       "desc": "(謳歌死亡的魔瞳)  通常魔法\n①:這場決鬥中，適用以下效果。\n●我方不能發動手牌怪獸效果\n●我方怪獸在1次戰鬥階段中可以攻擊怪獸2次\n●我方怪獸和對方怪獸戰鬥給對手的戰鬥傷害變成2倍\n②:將墓地此卡除外可以發動。牌組1張「モルガナイト」卡加入手牌。之後，我方1張手牌回到牌組下方",
@@ -668,5 +672,5 @@
     }
   ],
   "images": "[\"https://yu-gi-oh.jp/images/news/1930_20240419065243_JpnVxlLlCaMPAJwGpiYobhKJTm39DsbLVEeIqprqG33EBnIoLeSmBatSBnQCTrNo.jpg\"]",
-  "lastUpdate": 1720497225046
+  "lastUpdate": 1720497414969
 }

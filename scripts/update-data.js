@@ -50,16 +50,22 @@ function updateObject(data, key, value, config = {}) {
     if (Array.isArray(data[key]) && Array.isArray(value)) {
       value.forEach((item, index) => {
         if (data[key][index]) {
-          data[key][index] = {
-            ...data[key][index],
-            ...item,
-          };
+          if (typeof item === 'object') {
+            data[key][index] = {
+              ...data[key][index],
+              ...item,
+            };
+          } else {
+            data[key][index] = item;
+          }
         } else {
           data[key].push(item);
         }
       });
     } else if (typeof data[key] === 'object' && typeof value === 'object') {
       data[key] = { ...data[key], ...value };
+    } else {
+      data[key] = value;
     }
   } else {
     data[key] = value;

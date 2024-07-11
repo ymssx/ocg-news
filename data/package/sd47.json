@@ -453,7 +453,7 @@
     {
       "id": "",
       "number": "SD47-JP0??",
-      "type": "monster",
+      "type": "ritual",
       "name": "ブルーアイズ・カオス・MAX・ドラゴン",
       "rare": "",
       "desc": ""
@@ -581,7 +581,7 @@
     {
       "id": "",
       "number": "SD47-JP0??",
-      "type": "monster",
+      "type": "fusion",
       "name": "青眼の双爆裂龍 ",
       "rare": "",
       "desc": ""
@@ -611,5 +611,5 @@
       "desc": ""
     }
   ],
-  "lastUpdate": 1720673097083
+  "lastUpdate": 1720673187264
 }

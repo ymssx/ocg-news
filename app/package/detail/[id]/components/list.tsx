@@ -237,7 +237,7 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
   const renderItem = (item: ProxyJson<CardItem> | null, index?: number) => {
     const count = (index !== undefined) ? <code className="inline-block opacity-60 min-w-[24px] mr-[2px]">{(hasSecret && index === (number - 1)) ? 'S1' : (fromZero ? index : index + 1)}</code> : null;
     return (
-      <div className="min-h-[32px] h-full flex items-center">
+      <div className="min-h-[30px] h-full leading-5 flex items-center">
         {item ? (
           <div className="p-1 px-2">
             <TooltipProvider delayDuration={100}>
@@ -245,11 +245,11 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
                 <TooltipTrigger className="text-left">
                   {count}
                   {/* <span>{item?.number}</span> */}
-                  <span className={classNames({ 'underline decoration-dotted': item?.image })}>
+                  <span className={classNames({ 'underline decoration-dotted': item?.image?.get() })}>
                     {/* {item?.image ? <img alt={item?.name} src={item?.image} width={15} height={30} /> : null} */}
                     {/* {(item?.image) ? <Link href={item?.image}>{item?.name}</Link> : item?.name} */}
                     {/* {item?.name?.get()} */}
-                    <EText value={item} render={(item) => item?.name} placeholder={hasAuth && <span>[+]</span>} />
+                    <EText value={item} render={(item) => <span>{item?.name}</span>} placeholder={hasAuth && <span>[+]</span>} />
                     <EText value={item.image} render={(item) => (hasAuth && <span className="ml-1">{item ? '[E]' : '[+]'}</span>)} />
                     {/* {item?.isNew ? <span className="ml-1 text-xs">[new]</span> : null} */}
                     {item?.rare?.get() ? <code className="ml-1 underline">[{item?.rare?.get()}]</code> : null}
@@ -268,7 +268,7 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
             </TooltipProvider>
           </div>
         ) : (
-          <div className="min-h-[32px] w-full h-full px-2 flex items-center">
+          <div className="min-h-[30px] w-full h-full px-2 flex items-center">
             {count}
           </div>
         )}
@@ -348,7 +348,7 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
                 <td
                   key={ceil}
                   className={classNames({
-                    'p-0 border-gray-800 text-start align-top min-h-[32px] w-[25%]': true,
+                    'p-0 border-gray-800 text-start align-top min-h-[30px] w-[25%]': true,
                     border: ceil * ROW + row < number,
                     'brightness-90': !cardList[ceil * ROW + row],
                   })}
@@ -380,7 +380,7 @@ const CardPackage = ({ originDara: _originData, path }: Props) => {
                   {new Array(COL).fill(0).map((_, ceil) => (
                     <td
                       key={ceil}
-                      className={classNames({ 'p-0 border-gray-800 text-start align-top min-h-[32px] w-[25%]': true, border: (ceil * UN_SORT_ROW + row) < unSortCardList.length })}
+                      className={classNames({ 'p-0 border-gray-800 text-start align-top min-h-[30px] w-[25%]': true, border: (ceil * UN_SORT_ROW + row) < unSortCardList.length })}
                       style={{
                         background: (ceil * UN_SORT_ROW + row) < unSortCardList.length
                           ? (unSortCardList[ceil * UN_SORT_ROW + row]?.pendulum && false)

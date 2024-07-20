@@ -5,6 +5,7 @@ import { CardItem, PackageData } from './package/detail/[id]/type';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import Card from '@/components/common/card';
 import timeOral from 'time-oral';
+import InfoPage from './home/info';
 
 export const metadata = {
   title: 'YuGiOh News',
@@ -46,6 +47,8 @@ function groupAndSortObjects<T extends { time: number }>(objects: T[]): { date: 
 
 
 export default async () => {
+  const infoData = (await import('@/data/home.json')).default;
+
   const packageList = getPackages();
   const listInto: PackageData[] = await Promise.all(
     packageList.filter((_, index) => index <= 20).map(async (id) => (await import(`@/data/package/${id}.json`)).default)
@@ -58,6 +61,9 @@ export default async () => {
   return (
     <div className="p-4">
       <section>
+        <InfoPage data={infoData} />
+      </section>
+      <section className="mt-6">
         <h1>New</h1>
         {Boolean(cardWithImageList.length) && (
           <div className="flex flex-wrap gap-8 mb-6 w-full overflow-hidden">

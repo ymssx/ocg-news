@@ -87,12 +87,12 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(Em 騎球者)  擺盪/效果怪獸  4  地  魔法使族  1000/1800\n【擺盪幅度：３/３】\n此卡名的P效果一回合只能使用一次\n①:我方主要階段可以發動。我方EX牌組(表側)「Em」P怪獸1體送墓。之後，此卡P刻度可以上升送墓怪獸P刻度數值\n【怪獸效果】\n此卡名的①②③怪獸效果一回合可以各用一次\n①:我方場上有「Em」怪獸存在的場合可以發動。此卡從手牌特殊召喚\n②:此卡召喚˙特殊召喚的場合，可以選擇以下一個效果發動\n●牌組「Em」P怪獸1體表側加入EX牌組\n●我方場上「Em」怪獸卡1張破壞\n③:特殊召喚的對方怪獸直接攻擊宣言時可以發動。此卡從墓地特殊召喚",
       "id": "",
-      "name": "",
+      "name": "Emボール・ライダー",
       "number": "ROTA-JP010",
       "rare": "",
-      "type": ""
+      "type": "monster"
     },
     {
       "desc": "(混沌魅惑的女王)  效果怪獸  7  光  魔法使族  1500/1500\n此卡名的①②效果一回合可以各用一次\n①:將手牌其他光˙暗屬性怪獸1體捨棄可以發動。此卡從手牌特殊召喚\n②:以我方或對方墓地怪獸1體為對象可以發動。該怪獸作為裝備魔法卡給此卡裝備。此卡這回合視為此效果裝備怪獸的同名卡。此效果將光˙暗屬性怪獸卡裝備的場合，可以再從我方牌組˙墓地將暗屬性「魅惑の女王」怪獸1體特殊召喚",
@@ -120,12 +120,12 @@
       "type": "monster"
     },
     {
-      "desc": "",
+      "desc": "(紅淚之魔 安魂日)  效果怪獸  4  光  惡魔族  1200/1200\n此卡名規則上視為「デモンスミス」卡。此卡名的①②效果一回合可以各用一次\n①:此卡召喚˙特殊召喚的場合可以發動。牌組「紅涙の魔ラクリモーサ」以外「デモンスミス」卡1張送墓\n②:對方回合，此卡在墓地存在的場合，以我方墓地「デモンスミス」L怪獸1體為對象可以發動。此卡回到牌組，對象怪獸特殊召喚",
       "id": "",
-      "name": "",
+      "name": "紅涙の魔ラクリモーサ",
       "number": "ROTA-JP014",
-      "rare": "",
-      "type": ""
+      "rare": "SR",
+      "type": "monster"
     },
     {
       "desc": "",
@@ -253,7 +253,7 @@
       "id": "",
       "name": "背信聖徒",
       "number": "ROTA-JP030",
-      "rare": "",
+      "rare": "SR",
       "type": "fusion",
       "image": "https://yu-gi-oh.jp/images/news/1989_20240624013326_img_1_oDh8oOmzqhKzd0LSR4CDwLE8mtjpcTcGUAC8Mmv2K6rnu15At5DdHGctzBWRTwVn.jpg"
     },
@@ -262,7 +262,7 @@
       "id": "",
       "name": "告死聖徒",
       "number": "ROTA-JP031",
-      "rare": "",
+      "rare": "SR",
       "type": "fusion",
       "image": "https://yu-gi-oh.jp/images/news/1989_20240624013326_img_2_oDh8oOmzqhKzd0LSR4CDwLE8mtjpcTcGUAC8Mmv2K6rnu15At5DdHGctzBWRTwVn.jpg"
     },
@@ -374,12 +374,12 @@
       "type": ""
     },
     {
-      "desc": "",
+      "desc": "(雕刻魔的神聖棺)  效果/連結怪獸  Link3  光  惡魔族  1800/\n惡魔族˙光屬性怪獸包含的怪獸兩體以上    ↑↙↘\n①:雙方回合一次，以L怪獸以外我方墓地惡魔族˙光屬性怪獸1體為對象可以發動。該怪獸特殊召喚。我方場上此卡作為持有以下效果的裝備魔法卡給該怪獸裝備\n●裝備怪獸攻擊力上升自身裝備的L怪獸連接箭頭數量合計*600\n●裝備怪獸攻擊守備表示怪獸的場合，該攻擊力超過守備力的數值給予對方戰鬥傷害",
       "id": "",
-      "name": "",
+      "name": "刻まれし魔の神聖棺",
       "number": "ROTA-JP045",
       "rare": "",
-      "type": ""
+      "type": "link"
     },
     {
       "desc": "",
@@ -461,7 +461,7 @@
       "id": "",
       "name": "罪宝の欺き",
       "number": "ROTA-JP055",
-      "rare": "",
+      "rare": "R",
       "type": "spell",
       "image": "https://yu-gi-oh.jp/images/news/1989_20240624054642_img_1_RWLo2vfxaCFSzUevTptWto9taJuirBW8VilNTG9rIC97XdsqGaBzCAidJQB1RYxk.jpg"
     },
@@ -659,7 +659,7 @@
       "id": "",
       "name": "霊王の波動",
       "number": "ROTA-JP079",
-      "rare": "",
+      "rare": "SR",
       "type": "trap"
     },
     {
@@ -671,6 +671,6 @@
       "type": ""
     }
   ],
-  "images": "[\"https://yu-gi-oh.jp/images/news/1930_20240419065243_JpnVxlLlCaMPAJwGpiYobhKJTm39DsbLVEeIqprqG33EBnIoLeSmBatSBnQCTrNo.jpg\"]",
-  "lastUpdate": 1721043039134
+  "images": "[\"https://yu-gi-oh.jp/images/news/1930_20240419065243_JpnVxlLlCaMPAJwGpiYobhKJTm39DsbLVEeIqprqG33EBnIoLeSmBatSBnQCTrNo.jpg\",\"https://pbs.twimg.com/media/GSklM-0a8AA04tW?format=jpg&name=large\"]",
+  "lastUpdate": 1721446339090
 }
